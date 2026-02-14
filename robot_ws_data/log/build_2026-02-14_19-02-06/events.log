@@ -1,0 +1,720 @@
+[0.000000] (-) TimerEvent: {}
+[0.000439] (customdata_publisher) JobQueued: {'identifier': 'customdata_publisher', 'dependencies': OrderedDict()}
+[0.000614] (euroc_image_publisher) JobQueued: {'identifier': 'euroc_image_publisher', 'dependencies': OrderedDict()}
+[0.000793] (kitti_image_publisher) JobQueued: {'identifier': 'kitti_image_publisher', 'dependencies': OrderedDict()}
+[0.001024] (ubicoders_svo) JobQueued: {'identifier': 'ubicoders_svo', 'dependencies': OrderedDict()}
+[0.001485] (customdata_publisher) JobStarted: {'identifier': 'customdata_publisher'}
+[0.008372] (euroc_image_publisher) JobStarted: {'identifier': 'euroc_image_publisher'}
+[0.012585] (kitti_image_publisher) JobStarted: {'identifier': 'kitti_image_publisher'}
+[0.017327] (ubicoders_svo) JobStarted: {'identifier': 'ubicoders_svo'}
+[0.023632] (customdata_publisher) JobProgress: {'identifier': 'customdata_publisher', 'progress': 'cmake'}
+[0.025160] (customdata_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/robot_ws_data/src/customdata_publisher', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/customdata_publisher'], 'cwd': '/home/ubuntu/robot_ws_data/build/customdata_publisher', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/customdata_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.029989] (euroc_image_publisher) JobProgress: {'identifier': 'euroc_image_publisher', 'progress': 'cmake'}
+[0.032925] (euroc_image_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/robot_ws_data/src/euroc_image_publisher', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/euroc_image_publisher'], 'cwd': '/home/ubuntu/robot_ws_data/build/euroc_image_publisher', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/euroc_image_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.041113] (kitti_image_publisher) JobProgress: {'identifier': 'kitti_image_publisher', 'progress': 'cmake'}
+[0.041715] (kitti_image_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/robot_ws_data/src/kitti_image_publisher', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/kitti_image_publisher'], 'cwd': '/home/ubuntu/robot_ws_data/build/kitti_image_publisher', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/kitti_image_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.049154] (ubicoders_svo) JobProgress: {'identifier': 'ubicoders_svo', 'progress': 'cmake'}
+[0.050830] (ubicoders_svo) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/robot_ws_data/src/ubicoders_svo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/ubicoders_svo'], 'cwd': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099733] (-) TimerEvent: {}
+[0.142832] (ubicoders_svo) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.145368] (euroc_image_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.162370] (kitti_image_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.164518] (customdata_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199822] (-) TimerEvent: {}
+[0.239347] (ubicoders_svo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.239896] (euroc_image_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.267511] (customdata_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.268749] (kitti_image_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.276859] (ubicoders_svo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.283295] (euroc_image_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299969] (-) TimerEvent: {}
+[0.303885] (customdata_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.310517] (kitti_image_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400090] (-) TimerEvent: {}
+[0.466523] (ubicoders_svo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.495524] (euroc_image_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.504204] (ubicoders_svo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.505698] (-) TimerEvent: {}
+[0.506193] (ubicoders_svo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.507376] (ubicoders_svo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.522568] (kitti_image_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.523634] (customdata_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.529521] (ubicoders_svo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.530098] (euroc_image_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.530671] (euroc_image_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.531227] (euroc_image_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.544706] (customdata_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.545192] (customdata_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.545595] (customdata_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.545967] (kitti_image_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.546381] (kitti_image_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.546819] (euroc_image_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.547310] (kitti_image_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.560684] (customdata_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.565619] (kitti_image_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.605824] (-) TimerEvent: {}
+[0.706269] (-) TimerEvent: {}
+[0.709420] (ubicoders_svo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.724504] (euroc_image_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.744934] (ubicoders_svo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.745544] (ubicoders_svo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.745973] (ubicoders_svo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.747317] (customdata_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.747825] (kitti_image_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.758043] (euroc_image_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.758736] (euroc_image_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.759132] (ubicoders_svo) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.760162] (euroc_image_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.774658] (euroc_image_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.778838] (customdata_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.779207] (kitti_image_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.779554] (customdata_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.779875] (kitti_image_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.780190] (customdata_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.780549] (kitti_image_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.791980] (customdata_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.796914] (kitti_image_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.806387] (-) TimerEvent: {}
+[0.906924] (-) TimerEvent: {}
+[0.943199] (ubicoders_svo) StdoutLine: {'line': b'-- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter \n'}
+[0.969506] (euroc_image_publisher) StdoutLine: {'line': b'-- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter \n'}
+[0.979479] (kitti_image_publisher) StdoutLine: {'line': b'-- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter \n'}
+[0.980759] (customdata_publisher) StdoutLine: {'line': b'-- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter \n'}
+[1.007047] (-) TimerEvent: {}
+[1.043959] (ubicoders_svo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.084412] (customdata_publisher) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.084877] (euroc_image_publisher) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.085236] (kitti_image_publisher) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.107105] (-) TimerEvent: {}
+[1.187898] (ubicoders_svo) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.207220] (-) TimerEvent: {}
+[1.244200] (euroc_image_publisher) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.251526] (customdata_publisher) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.266924] (kitti_image_publisher) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.308091] (ubicoders_svo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.308757] (-) TimerEvent: {}
+[1.364233] (ubicoders_svo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.397235] (customdata_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.401158] (euroc_image_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.408873] (-) TimerEvent: {}
+[1.414348] (kitti_image_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.417892] (ubicoders_svo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.453790] (euroc_image_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.454499] (customdata_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.476602] (kitti_image_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.484744] (ubicoders_svo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.509004] (-) TimerEvent: {}
+[1.514574] (customdata_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.517365] (euroc_image_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.539254] (kitti_image_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.579267] (customdata_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.586793] (euroc_image_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.606105] (kitti_image_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.609101] (-) TimerEvent: {}
+[1.711526] (-) TimerEvent: {}
+[1.747248] (ubicoders_svo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.754592] (ubicoders_svo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.811631] (-) TimerEvent: {}
+[1.843300] (customdata_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.859117] (euroc_image_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.859651] (customdata_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.861547] (kitti_image_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.871611] (euroc_image_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.873262] (kitti_image_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.912111] (-) TimerEvent: {}
+[1.959872] (ubicoders_svo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.999957] (ubicoders_svo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.012699] (-) TimerEvent: {}
+[2.044366] (ubicoders_svo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.053844] (customdata_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.058176] (euroc_image_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.059829] (kitti_image_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.089777] (customdata_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.095428] (euroc_image_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.100206] (kitti_image_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.112821] (-) TimerEvent: {}
+[2.133709] (customdata_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.140305] (euroc_image_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.143504] (kitti_image_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.212936] (-) TimerEvent: {}
+[2.244786] (ubicoders_svo) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[2.298087] (customdata_publisher) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.312553] (euroc_image_publisher) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.313051] (-) TimerEvent: {}
+[2.341261] (kitti_image_publisher) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.397595] (ubicoders_svo) StdoutLine: {'line': b'-- Found tf2_eigen: 0.36.19 (/opt/ros/jazzy/share/tf2_eigen/cmake)\n'}
+[2.413173] (-) TimerEvent: {}
+[2.426297] (euroc_image_publisher) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[2.437745] (customdata_publisher) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[2.454030] (kitti_image_publisher) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[2.457658] (euroc_image_publisher) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[2.464925] (customdata_publisher) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[2.475507] (customdata_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.477861] (kitti_image_publisher) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[2.513288] (-) TimerEvent: {}
+[2.534766] (euroc_image_publisher) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[2.562230] (euroc_image_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.613407] (-) TimerEvent: {}
+[2.641533] (kitti_image_publisher) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.651115] (customdata_publisher) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.694712] (ubicoders_svo) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.713546] (-) TimerEvent: {}
+[2.727008] (customdata_publisher) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.728093] (kitti_image_publisher) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.734291] (ubicoders_svo) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[2.750199] (customdata_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/robot_ws_data/build/customdata_publisher\n'}
+[2.750780] (kitti_image_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/robot_ws_data/build/kitti_image_publisher\n'}
+[2.770973] (customdata_publisher) CommandEnded: {'returncode': 0}
+[2.772079] (customdata_publisher) JobProgress: {'identifier': 'customdata_publisher', 'progress': 'build'}
+[2.773786] (customdata_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/robot_ws_data/build/customdata_publisher', '--', '-j28', '-l28'], 'cwd': '/home/ubuntu/robot_ws_data/build/customdata_publisher', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/customdata_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.775828] (kitti_image_publisher) CommandEnded: {'returncode': 0}
+[2.776726] (kitti_image_publisher) JobProgress: {'identifier': 'kitti_image_publisher', 'progress': 'build'}
+[2.777372] (kitti_image_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/robot_ws_data/build/kitti_image_publisher', '--', '-j28', '-l28'], 'cwd': '/home/ubuntu/robot_ws_data/build/kitti_image_publisher', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/kitti_image_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.802563] (ubicoders_svo) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[2.809112] (ubicoders_svo) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[2.813662] (-) TimerEvent: {}
+[2.838853] (euroc_image_publisher) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.846366] (ubicoders_svo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.852528] (euroc_image_publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.853437] (euroc_image_publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/robot_ws_data/src/euroc_image_publisher/include>\n'}
+[2.854058] (euroc_image_publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.858782] (euroc_image_publisher) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.859271] (euroc_image_publisher) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.862922] (euroc_image_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.869849] (euroc_image_publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.870489] (euroc_image_publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.872472] (euroc_image_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.892800] (euroc_image_publisher) StdoutLine: {'line': b'-- Configuring done (2.8s)\n'}
+[2.903698] (kitti_image_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kitti_image_publisher_node.dir/src/kitti_image_publisher_node.cpp.o\x1b[0m\n'}
+[2.913776] (-) TimerEvent: {}
+[2.915522] (customdata_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/customdata_publisher_node.dir/src/customdata_publisher_node.cpp.o\x1b[0m\n'}
+[2.972603] (euroc_image_publisher) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.997843] (euroc_image_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/robot_ws_data/build/euroc_image_publisher\n'}
+[3.013916] (-) TimerEvent: {}
+[3.017059] (ubicoders_svo) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[3.020436] (euroc_image_publisher) CommandEnded: {'returncode': 0}
+[3.021808] (euroc_image_publisher) JobProgress: {'identifier': 'euroc_image_publisher', 'progress': 'build'}
+[3.022685] (euroc_image_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/robot_ws_data/build/euroc_image_publisher', '--', '-j28', '-l28'], 'cwd': '/home/ubuntu/robot_ws_data/build/euroc_image_publisher', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/euroc_image_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.096262] (ubicoders_svo) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.114048] (-) TimerEvent: {}
+[3.117723] (ubicoders_svo) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/robot_ws_data/build/ubicoders_svo\n'}
+[3.130930] (euroc_image_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/euroc_image_publisher_node.dir/src/euroc_image_publisher_node.cpp.o\x1b[0m\n'}
+[3.137539] (ubicoders_svo) CommandEnded: {'returncode': 0}
+[3.139256] (ubicoders_svo) JobProgress: {'identifier': 'ubicoders_svo', 'progress': 'build'}
+[3.140309] (ubicoders_svo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/robot_ws_data/build/ubicoders_svo', '--', '-j28', '-l28'], 'cwd': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.214110] (-) TimerEvent: {}
+[3.267491] (ubicoders_svo) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/sv_lib.dir/src/svo_node.cpp.o\x1b[0m\n'}
+[3.271853] (ubicoders_svo) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/sv_lib.dir/src/backend.cpp.o\x1b[0m\n'}
+[3.272879] (ubicoders_svo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/sv_lib.dir/src/viewer.cpp.o\x1b[0m\n'}
+[3.279262] (ubicoders_svo) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/sv_lib.dir/src/stereo_geometry.cpp.o\x1b[0m\n'}
+[3.280826] (ubicoders_svo) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/sv_lib.dir/src/map.cpp.o\x1b[0m\n'}
+[3.281345] (ubicoders_svo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/sv_lib.dir/src/frontend.cpp.o\x1b[0m\n'}
+[3.314221] (-) TimerEvent: {}
+[3.414626] (-) TimerEvent: {}
+[3.515007] (-) TimerEvent: {}
+[3.615417] (-) TimerEvent: {}
+[3.715823] (-) TimerEvent: {}
+[3.816231] (-) TimerEvent: {}
+[3.916619] (-) TimerEvent: {}
+[4.017012] (-) TimerEvent: {}
+[4.117462] (-) TimerEvent: {}
+[4.217871] (-) TimerEvent: {}
+[4.318301] (-) TimerEvent: {}
+[4.418794] (-) TimerEvent: {}
+[4.519211] (-) TimerEvent: {}
+[4.619701] (-) TimerEvent: {}
+[4.720119] (-) TimerEvent: {}
+[4.820630] (-) TimerEvent: {}
+[4.921054] (-) TimerEvent: {}
+[5.021535] (-) TimerEvent: {}
+[5.121949] (-) TimerEvent: {}
+[5.222360] (-) TimerEvent: {}
+[5.322803] (-) TimerEvent: {}
+[5.423233] (-) TimerEvent: {}
+[5.523713] (-) TimerEvent: {}
+[5.624119] (-) TimerEvent: {}
+[5.724525] (-) TimerEvent: {}
+[5.824926] (-) TimerEvent: {}
+[5.925476] (-) TimerEvent: {}
+[6.025863] (-) TimerEvent: {}
+[6.126241] (-) TimerEvent: {}
+[6.226636] (-) TimerEvent: {}
+[6.327113] (-) TimerEvent: {}
+[6.427524] (-) TimerEvent: {}
+[6.527988] (-) TimerEvent: {}
+[6.628408] (-) TimerEvent: {}
+[6.728785] (-) TimerEvent: {}
+[6.829305] (-) TimerEvent: {}
+[6.929740] (-) TimerEvent: {}
+[7.030319] (-) TimerEvent: {}
+[7.130725] (-) TimerEvent: {}
+[7.231194] (-) TimerEvent: {}
+[7.331572] (-) TimerEvent: {}
+[7.431916] (-) TimerEvent: {}
+[7.532370] (-) TimerEvent: {}
+[7.632732] (-) TimerEvent: {}
+[7.733111] (-) TimerEvent: {}
+[7.833509] (-) TimerEvent: {}
+[7.933907] (-) TimerEvent: {}
+[8.034311] (-) TimerEvent: {}
+[8.134761] (-) TimerEvent: {}
+[8.235485] (-) TimerEvent: {}
+[8.335982] (-) TimerEvent: {}
+[8.436418] (-) TimerEvent: {}
+[8.536792] (-) TimerEvent: {}
+[8.637245] (-) TimerEvent: {}
+[8.737627] (-) TimerEvent: {}
+[8.838075] (-) TimerEvent: {}
+[8.938511] (-) TimerEvent: {}
+[9.038905] (-) TimerEvent: {}
+[9.139395] (-) TimerEvent: {}
+[9.239785] (-) TimerEvent: {}
+[9.340176] (-) TimerEvent: {}
+[9.440530] (-) TimerEvent: {}
+[9.540872] (-) TimerEvent: {}
+[9.641575] (-) TimerEvent: {}
+[9.742013] (-) TimerEvent: {}
+[9.842428] (-) TimerEvent: {}
+[9.942828] (-) TimerEvent: {}
+[10.043302] (-) TimerEvent: {}
+[10.143736] (-) TimerEvent: {}
+[10.244466] (-) TimerEvent: {}
+[10.344875] (-) TimerEvent: {}
+[10.445307] (-) TimerEvent: {}
+[10.545722] (-) TimerEvent: {}
+[10.559913] (kitti_image_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable kitti_image_publisher_node\x1b[0m\n'}
+[10.645837] (-) TimerEvent: {}
+[10.698507] (customdata_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable customdata_publisher_node\x1b[0m\n'}
+[10.745957] (-) TimerEvent: {}
+[10.846358] (-) TimerEvent: {}
+[10.946755] (-) TimerEvent: {}
+[11.047121] (-) TimerEvent: {}
+[11.147513] (-) TimerEvent: {}
+[11.247945] (-) TimerEvent: {}
+[11.348390] (-) TimerEvent: {}
+[11.448792] (-) TimerEvent: {}
+[11.491136] (euroc_image_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable euroc_image_publisher_node\x1b[0m\n'}
+[11.494235] (kitti_image_publisher) StdoutLine: {'line': b'[100%] Built target kitti_image_publisher_node\n'}
+[11.513114] (kitti_image_publisher) CommandEnded: {'returncode': 0}
+[11.514452] (kitti_image_publisher) JobProgress: {'identifier': 'kitti_image_publisher', 'progress': 'install'}
+[11.527450] (kitti_image_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/robot_ws_data/build/kitti_image_publisher'], 'cwd': '/home/ubuntu/robot_ws_data/build/kitti_image_publisher', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/kitti_image_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.538673] (kitti_image_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.539701] (kitti_image_publisher) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.540849] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/lib/kitti_image_publisher/kitti_image_publisher_node\n'}
+[11.548910] (-) TimerEvent: {}
+[11.559417] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/ament_index/resource_index/package_run_dependencies/kitti_image_publisher\n'}
+[11.579374] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/ament_index/resource_index/parent_prefix_path/kitti_image_publisher\n'}
+[11.594261] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/environment/ament_prefix_path.sh\n'}
+[11.599836] (customdata_publisher) StdoutLine: {'line': b'[100%] Built target customdata_publisher_node\n'}
+[11.608861] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/environment/ament_prefix_path.dsv\n'}
+[11.616893] (customdata_publisher) CommandEnded: {'returncode': 0}
+[11.618212] (customdata_publisher) JobProgress: {'identifier': 'customdata_publisher', 'progress': 'install'}
+[11.618884] (customdata_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/robot_ws_data/build/customdata_publisher'], 'cwd': '/home/ubuntu/robot_ws_data/build/customdata_publisher', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/customdata_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.622479] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/environment/path.sh\n'}
+[11.629512] (customdata_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.630457] (customdata_publisher) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.631353] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/lib/customdata_publisher/customdata_publisher_node\n'}
+[11.634677] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/environment/path.dsv\n'}
+[11.644762] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/launch/customdata_launch.py\n'}
+[11.648600] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/local_setup.bash\n'}
+[11.649056] (-) TimerEvent: {}
+[11.658257] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/ament_index/resource_index/package_run_dependencies/customdata_publisher\n'}
+[11.661590] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/local_setup.sh\n'}
+[11.671347] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/ament_index/resource_index/parent_prefix_path/customdata_publisher\n'}
+[11.674487] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/local_setup.zsh\n'}
+[11.685803] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/environment/ament_prefix_path.sh\n'}
+[11.686606] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/local_setup.dsv\n'}
+[11.699170] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.dsv\n'}
+[11.700057] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/environment/ament_prefix_path.dsv\n'}
+[11.713462] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/environment/path.sh\n'}
+[11.715201] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/ament_index/resource_index/packages/kitti_image_publisher\n'}
+[11.725933] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/environment/path.dsv\n'}
+[11.729932] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/cmake/kitti_image_publisherConfig.cmake\n'}
+[11.738028] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/local_setup.bash\n'}
+[11.749192] (-) TimerEvent: {}
+[11.749845] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/cmake/kitti_image_publisherConfig-version.cmake\n'}
+[11.750314] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/local_setup.sh\n'}
+[11.762706] (kitti_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.xml\n'}
+[11.765792] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/local_setup.zsh\n'}
+[11.779100] (kitti_image_publisher) CommandEnded: {'returncode': 0}
+[11.780248] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/local_setup.dsv\n'}
+[11.792473] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.dsv\n'}
+[11.810562] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/ament_index/resource_index/packages/customdata_publisher\n'}
+[11.821342] (kitti_image_publisher) JobEnded: {'identifier': 'kitti_image_publisher', 'rc': 0}
+[11.822667] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/cmake/customdata_publisherConfig.cmake\n'}
+[11.836864] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/cmake/customdata_publisherConfig-version.cmake\n'}
+[11.849146] (customdata_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.xml\n'}
+[11.849484] (-) TimerEvent: {}
+[11.865876] (customdata_publisher) CommandEnded: {'returncode': 0}
+[11.890059] (customdata_publisher) JobEnded: {'identifier': 'customdata_publisher', 'rc': 0}
+[11.949622] (-) TimerEvent: {}
+[12.049999] (-) TimerEvent: {}
+[12.150450] (-) TimerEvent: {}
+[12.250822] (-) TimerEvent: {}
+[12.351215] (-) TimerEvent: {}
+[12.427689] (euroc_image_publisher) StdoutLine: {'line': b'[100%] Built target euroc_image_publisher_node\n'}
+[12.451330] (-) TimerEvent: {}
+[12.457679] (euroc_image_publisher) CommandEnded: {'returncode': 0}
+[12.459999] (euroc_image_publisher) JobProgress: {'identifier': 'euroc_image_publisher', 'progress': 'install'}
+[12.460992] (euroc_image_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/robot_ws_data/build/euroc_image_publisher'], 'cwd': '/home/ubuntu/robot_ws_data/build/euroc_image_publisher', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/euroc_image_publisher', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.486103] (euroc_image_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.487833] (euroc_image_publisher) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.492143] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/lib/euroc_image_publisher/euroc_image_publisher_node\n'}
+[12.511568] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/ament_index/resource_index/package_run_dependencies/euroc_image_publisher\n'}
+[12.539715] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/ament_index/resource_index/parent_prefix_path/euroc_image_publisher\n'}
+[12.551476] (-) TimerEvent: {}
+[12.555244] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/environment/ament_prefix_path.sh\n'}
+[12.582732] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/environment/ament_prefix_path.dsv\n'}
+[12.602635] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/environment/path.sh\n'}
+[12.615908] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/environment/path.dsv\n'}
+[12.629625] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/local_setup.bash\n'}
+[12.651583] (-) TimerEvent: {}
+[12.654340] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/local_setup.sh\n'}
+[12.668882] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/local_setup.zsh\n'}
+[12.682169] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/local_setup.dsv\n'}
+[12.698747] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.dsv\n'}
+[12.719910] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/ament_index/resource_index/packages/euroc_image_publisher\n'}
+[12.734984] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/cmake/euroc_image_publisherConfig.cmake\n'}
+[12.751722] (-) TimerEvent: {}
+[12.761622] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/cmake/euroc_image_publisherConfig-version.cmake\n'}
+[12.788180] (euroc_image_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.xml\n'}
+[12.816205] (euroc_image_publisher) CommandEnded: {'returncode': 0}
+[12.851999] (-) TimerEvent: {}
+[12.868683] (euroc_image_publisher) JobEnded: {'identifier': 'euroc_image_publisher', 'rc': 0}
+[12.952137] (-) TimerEvent: {}
+[13.054403] (-) TimerEvent: {}
+[13.154779] (-) TimerEvent: {}
+[13.255153] (-) TimerEvent: {}
+[13.355527] (-) TimerEvent: {}
+[13.455980] (-) TimerEvent: {}
+[13.556409] (-) TimerEvent: {}
+[13.656845] (-) TimerEvent: {}
+[13.757237] (-) TimerEvent: {}
+[13.857603] (-) TimerEvent: {}
+[13.958001] (-) TimerEvent: {}
+[14.058430] (-) TimerEvent: {}
+[14.158789] (-) TimerEvent: {}
+[14.259148] (-) TimerEvent: {}
+[14.359501] (-) TimerEvent: {}
+[14.459876] (-) TimerEvent: {}
+[14.560331] (-) TimerEvent: {}
+[14.660732] (-) TimerEvent: {}
+[14.761184] (-) TimerEvent: {}
+[14.861581] (-) TimerEvent: {}
+[14.961997] (-) TimerEvent: {}
+[15.062462] (-) TimerEvent: {}
+[15.162861] (-) TimerEvent: {}
+[15.263265] (-) TimerEvent: {}
+[15.363645] (-) TimerEvent: {}
+[15.464060] (-) TimerEvent: {}
+[15.564450] (-) TimerEvent: {}
+[15.664901] (-) TimerEvent: {}
+[15.765458] (-) TimerEvent: {}
+[15.865974] (-) TimerEvent: {}
+[15.966463] (-) TimerEvent: {}
+[16.066933] (-) TimerEvent: {}
+[16.167312] (-) TimerEvent: {}
+[16.267780] (-) TimerEvent: {}
+[16.368253] (-) TimerEvent: {}
+[16.468811] (-) TimerEvent: {}
+[16.569336] (-) TimerEvent: {}
+[16.669708] (-) TimerEvent: {}
+[16.770129] (-) TimerEvent: {}
+[16.870579] (-) TimerEvent: {}
+[16.971056] (-) TimerEvent: {}
+[17.071476] (-) TimerEvent: {}
+[17.171966] (-) TimerEvent: {}
+[17.272765] (-) TimerEvent: {}
+[17.373129] (-) TimerEvent: {}
+[17.473581] (-) TimerEvent: {}
+[17.573960] (-) TimerEvent: {}
+[17.674312] (-) TimerEvent: {}
+[17.774658] (-) TimerEvent: {}
+[17.875120] (-) TimerEvent: {}
+[17.975641] (-) TimerEvent: {}
+[18.076007] (-) TimerEvent: {}
+[18.176482] (-) TimerEvent: {}
+[18.277048] (-) TimerEvent: {}
+[18.377634] (-) TimerEvent: {}
+[18.478092] (-) TimerEvent: {}
+[18.578467] (-) TimerEvent: {}
+[18.679004] (-) TimerEvent: {}
+[18.779645] (-) TimerEvent: {}
+[18.880232] (-) TimerEvent: {}
+[18.980751] (-) TimerEvent: {}
+[19.081361] (-) TimerEvent: {}
+[19.181991] (-) TimerEvent: {}
+[19.282506] (-) TimerEvent: {}
+[19.383412] (-) TimerEvent: {}
+[19.483935] (-) TimerEvent: {}
+[19.584463] (-) TimerEvent: {}
+[19.684987] (-) TimerEvent: {}
+[19.785527] (-) TimerEvent: {}
+[19.885876] (-) TimerEvent: {}
+[19.986353] (-) TimerEvent: {}
+[20.086680] (-) TimerEvent: {}
+[20.187136] (-) TimerEvent: {}
+[20.287731] (-) TimerEvent: {}
+[20.388300] (-) TimerEvent: {}
+[20.488935] (-) TimerEvent: {}
+[20.589547] (-) TimerEvent: {}
+[20.690109] (-) TimerEvent: {}
+[20.790479] (-) TimerEvent: {}
+[20.890994] (-) TimerEvent: {}
+[20.991473] (-) TimerEvent: {}
+[21.092022] (-) TimerEvent: {}
+[21.192645] (-) TimerEvent: {}
+[21.293219] (-) TimerEvent: {}
+[21.393725] (-) TimerEvent: {}
+[21.494728] (-) TimerEvent: {}
+[21.595219] (-) TimerEvent: {}
+[21.695673] (-) TimerEvent: {}
+[22.592653] (-) TimerEvent: {}
+[22.693191] (-) TimerEvent: {}
+[22.793664] (-) TimerEvent: {}
+[22.894305] (-) TimerEvent: {}
+[22.994881] (-) TimerEvent: {}
+[23.095484] (-) TimerEvent: {}
+[23.196021] (-) TimerEvent: {}
+[23.307547] (-) TimerEvent: {}
+[23.408754] (-) TimerEvent: {}
+[23.509144] (-) TimerEvent: {}
+[23.610138] (-) TimerEvent: {}
+[23.710647] (-) TimerEvent: {}
+[23.811104] (-) TimerEvent: {}
+[23.911600] (-) TimerEvent: {}
+[24.012261] (-) TimerEvent: {}
+[24.112733] (-) TimerEvent: {}
+[24.213330] (-) TimerEvent: {}
+[24.313849] (-) TimerEvent: {}
+[24.414246] (-) TimerEvent: {}
+[24.514836] (-) TimerEvent: {}
+[24.615403] (-) TimerEvent: {}
+[24.715799] (-) TimerEvent: {}
+[24.816185] (-) TimerEvent: {}
+[24.916669] (-) TimerEvent: {}
+[25.017166] (-) TimerEvent: {}
+[25.117757] (-) TimerEvent: {}
+[25.218335] (-) TimerEvent: {}
+[25.318768] (-) TimerEvent: {}
+[25.419244] (-) TimerEvent: {}
+[25.519657] (-) TimerEvent: {}
+[25.622111] (-) TimerEvent: {}
+[25.722564] (-) TimerEvent: {}
+[25.823053] (-) TimerEvent: {}
+[25.923479] (-) TimerEvent: {}
+[26.024102] (-) TimerEvent: {}
+[26.124489] (-) TimerEvent: {}
+[26.224900] (-) TimerEvent: {}
+[26.325401] (-) TimerEvent: {}
+[26.425879] (-) TimerEvent: {}
+[26.526399] (-) TimerEvent: {}
+[26.626952] (-) TimerEvent: {}
+[26.727408] (-) TimerEvent: {}
+[26.794718] (ubicoders_svo) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX static library libsv_lib.a\x1b[0m\n'}
+[26.827533] (-) TimerEvent: {}
+[26.928026] (-) TimerEvent: {}
+[27.028770] (-) TimerEvent: {}
+[27.129365] (-) TimerEvent: {}
+[27.229947] (-) TimerEvent: {}
+[27.330566] (-) TimerEvent: {}
+[27.601875] (-) TimerEvent: {}
+[27.702475] (-) TimerEvent: {}
+[27.803136] (-) TimerEvent: {}
+[27.903677] (-) TimerEvent: {}
+[28.004209] (-) TimerEvent: {}
+[28.104679] (-) TimerEvent: {}
+[28.274861] (-) TimerEvent: {}
+[28.375658] (-) TimerEvent: {}
+[28.476079] (-) TimerEvent: {}
+[28.576521] (-) TimerEvent: {}
+[28.676908] (-) TimerEvent: {}
+[28.777390] (-) TimerEvent: {}
+[28.810081] (ubicoders_svo) StdoutLine: {'line': b'[ 77%] Built target sv_lib\n'}
+[28.877518] (-) TimerEvent: {}
+[28.878134] (ubicoders_svo) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/ubicoders_svo.dir/executables/svo_main.cpp.o\x1b[0m\n'}
+[28.977666] (-) TimerEvent: {}
+[29.078230] (-) TimerEvent: {}
+[29.178769] (-) TimerEvent: {}
+[29.279324] (-) TimerEvent: {}
+[29.379918] (-) TimerEvent: {}
+[29.480560] (-) TimerEvent: {}
+[29.581256] (-) TimerEvent: {}
+[29.681832] (-) TimerEvent: {}
+[29.782413] (-) TimerEvent: {}
+[29.882934] (-) TimerEvent: {}
+[29.983476] (-) TimerEvent: {}
+[30.084068] (-) TimerEvent: {}
+[30.184641] (-) TimerEvent: {}
+[30.285221] (-) TimerEvent: {}
+[30.385745] (-) TimerEvent: {}
+[30.486337] (-) TimerEvent: {}
+[30.586781] (-) TimerEvent: {}
+[30.687340] (-) TimerEvent: {}
+[30.787967] (-) TimerEvent: {}
+[30.888524] (-) TimerEvent: {}
+[30.988996] (-) TimerEvent: {}
+[31.089582] (-) TimerEvent: {}
+[31.190305] (-) TimerEvent: {}
+[31.291009] (-) TimerEvent: {}
+[31.391739] (-) TimerEvent: {}
+[31.492503] (-) TimerEvent: {}
+[31.593220] (-) TimerEvent: {}
+[31.693821] (-) TimerEvent: {}
+[31.794466] (-) TimerEvent: {}
+[31.895159] (-) TimerEvent: {}
+[31.995874] (-) TimerEvent: {}
+[32.096499] (-) TimerEvent: {}
+[32.197123] (-) TimerEvent: {}
+[32.297790] (-) TimerEvent: {}
+[32.398308] (-) TimerEvent: {}
+[32.498927] (-) TimerEvent: {}
+[32.599396] (-) TimerEvent: {}
+[32.699760] (-) TimerEvent: {}
+[32.800262] (-) TimerEvent: {}
+[32.900748] (-) TimerEvent: {}
+[33.001326] (-) TimerEvent: {}
+[33.101969] (-) TimerEvent: {}
+[33.202559] (-) TimerEvent: {}
+[33.303014] (-) TimerEvent: {}
+[33.403615] (-) TimerEvent: {}
+[33.504127] (-) TimerEvent: {}
+[33.604618] (-) TimerEvent: {}
+[33.705087] (-) TimerEvent: {}
+[33.805569] (-) TimerEvent: {}
+[33.906124] (-) TimerEvent: {}
+[34.006678] (-) TimerEvent: {}
+[34.107230] (-) TimerEvent: {}
+[34.207752] (-) TimerEvent: {}
+[34.308284] (-) TimerEvent: {}
+[34.408787] (-) TimerEvent: {}
+[34.509428] (-) TimerEvent: {}
+[34.609940] (-) TimerEvent: {}
+[34.710508] (-) TimerEvent: {}
+[34.810914] (-) TimerEvent: {}
+[34.911411] (-) TimerEvent: {}
+[35.011793] (-) TimerEvent: {}
+[35.112199] (-) TimerEvent: {}
+[35.212682] (-) TimerEvent: {}
+[35.313397] (-) TimerEvent: {}
+[35.413908] (-) TimerEvent: {}
+[35.514409] (-) TimerEvent: {}
+[35.696659] (-) TimerEvent: {}
+[35.797303] (-) TimerEvent: {}
+[35.898030] (-) TimerEvent: {}
+[35.999081] (-) TimerEvent: {}
+[36.099530] (-) TimerEvent: {}
+[36.200031] (-) TimerEvent: {}
+[36.300580] (-) TimerEvent: {}
+[36.400981] (-) TimerEvent: {}
+[36.501628] (-) TimerEvent: {}
+[36.602308] (-) TimerEvent: {}
+[36.702942] (-) TimerEvent: {}
+[36.803575] (-) TimerEvent: {}
+[36.904144] (-) TimerEvent: {}
+[37.004889] (-) TimerEvent: {}
+[37.105398] (-) TimerEvent: {}
+[37.205965] (-) TimerEvent: {}
+[37.306631] (-) TimerEvent: {}
+[37.407158] (-) TimerEvent: {}
+[37.507663] (-) TimerEvent: {}
+[37.608829] (-) TimerEvent: {}
+[37.709314] (-) TimerEvent: {}
+[37.809955] (-) TimerEvent: {}
+[37.910459] (-) TimerEvent: {}
+[38.010950] (-) TimerEvent: {}
+[38.111416] (-) TimerEvent: {}
+[38.211940] (-) TimerEvent: {}
+[38.312689] (-) TimerEvent: {}
+[38.413344] (-) TimerEvent: {}
+[38.513826] (-) TimerEvent: {}
+[38.614527] (-) TimerEvent: {}
+[38.715083] (-) TimerEvent: {}
+[38.815778] (-) TimerEvent: {}
+[38.916351] (-) TimerEvent: {}
+[39.016904] (-) TimerEvent: {}
+[39.117338] (-) TimerEvent: {}
+[39.217980] (-) TimerEvent: {}
+[39.318559] (-) TimerEvent: {}
+[39.419180] (-) TimerEvent: {}
+[39.519637] (-) TimerEvent: {}
+[39.620118] (-) TimerEvent: {}
+[39.720563] (-) TimerEvent: {}
+[39.820966] (-) TimerEvent: {}
+[39.921599] (-) TimerEvent: {}
+[40.023113] (-) TimerEvent: {}
+[40.123602] (-) TimerEvent: {}
+[40.224102] (-) TimerEvent: {}
+[40.327440] (-) TimerEvent: {}
+[40.424580] (ubicoders_svo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ubicoders_svo\x1b[0m\n'}
+[40.427549] (-) TimerEvent: {}
+[40.527925] (-) TimerEvent: {}
+[40.628603] (-) TimerEvent: {}
+[40.729009] (-) TimerEvent: {}
+[40.829455] (-) TimerEvent: {}
+[40.929941] (-) TimerEvent: {}
+[41.031106] (-) TimerEvent: {}
+[41.131520] (-) TimerEvent: {}
+[41.231943] (-) TimerEvent: {}
+[41.333117] (-) TimerEvent: {}
+[41.434623] (-) TimerEvent: {}
+[41.535067] (-) TimerEvent: {}
+[41.636164] (-) TimerEvent: {}
+[41.739275] (-) TimerEvent: {}
+[41.839692] (-) TimerEvent: {}
+[41.940101] (-) TimerEvent: {}
+[42.044784] (-) TimerEvent: {}
+[42.145268] (-) TimerEvent: {}
+[42.246022] (-) TimerEvent: {}
+[42.347113] (-) TimerEvent: {}
+[42.447582] (-) TimerEvent: {}
+[42.547964] (-) TimerEvent: {}
+[42.648377] (-) TimerEvent: {}
+[42.748793] (-) TimerEvent: {}
+[42.849419] (-) TimerEvent: {}
+[42.950010] (-) TimerEvent: {}
+[43.050546] (-) TimerEvent: {}
+[43.151115] (-) TimerEvent: {}
+[43.251548] (-) TimerEvent: {}
+[43.352091] (-) TimerEvent: {}
+[43.452517] (-) TimerEvent: {}
+[43.553012] (-) TimerEvent: {}
+[43.653544] (-) TimerEvent: {}
+[43.754065] (-) TimerEvent: {}
+[43.854575] (-) TimerEvent: {}
+[43.955065] (-) TimerEvent: {}
+[44.497450] (-) TimerEvent: {}
+[44.598275] (-) TimerEvent: {}
+[44.698770] (-) TimerEvent: {}
+[44.800342] (-) TimerEvent: {}
+[44.900713] (-) TimerEvent: {}
+[44.904175] (ubicoders_svo) StdoutLine: {'line': b'[100%] Built target ubicoders_svo\n'}
+[44.921949] (ubicoders_svo) CommandEnded: {'returncode': 0}
+[44.923576] (ubicoders_svo) JobProgress: {'identifier': 'ubicoders_svo', 'progress': 'install'}
+[44.924297] (ubicoders_svo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/robot_ws_data/build/ubicoders_svo'], 'cwd': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'env': OrderedDict({'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'elcom', 'GIT_ASKPASS': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-578d9142-5ce5-4984-8855-ef0977878e6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'CLAUDE_CODE_SSE_PORT': '44533', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'QT_X11_NO_MITSHM': '1', 'PATH': '/usr/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-390c574dd2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[44.939172] (ubicoders_svo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.940000] (ubicoders_svo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[44.940953] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/lib/ubicoders_svo/ubicoders_svo\n'}
+[44.965348] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/launch/slam.launch.py\n'}
+[44.979932] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ament_index/resource_index/package_run_dependencies/ubicoders_svo\n'}
+[44.993291] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ament_index/resource_index/parent_prefix_path/ubicoders_svo\n'}
+[45.000819] (-) TimerEvent: {}
+[45.015158] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/ament_prefix_path.sh\n'}
+[45.038031] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/ament_prefix_path.dsv\n'}
+[45.053253] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/path.sh\n'}
+[45.077582] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/path.dsv\n'}
+[45.098421] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.bash\n'}
+[45.100932] (-) TimerEvent: {}
+[45.124145] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.sh\n'}
+[45.143477] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.zsh\n'}
+[45.157559] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.dsv\n'}
+[45.171739] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.dsv\n'}
+[45.198165] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ament_index/resource_index/packages/ubicoders_svo\n'}
+[45.201067] (-) TimerEvent: {}
+[45.214514] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/cmake/ubicoders_svoConfig.cmake\n'}
+[45.236498] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/cmake/ubicoders_svoConfig-version.cmake\n'}
+[45.254542] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.xml\n'}
+[45.269090] (ubicoders_svo) CommandEnded: {'returncode': 0}
+[45.301202] (-) TimerEvent: {}
+[45.308467] (ubicoders_svo) JobEnded: {'identifier': 'ubicoders_svo', 'rc': 0}
+[45.311314] (-) EventReactorShutdown: {}

@@ -7,26 +7,48 @@
 namespace UbiSVO {
 
 struct CameraConfig {
-  // KITTI
   double fx = 718.8560;
   double fy = 718.8560;
   double cx = 607.1928;
   double cy = 185.2157;
   double baseline = 0.537;
 
-  // EuroC (RECTIFIED)
-  // double fx = 436.23459;
-  // double fy = 436.23459;
-  // double cx = 364.44123;
-  // double cy = 256.95168;
-  // double baseline = 0.11008;
+  // Factory method to create config from dataset preset
+  static CameraConfig fromPreset(const std::string& dataset) {
+    CameraConfig config;
 
-  // Custom VO
-  // double fx = 1797.045;
-  // double fy = 1797.045;
-  // double cx = 720.013;
-  // double cy = 540.010;
-  // double baseline = 0.41332;
+    if (dataset == "kitti") {
+      // KITTI
+      config.fx = 718.8560;
+      config.fy = 718.8560;
+      config.cx = 607.1928;
+      config.cy = 185.2157;
+      config.baseline = 0.537;
+    } else if (dataset == "euroc") {
+      // EuroC (RECTIFIED)
+      config.fx = 436.23459;
+      config.fy = 436.23459;
+      config.cx = 364.44123;
+      config.cy = 256.95168;
+      config.baseline = 0.11008;
+    } else if (dataset == "custom") {
+      // Custom VO
+      config.fx = 1797.045;
+      config.fy = 1797.045;
+      config.cx = 720.013;
+      config.cy = 540.010;
+      config.baseline = 0.41332;
+    } else {
+      // Default to KITTI
+      config.fx = 718.8560;
+      config.fy = 718.8560;
+      config.cx = 607.1928;
+      config.cy = 185.2157;
+      config.baseline = 0.537;
+    }
+
+    return config;
+  }
 };
 
 struct ROS2NodeConfig {

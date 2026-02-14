@@ -1,0 +1,63 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found vrobots_ros2_msg: 0.0.0 (/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- defined lib target zenohcxx::zenohc for zenohc::lib
+-- Configuring done (2.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge
+[ 28%] [32mBuilding CXX object CMakeFiles/cmd_bridge_node.dir/src/cmd_bridge_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cam_bridge_node.dir/src/cam_bridge_node.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/bridge_node.dir/src/bridge_node.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/bridge_node.dir/src/states_converter.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable bridge_node[0m
+[ 71%] Built target bridge_node
+[ 85%] [32m[1mLinking CXX executable cam_bridge_node[0m
+[ 85%] Built target cam_bridge_node
+[100%] [32m[1mLinking CXX executable cmd_bridge_node[0m
+[100%] Built target cmd_bridge_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/vrobots_ros2_bridge/bridge_node
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/vrobots_ros2_bridge/cmd_bridge_node
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/vrobots_ros2_bridge/cam_bridge_node
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/launch/bridge.launch.py
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/ament_index/resource_index/package_run_dependencies/vrobots_ros2_bridge
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/ament_index/resource_index/parent_prefix_path/vrobots_ros2_bridge
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/environment/path.sh
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/environment/path.dsv
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/local_setup.bash
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/local_setup.sh
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/local_setup.zsh
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/local_setup.dsv
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.dsv
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/ament_index/resource_index/packages/vrobots_ros2_bridge
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/cmake/vrobots_ros2_bridgeConfig.cmake
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/cmake/vrobots_ros2_bridgeConfig-version.cmake
+-- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.xml

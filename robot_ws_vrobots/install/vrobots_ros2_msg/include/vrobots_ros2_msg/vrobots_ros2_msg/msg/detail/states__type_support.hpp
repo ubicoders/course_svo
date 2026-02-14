@@ -1,0 +1,1 @@
+/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg/rosidl_generator_cpp/vrobots_ros2_msg/msg/detail/states__type_support.hpp

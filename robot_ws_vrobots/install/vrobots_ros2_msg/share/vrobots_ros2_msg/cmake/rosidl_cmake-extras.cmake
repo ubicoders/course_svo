@@ -1,0 +1,1 @@
+/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg/rosidl_cmake/rosidl_cmake-extras.cmake

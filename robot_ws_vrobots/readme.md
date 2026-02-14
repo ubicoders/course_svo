@@ -15,10 +15,6 @@ source ~/.bashrc
 colcon build --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --symlink-install
 ```
 
-With conda python:
-```bash
-export PYTHON_EXECUTABLE=/miniconda/bin/python && colcon build --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --symlink-install
-```
 
 ### Build a specific package
 ```bash

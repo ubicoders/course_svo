@@ -1,0 +1,69 @@
+[0.021s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge
+[0.127s] -- The C compiler identification is GNU 13.3.0
+[0.242s] -- The CXX compiler identification is GNU 13.3.0
+[0.283s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.543s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.544s] -- Detecting C compile features
+[0.544s] -- Detecting C compile features - done
+[0.559s] -- Detecting CXX compiler ABI info
+[0.792s] -- Detecting CXX compiler ABI info - done
+[0.822s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.823s] -- Detecting CXX compile features
+[0.824s] -- Detecting CXX compile features - done
+[0.837s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.083s] -- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter 
+[1.216s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.407s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.565s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.602s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.706s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.891s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.901s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.127s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.161s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.199s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.376s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.399s] -- Found vrobots_ros2_msg: 0.0.0 (/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake)
+[2.488s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.547s] -- defined lib target zenohcxx::zenohc for zenohc::lib
+[2.835s] -- Configuring done (2.8s)
+[2.943s] -- Generating done (0.1s)
+[2.978s] -- Build files have been written to: /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge
+[2.995s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge
+[2.997s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge -- -j28 -l28
+[3.147s] [ 28%] [32mBuilding CXX object CMakeFiles/cmd_bridge_node.dir/src/cmd_bridge_node.cpp.o[0m
+[3.147s] [ 28%] [32mBuilding CXX object CMakeFiles/cam_bridge_node.dir/src/cam_bridge_node.cpp.o[0m
+[3.148s] [ 42%] [32mBuilding CXX object CMakeFiles/bridge_node.dir/src/bridge_node.cpp.o[0m
+[3.150s] [ 57%] [32mBuilding CXX object CMakeFiles/bridge_node.dir/src/states_converter.cpp.o[0m
+[8.621s] [ 71%] [32m[1mLinking CXX executable bridge_node[0m
+[9.100s] [ 71%] Built target bridge_node
+[9.555s] [ 85%] [32m[1mLinking CXX executable cam_bridge_node[0m
+[10.165s] [ 85%] Built target cam_bridge_node
+[12.989s] [100%] [32m[1mLinking CXX executable cmd_bridge_node[0m
+[14.023s] [100%] Built target cmd_bridge_node
+[14.050s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge -- -j28 -l28
+[14.054s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge
+[14.077s] -- Install configuration: ""
+[14.078s] -- Execute custom install script
+[14.081s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/vrobots_ros2_bridge/bridge_node
+[14.114s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/vrobots_ros2_bridge/cmd_bridge_node
+[14.130s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/vrobots_ros2_bridge/cam_bridge_node
+[14.167s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/launch/bridge.launch.py
+[14.196s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/ament_index/resource_index/package_run_dependencies/vrobots_ros2_bridge
+[14.224s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/ament_index/resource_index/parent_prefix_path/vrobots_ros2_bridge
+[14.252s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/environment/ament_prefix_path.sh
+[14.272s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/environment/ament_prefix_path.dsv
+[14.287s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/environment/path.sh
+[14.317s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/environment/path.dsv
+[14.349s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/local_setup.bash
+[14.372s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/local_setup.sh
+[14.389s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/local_setup.zsh
+[14.416s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/local_setup.dsv
+[14.441s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.dsv
+[14.466s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/ament_index/resource_index/packages/vrobots_ros2_bridge
+[14.492s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/cmake/vrobots_ros2_bridgeConfig.cmake
+[14.511s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/cmake/vrobots_ros2_bridgeConfig-version.cmake
+[14.526s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.xml
+[14.544s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge

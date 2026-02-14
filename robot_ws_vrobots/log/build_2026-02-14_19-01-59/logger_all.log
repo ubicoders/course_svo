@@ -1,0 +1,415 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '--symlink-install']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a00a2e1a120>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a00a2e199d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a00a2e199d0>>, mixin_verb=('build',))
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.162s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.162s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.163s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.163s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/robot_ws_vrobots'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ubicoders_svo' with type 'ros.ament_cmake' and name 'ubicoders_svo'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo_rerun) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo_rerun) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo_rerun) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo_rerun) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo_rerun) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo_rerun) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo_rerun) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo_rerun) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo_rerun) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ubicoders_svo_rerun' with type 'ros.ament_cmake' and name 'ubicoders_svo_rerun'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_bridge) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_bridge) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_bridge) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_bridge) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_bridge) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_bridge) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_bridge) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_bridge) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrobots_ros2_bridge' with type 'ros.ament_cmake' and name 'vrobots_ros2_bridge'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_controller) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_controller) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_controller) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_controller) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_controller) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_controller) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_controller) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_controller) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrobots_ros2_controller' with type 'ros.ament_cmake' and name 'vrobots_ros2_controller'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_msg) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_msg) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_msg) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_msg) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_msg) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_msg) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_msg) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/vrobots_ros2_msg) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vrobots_ros2_msg' with type 'ros.ament_cmake' and name 'vrobots_ros2_msg'
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'ubicoders_svo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo', 'merge_install': False, 'path': '/home/ubuntu/robot_ws_vrobots/src/ubicoders_svo', 'symlink_install': True, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo_rerun' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo_rerun' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo_rerun' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo_rerun' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo_rerun' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo_rerun' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo_rerun' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo_rerun' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo_rerun' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'ubicoders_svo_rerun' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun', 'merge_install': False, 'path': '/home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun', 'symlink_install': True, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_msg' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_msg' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'vrobots_ros2_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg', 'merge_install': False, 'path': '/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_msg', 'symlink_install': True, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_bridge' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_bridge' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'vrobots_ros2_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge', 'merge_install': False, 'path': '/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_controller' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_controller' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'vrobots_ros2_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'vrobots_ros2_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller', 'merge_install': False, 'path': '/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_controller', 'symlink_install': True, 'test_result_base': None}
+[0.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_msg' with build type 'ament_cmake'
+[0.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_msg'
+[0.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws_vrobots/src/ubicoders_svo' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws_vrobots/src/ubicoders_svo'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun'
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_msg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg
+[0.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/ubicoders_svo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun
+[3.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/ubicoders_svo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo
+[3.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo -- -j28 -l28
+[6.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_msg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg
+[6.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg -- -j28 -l28
+[12.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg -- -j28 -l28
+[12.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg
+[14.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrobots_ros2_msg)
+[14.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg
+[14.356s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg' for CMake module files
+[14.363s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg' for CMake config files
+[14.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrobots_ros2_msg', 'cmake_prefix_path')
+[14.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/cmake_prefix_path.ps1'
+[14.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/cmake_prefix_path.dsv'
+[14.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/cmake_prefix_path.sh'
+[14.394s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib'
+[14.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrobots_ros2_msg', 'ld_library_path_lib')
+[14.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/ld_library_path_lib.ps1'
+[14.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/ld_library_path_lib.dsv'
+[14.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/ld_library_path_lib.sh'
+[14.399s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/bin'
+[14.399s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/pkgconfig/vrobots_ros2_msg.pc'
+[14.404s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.12/site-packages'
+[14.406s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/bin'
+[14.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.ps1'
+[14.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.dsv'
+[14.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.sh'
+[14.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.bash'
+[14.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.zsh'
+[14.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/colcon-core/packages/vrobots_ros2_msg)
+[14.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrobots_ros2_msg)
+[14.417s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg' for CMake module files
+[14.420s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg' for CMake config files
+[14.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrobots_ros2_msg', 'cmake_prefix_path')
+[14.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/cmake_prefix_path.ps1'
+[14.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/cmake_prefix_path.dsv'
+[14.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/cmake_prefix_path.sh'
+[14.439s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib'
+[14.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrobots_ros2_msg', 'ld_library_path_lib')
+[14.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/ld_library_path_lib.ps1'
+[14.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/ld_library_path_lib.dsv'
+[14.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/hook/ld_library_path_lib.sh'
+[14.442s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/bin'
+[14.442s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/pkgconfig/vrobots_ros2_msg.pc'
+[14.443s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.12/site-packages'
+[14.443s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/bin'
+[14.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.ps1'
+[14.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.dsv'
+[14.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.sh'
+[14.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.bash'
+[14.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.zsh'
+[14.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/colcon-core/packages/vrobots_ros2_msg)
+[14.449s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_bridge' with build type 'ament_cmake'
+[14.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_bridge'
+[14.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.457s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_controller' with build type 'ament_cmake'
+[14.457s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_controller'
+[14.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge
+[14.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller
+[17.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller
+[17.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller -- -j28 -l28
+[17.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge
+[17.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge -- -j28 -l28
+[28.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge -- -j28 -l28
+[28.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge
+[28.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrobots_ros2_bridge)
+[28.995s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge' for CMake module files
+[28.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_bridge
+[28.999s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge' for CMake config files
+[29.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrobots_ros2_bridge', 'cmake_prefix_path')
+[29.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/hook/cmake_prefix_path.ps1'
+[29.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/hook/cmake_prefix_path.dsv'
+[29.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/hook/cmake_prefix_path.sh'
+[29.007s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib'
+[29.008s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/bin'
+[29.008s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/pkgconfig/vrobots_ros2_bridge.pc'
+[29.009s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/python3.12/site-packages'
+[29.010s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/bin'
+[29.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.ps1'
+[29.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.dsv'
+[29.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.sh'
+[29.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.bash'
+[29.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.zsh'
+[29.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/colcon-core/packages/vrobots_ros2_bridge)
+[29.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrobots_ros2_bridge)
+[29.019s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge' for CMake module files
+[29.023s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge' for CMake config files
+[29.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrobots_ros2_bridge', 'cmake_prefix_path')
+[29.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/hook/cmake_prefix_path.ps1'
+[29.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/hook/cmake_prefix_path.dsv'
+[29.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/hook/cmake_prefix_path.sh'
+[29.031s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib'
+[29.031s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/bin'
+[29.032s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/pkgconfig/vrobots_ros2_bridge.pc'
+[29.032s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/lib/python3.12/site-packages'
+[29.033s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/bin'
+[29.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.ps1'
+[29.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.dsv'
+[29.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.sh'
+[29.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.bash'
+[29.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/vrobots_ros2_bridge/package.zsh'
+[29.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_bridge/share/colcon-core/packages/vrobots_ros2_bridge)
+[32.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller -- -j28 -l28
+[32.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller
+[32.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrobots_ros2_controller)
+[32.531s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller' for CMake module files
+[32.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller
+[32.535s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller' for CMake config files
+[32.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrobots_ros2_controller', 'cmake_prefix_path')
+[32.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/hook/cmake_prefix_path.ps1'
+[32.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/hook/cmake_prefix_path.dsv'
+[32.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/hook/cmake_prefix_path.sh'
+[32.545s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/lib'
+[32.545s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/bin'
+[32.546s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/lib/pkgconfig/vrobots_ros2_controller.pc'
+[32.546s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/lib/python3.12/site-packages'
+[32.547s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/bin'
+[32.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.ps1'
+[32.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.dsv'
+[32.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.sh'
+[32.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.bash'
+[32.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.zsh'
+[32.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/colcon-core/packages/vrobots_ros2_controller)
+[32.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrobots_ros2_controller)
+[32.558s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller' for CMake module files
+[32.561s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller' for CMake config files
+[32.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrobots_ros2_controller', 'cmake_prefix_path')
+[32.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/hook/cmake_prefix_path.ps1'
+[32.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/hook/cmake_prefix_path.dsv'
+[32.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/hook/cmake_prefix_path.sh'
+[32.567s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/lib'
+[32.568s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/bin'
+[32.568s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/lib/pkgconfig/vrobots_ros2_controller.pc'
+[32.569s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/lib/python3.12/site-packages'
+[32.570s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/bin'
+[32.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.ps1'
+[32.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.dsv'
+[32.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.sh'
+[32.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.bash'
+[32.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/vrobots_ros2_controller/package.zsh'
+[32.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_controller/share/colcon-core/packages/vrobots_ros2_controller)
+[45.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo -- -j28 -l28
+[45.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo
+[46.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ubicoders_svo)
+[46.326s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo' for CMake module files
+[46.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo
+[46.330s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo' for CMake config files
+[46.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('ubicoders_svo', 'cmake_prefix_path')
+[46.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.ps1'
+[46.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.dsv'
+[46.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.sh'
+[46.342s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/lib'
+[46.343s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/bin'
+[46.343s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/lib/pkgconfig/ubicoders_svo.pc'
+[46.344s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/lib/python3.12/site-packages'
+[46.345s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/bin'
+[46.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.ps1'
+[46.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.dsv'
+[46.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.sh'
+[46.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.bash'
+[46.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.zsh'
+[46.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/colcon-core/packages/ubicoders_svo)
+[46.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ubicoders_svo)
+[46.357s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo' for CMake module files
+[46.360s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo' for CMake config files
+[46.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('ubicoders_svo', 'cmake_prefix_path')
+[46.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.ps1'
+[46.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.dsv'
+[46.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.sh'
+[46.369s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/lib'
+[46.369s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/bin'
+[46.369s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/lib/pkgconfig/ubicoders_svo.pc'
+[46.370s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/lib/python3.12/site-packages'
+[46.371s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/bin'
+[46.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.ps1'
+[46.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.dsv'
+[46.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.sh'
+[46.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.bash'
+[46.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/ubicoders_svo/package.zsh'
+[46.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo/share/colcon-core/packages/ubicoders_svo)
+[46.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun
+[46.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun -- -j28 -l28
+[452.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun -- -j28 -l28
+[452.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun
+[454.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ubicoders_svo_rerun)
+[454.572s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun' for CMake module files
+[454.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun
+[454.578s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun' for CMake config files
+[454.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('ubicoders_svo_rerun', 'cmake_prefix_path')
+[454.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/hook/cmake_prefix_path.ps1'
+[454.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/hook/cmake_prefix_path.dsv'
+[454.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/hook/cmake_prefix_path.sh'
+[454.589s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib'
+[454.590s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/bin'
+[454.590s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/pkgconfig/ubicoders_svo_rerun.pc'
+[454.591s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/python3.12/site-packages'
+[454.592s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/bin'
+[454.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.ps1'
+[454.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.dsv'
+[454.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.sh'
+[454.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.bash'
+[454.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.zsh'
+[454.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/colcon-core/packages/ubicoders_svo_rerun)
+[454.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ubicoders_svo_rerun)
+[454.603s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun' for CMake module files
+[454.607s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun' for CMake config files
+[454.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('ubicoders_svo_rerun', 'cmake_prefix_path')
+[454.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/hook/cmake_prefix_path.ps1'
+[454.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/hook/cmake_prefix_path.dsv'
+[454.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/hook/cmake_prefix_path.sh'
+[454.617s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib'
+[454.618s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/bin'
+[454.619s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/pkgconfig/ubicoders_svo_rerun.pc'
+[454.619s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/python3.12/site-packages'
+[454.621s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/bin'
+[454.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.ps1'
+[454.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.dsv'
+[454.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.sh'
+[454.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.bash'
+[454.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.zsh'
+[454.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/colcon-core/packages/ubicoders_svo_rerun)
+[454.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[454.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[454.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[454.632s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[454.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[454.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[454.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[454.674s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[454.687s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[454.687s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[454.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws_vrobots/install/local_setup.ps1'
+[454.694s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robot_ws_vrobots/install/_local_setup_util_ps1.py'
+[454.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws_vrobots/install/setup.ps1'
+[454.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws_vrobots/install/local_setup.sh'
+[454.703s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robot_ws_vrobots/install/_local_setup_util_sh.py'
+[454.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws_vrobots/install/setup.sh'
+[454.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws_vrobots/install/local_setup.bash'
+[454.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws_vrobots/install/setup.bash'
+[454.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws_vrobots/install/local_setup.zsh'
+[454.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws_vrobots/install/setup.zsh'

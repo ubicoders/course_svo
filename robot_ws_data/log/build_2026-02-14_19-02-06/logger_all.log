@@ -1,0 +1,341 @@
+[0.146s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '--symlink-install']
+[0.146s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79eb6ee7e240>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79eb6f7ae540>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79eb6f7ae540>>, mixin_verb=('build',))
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.188s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.189s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.189s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.190s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/robot_ws_data'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/customdata_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/customdata_publisher) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/customdata_publisher) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/customdata_publisher) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/customdata_publisher) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/customdata_publisher) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/customdata_publisher) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/customdata_publisher) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/customdata_publisher) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/customdata_publisher' with type 'ros.ament_cmake' and name 'customdata_publisher'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/euroc_image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/euroc_image_publisher) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/euroc_image_publisher) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/euroc_image_publisher) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/euroc_image_publisher) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/euroc_image_publisher) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/euroc_image_publisher) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/euroc_image_publisher) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/euroc_image_publisher) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/euroc_image_publisher' with type 'ros.ament_cmake' and name 'euroc_image_publisher'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/kitti_image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/kitti_image_publisher) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/kitti_image_publisher) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/kitti_image_publisher) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/kitti_image_publisher) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/kitti_image_publisher) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/kitti_image_publisher) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/kitti_image_publisher) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/kitti_image_publisher) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kitti_image_publisher' with type 'ros.ament_cmake' and name 'kitti_image_publisher'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ubicoders_svo) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ubicoders_svo' with type 'ros.ament_cmake' and name 'ubicoders_svo'
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'customdata_publisher' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'customdata_publisher' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'customdata_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'customdata_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'customdata_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'customdata_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'customdata_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'customdata_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'customdata_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'customdata_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws_data/build/customdata_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws_data/install/customdata_publisher', 'merge_install': False, 'path': '/home/ubuntu/robot_ws_data/src/customdata_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'euroc_image_publisher' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'euroc_image_publisher' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'euroc_image_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'euroc_image_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'euroc_image_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'euroc_image_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'euroc_image_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'euroc_image_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'euroc_image_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.258s] DEBUG:colcon.colcon_core.verb:Building package 'euroc_image_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws_data/build/euroc_image_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws_data/install/euroc_image_publisher', 'merge_install': False, 'path': '/home/ubuntu/robot_ws_data/src/euroc_image_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'kitti_image_publisher' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'kitti_image_publisher' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'kitti_image_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'kitti_image_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'kitti_image_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'kitti_image_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'kitti_image_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'kitti_image_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'kitti_image_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'kitti_image_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws_data/build/kitti_image_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws_data/install/kitti_image_publisher', 'merge_install': False, 'path': '/home/ubuntu/robot_ws_data/src/kitti_image_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'ubicoders_svo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'ubicoders_svo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robot_ws_data/install/ubicoders_svo', 'merge_install': False, 'path': '/home/ubuntu/robot_ws_data/src/ubicoders_svo', 'symlink_install': True, 'test_result_base': None}
+[0.261s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws_data/src/customdata_publisher' with build type 'ament_cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws_data/src/customdata_publisher'
+[0.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws_data/src/euroc_image_publisher' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws_data/src/euroc_image_publisher'
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws_data/src/kitti_image_publisher' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws_data/src/kitti_image_publisher'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robot_ws_data/src/ubicoders_svo' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robot_ws_data/src/ubicoders_svo'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/customdata_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/customdata_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/customdata_publisher
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/euroc_image_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/euroc_image_publisher
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/kitti_image_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/kitti_image_publisher
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/ubicoders_svo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/ubicoders_svo
+[3.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/customdata_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/customdata_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/customdata_publisher
+[3.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/customdata_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/customdata_publisher -- -j28 -l28
+[3.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/kitti_image_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/kitti_image_publisher
+[3.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/kitti_image_publisher -- -j28 -l28
+[3.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/euroc_image_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/euroc_image_publisher
+[3.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/euroc_image_publisher -- -j28 -l28
+[3.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/ubicoders_svo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/ubicoders_svo
+[3.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/ubicoders_svo -- -j28 -l28
+[11.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/kitti_image_publisher -- -j28 -l28
+[11.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/kitti_image_publisher
+[11.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/customdata_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/customdata_publisher -- -j28 -l28
+[11.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/customdata_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/customdata_publisher
+[12.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kitti_image_publisher)
+[12.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/kitti_image_publisher
+[12.045s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher' for CMake module files
+[12.047s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher' for CMake config files
+[12.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('kitti_image_publisher', 'cmake_prefix_path')
+[12.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/hook/cmake_prefix_path.ps1'
+[12.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/hook/cmake_prefix_path.dsv'
+[12.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/hook/cmake_prefix_path.sh'
+[12.053s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/lib'
+[12.054s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/bin'
+[12.054s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/lib/pkgconfig/kitti_image_publisher.pc'
+[12.057s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/lib/python3.12/site-packages'
+[12.058s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/bin'
+[12.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.ps1'
+[12.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.dsv'
+[12.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.sh'
+[12.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.bash'
+[12.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.zsh'
+[12.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/colcon-core/packages/kitti_image_publisher)
+[12.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kitti_image_publisher)
+[12.070s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher' for CMake module files
+[12.072s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher' for CMake config files
+[12.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('kitti_image_publisher', 'cmake_prefix_path')
+[12.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/hook/cmake_prefix_path.ps1'
+[12.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/hook/cmake_prefix_path.dsv'
+[12.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/hook/cmake_prefix_path.sh'
+[12.078s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/lib'
+[12.078s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/bin'
+[12.078s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/lib/pkgconfig/kitti_image_publisher.pc'
+[12.078s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/lib/python3.12/site-packages'
+[12.079s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/bin'
+[12.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.ps1'
+[12.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.dsv'
+[12.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.sh'
+[12.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.bash'
+[12.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.zsh'
+[12.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/colcon-core/packages/kitti_image_publisher)
+[12.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(customdata_publisher)
+[12.128s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher' for CMake module files
+[12.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/customdata_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/customdata_publisher
+[12.130s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher' for CMake config files
+[12.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('customdata_publisher', 'cmake_prefix_path')
+[12.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/hook/cmake_prefix_path.ps1'
+[12.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/hook/cmake_prefix_path.dsv'
+[12.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/hook/cmake_prefix_path.sh'
+[12.136s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/lib'
+[12.136s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/bin'
+[12.136s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/lib/pkgconfig/customdata_publisher.pc'
+[12.137s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/lib/python3.12/site-packages'
+[12.137s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/bin'
+[12.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.ps1'
+[12.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.dsv'
+[12.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.sh'
+[12.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.bash'
+[12.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.zsh'
+[12.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_data/install/customdata_publisher/share/colcon-core/packages/customdata_publisher)
+[12.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(customdata_publisher)
+[12.142s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher' for CMake module files
+[12.144s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher' for CMake config files
+[12.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('customdata_publisher', 'cmake_prefix_path')
+[12.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/hook/cmake_prefix_path.ps1'
+[12.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/hook/cmake_prefix_path.dsv'
+[12.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/hook/cmake_prefix_path.sh'
+[12.148s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/lib'
+[12.148s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/bin'
+[12.148s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/lib/pkgconfig/customdata_publisher.pc'
+[12.148s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/lib/python3.12/site-packages'
+[12.148s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/customdata_publisher/bin'
+[12.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.ps1'
+[12.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.dsv'
+[12.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.sh'
+[12.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.bash'
+[12.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.zsh'
+[12.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_data/install/customdata_publisher/share/colcon-core/packages/customdata_publisher)
+[12.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/euroc_image_publisher -- -j28 -l28
+[12.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/euroc_image_publisher
+[13.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(euroc_image_publisher)
+[13.078s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher' for CMake module files
+[13.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/euroc_image_publisher
+[13.082s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher' for CMake config files
+[13.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('euroc_image_publisher', 'cmake_prefix_path')
+[13.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/hook/cmake_prefix_path.ps1'
+[13.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/hook/cmake_prefix_path.dsv'
+[13.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/hook/cmake_prefix_path.sh'
+[13.090s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/lib'
+[13.090s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/bin'
+[13.091s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/lib/pkgconfig/euroc_image_publisher.pc'
+[13.091s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/lib/python3.12/site-packages'
+[13.092s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/bin'
+[13.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.ps1'
+[13.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.dsv'
+[13.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.sh'
+[13.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.bash'
+[13.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.zsh'
+[13.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/colcon-core/packages/euroc_image_publisher)
+[13.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(euroc_image_publisher)
+[13.103s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher' for CMake module files
+[13.107s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher' for CMake config files
+[13.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('euroc_image_publisher', 'cmake_prefix_path')
+[13.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/hook/cmake_prefix_path.ps1'
+[13.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/hook/cmake_prefix_path.dsv'
+[13.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/hook/cmake_prefix_path.sh'
+[13.118s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/lib'
+[13.119s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/bin'
+[13.119s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/lib/pkgconfig/euroc_image_publisher.pc'
+[13.120s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/lib/python3.12/site-packages'
+[13.121s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/bin'
+[13.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.ps1'
+[13.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.dsv'
+[13.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.sh'
+[13.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.bash'
+[13.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.zsh'
+[13.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/colcon-core/packages/euroc_image_publisher)
+[45.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/ubicoders_svo -- -j28 -l28
+[45.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/ubicoders_svo
+[45.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ubicoders_svo)
+[45.531s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo' for CMake module files
+[45.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/ubicoders_svo
+[45.534s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo' for CMake config files
+[45.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('ubicoders_svo', 'cmake_prefix_path')
+[45.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.ps1'
+[45.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.dsv'
+[45.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.sh'
+[45.540s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/lib'
+[45.540s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/bin'
+[45.540s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/lib/pkgconfig/ubicoders_svo.pc'
+[45.541s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/lib/python3.12/site-packages'
+[45.541s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/bin'
+[45.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.ps1'
+[45.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.dsv'
+[45.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.sh'
+[45.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.bash'
+[45.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.zsh'
+[45.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/colcon-core/packages/ubicoders_svo)
+[45.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ubicoders_svo)
+[45.549s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo' for CMake module files
+[45.552s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo' for CMake config files
+[45.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('ubicoders_svo', 'cmake_prefix_path')
+[45.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.ps1'
+[45.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.dsv'
+[45.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/hook/cmake_prefix_path.sh'
+[45.561s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/lib'
+[45.561s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/bin'
+[45.562s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/lib/pkgconfig/ubicoders_svo.pc'
+[45.562s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/lib/python3.12/site-packages'
+[45.563s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robot_ws_data/install/ubicoders_svo/bin'
+[45.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.ps1'
+[45.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.dsv'
+[45.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.sh'
+[45.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.bash'
+[45.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.zsh'
+[45.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robot_ws_data/install/ubicoders_svo/share/colcon-core/packages/ubicoders_svo)
+[45.570s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.572s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[45.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.595s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.595s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.624s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[45.625s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws_data/install/local_setup.ps1'
+[45.632s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robot_ws_data/install/_local_setup_util_ps1.py'
+[45.635s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws_data/install/setup.ps1'
+[45.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws_data/install/local_setup.sh'
+[45.641s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robot_ws_data/install/_local_setup_util_sh.py'
+[45.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws_data/install/setup.sh'
+[45.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws_data/install/local_setup.bash'
+[45.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws_data/install/setup.bash'
+[45.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robot_ws_data/install/local_setup.zsh'
+[45.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robot_ws_data/install/setup.zsh'

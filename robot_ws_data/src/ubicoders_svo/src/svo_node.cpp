@@ -5,6 +5,16 @@ namespace UbiSVO {
 StereoVisualOdometry::StereoVisualOdometry(const rclcpp::NodeOptions &options)
     : Node(ROS2NodeConfig().node_name, options) {
 
+  // Declare dataset parameter
+  std::string dataset = this->declare_parameter<std::string>("dataset", "kitti");
+  RCLCPP_INFO(this->get_logger(), "Loading camera parameters for dataset: %s", dataset.c_str());
+
+  // Load camera config from preset
+  CameraConfig camConfig = CameraConfig::fromPreset(dataset);
+  RCLCPP_INFO(this->get_logger(),
+              "Camera Config - fx: %.3f, fy: %.3f, cx: %.3f, cy: %.3f, baseline: %.3f",
+              camConfig.fx, camConfig.fy, camConfig.cx, camConfig.cy, camConfig.baseline);
+
   // subscriber
   leftImageSub_ = std::make_shared<message_filters::Subscriber<Image>>(
       this, ros2NodeConfig.input_img_left_topic);
@@ -35,7 +45,7 @@ StereoVisualOdometry::StereoVisualOdometry(const rclcpp::NodeOptions &options)
 
   // SVO components
   map = std::make_shared<Map>();
-  stereoCam = std::make_shared<StereoGeometry>();
+  stereoCam = std::make_shared<StereoGeometry>(camConfig);
   backend = std::make_shared<Backend>(stereoCam, map);
   frontend = std::make_shared<Frontend>(stereoCam, map, backend);
   viewer = std::make_unique<Viewer>(map, stereoCam, this->get_clock(),

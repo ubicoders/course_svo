@@ -1,0 +1,8 @@
+source;share/customdata_publisher/hook/cmake_prefix_path.ps1
+source;share/customdata_publisher/hook/cmake_prefix_path.dsv
+source;share/customdata_publisher/hook/cmake_prefix_path.sh
+source;share/customdata_publisher/local_setup.bash
+source;share/customdata_publisher/local_setup.dsv
+source;share/customdata_publisher/local_setup.ps1
+source;share/customdata_publisher/local_setup.sh
+source;share/customdata_publisher/local_setup.zsh

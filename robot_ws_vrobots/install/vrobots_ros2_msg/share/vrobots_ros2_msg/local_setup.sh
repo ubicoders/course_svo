@@ -1,0 +1,1 @@
+/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,21 @@
+[0.038s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_msg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg
+[0.197s] -- The C compiler identification is GNU 13.3.0
+[0.370s] -- The CXX compiler identification is GNU 13.3.0
+[0.422s] -- Detecting C compiler ABI info
+[0.709s] -- Detecting C compiler ABI info - done
+[0.739s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.740s] -- Detecting C compile features
+[0.741s] -- Detecting C compile features - done
+[0.767s] -- Detecting CXX compiler ABI info
+[1.056s] -- Detecting CXX compiler ABI info - done
+[1.097s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.097s] -- Detecting CXX compile features
+[1.098s] -- Detecting CXX compile features - done
+[1.122s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.308s] -- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter 
+[1.571s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.588s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.704s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.798s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.807s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.865s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)

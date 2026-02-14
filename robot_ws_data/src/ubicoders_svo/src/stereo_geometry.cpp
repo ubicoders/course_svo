@@ -26,6 +26,30 @@ StereoGeometry::StereoGeometry() {
         pose(2, 2), pose(2, 3));
 }
 
+StereoGeometry::StereoGeometry(const CameraConfig& config) {
+  scamConfig = config;
+  fx = scamConfig.fx;
+  fy = scamConfig.fy;
+  cx = scamConfig.cx;
+  cy = scamConfig.cy;
+  baseline = scamConfig.baseline;
+  T_l2r = Sophus::SE3d(Eigen::Matrix3d::Identity(),
+                       Eigen::Vector3d(-baseline, 0.0, 0.0));
+  K = cv::Mat::eye(3, 3, CV_64F);
+  K.at<double>(0, 0) = fx;
+  K.at<double>(1, 1) = fy;
+  K.at<double>(0, 2) = cx;
+  K.at<double>(0, 2) = cx;
+  K.at<double>(1, 2) = cy;
+
+  T1 = (cv::Mat_<float>(3, 4) << 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0);
+
+  auto pose = T_l2r.matrix();
+  T2 = (cv::Mat_<float>(3, 4) << pose(0, 0), pose(0, 1), pose(0, 2), pose(0, 3),
+        pose(1, 0), pose(1, 1), pose(1, 2), pose(1, 3), pose(2, 0), pose(2, 1),
+        pose(2, 2), pose(2, 3));
+}
+
 cv::Mat StereoGeometry::get_K() { return K; }
 
 cv::Mat StereoGeometry::get_T1() { return T1; }

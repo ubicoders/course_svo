@@ -1,0 +1,1805 @@
+[0.025s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun
+[0.177s] -- The C compiler identification is GNU 13.3.0
+[0.311s] -- The CXX compiler identification is GNU 13.3.0
+[0.351s] -- Detecting C compiler ABI info
+[0.629s] -- Detecting C compiler ABI info - done
+[0.667s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.671s] -- Detecting C compile features
+[0.672s] -- Detecting C compile features - done
+[0.704s] -- Detecting CXX compiler ABI info
+[1.000s] -- Detecting CXX compiler ABI info - done
+[1.044s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.045s] -- Detecting CXX compile features
+[1.046s] -- Detecting CXX compile features - done
+[1.069s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.297s] -- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter 
+[1.410s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.551s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.663s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.694s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.745s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.785s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.005s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.021s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.283s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.332s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.364s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.479s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.559s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.594s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[2.612s] -- cv_bridge_INCLUDE_DIRS: /usr/include/opencv4;/opt/ros/jazzy/include/sensor_msgs;/opt/ros/jazzy/include/rclcpp
+[2.614s] -- cv_bridge_LIBRARIES: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_barcode;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_cvv;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto;opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_barcode;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_cvv;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_c.so;builtin_interfaces::builtin_interfaces__rosidl_generator_c;geometry_msgs::geometry_msgs__rosidl_generator_c;std_msgs::std_msgs__rosidl_generator_c;service_msgs::service_msgs__rosidl_generator_c;rcutils::rcutils;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so;rosidl_typesupport_fastrtps_c::rosidl_typesupport_fastrtps_c;builtin_interfaces::builtin_interfaces__rosidl_typesupport_fastrtps_c;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;std_msgs::std_msgs__rosidl_typesupport_fastrtps_c;service_msgs::service_msgs__rosidl_typesupport_fastrtps_c;builtin_interfaces::builtin_interfaces__rosidl_generator_cpp;geometry_msgs::geometry_msgs__rosidl_generator_cpp;std_msgs::std_msgs__rosidl_generator_cpp;service_msgs::service_msgs__rosidl_generator_cpp;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so;fastcdr;rmw::rmw;rosidl_runtime_cpp::rosidl_runtime_cpp;rosidl_typesupport_fastrtps_cpp::rosidl_typesupport_fastrtps_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_fastrtps_cpp;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;std_msgs::std_msgs__rosidl_typesupport_fastrtps_cpp;service_msgs::service_msgs__rosidl_typesupport_fastrtps_cpp;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_c;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;std_msgs::std_msgs__rosidl_typesupport_introspection_c;service_msgs::service_msgs__rosidl_typesupport_introspection_c;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so;builtin_interfaces::builtin_interfaces__rosidl_typesupport_c;geometry_msgs::geometry_msgs__rosidl_typesupport_c;std_msgs::std_msgs__rosidl_typesupport_c;service_msgs::service_msgs__rosidl_typesupport_c;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so;rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_interface::rosidl_typesupport_interface;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_cpp;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;service_msgs::service_msgs__rosidl_typesupport_introspection_cpp;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so;sensor_msgs::sensor_msgs__rosidl_generator_c;sensor_msgs::sensor_msgs__rosidl_generator_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;std_msgs::std_msgs__rosidl_typesupport_cpp;service_msgs::service_msgs__rosidl_typesupport_cpp;sensor_msgs::sensor_msgs__rosidl_typesupport_cpp;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_py.so;opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_barcode;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_cvv;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_c.so;geometry_msgs::geometry_msgs__rosidl_generator_c;std_msgs::std_msgs__rosidl_generator_c;service_msgs::service_msgs__rosidl_generator_c;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so;rosidl_typesupport_fastrtps_c::rosidl_typesupport_fastrtps_c;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;std_msgs::std_msgs__rosidl_typesupport_fastrtps_c;service_msgs::service_msgs__rosidl_typesupport_fastrtps_c;geometry_msgs::geometry_msgs__rosidl_generator_cpp;std_msgs::std_msgs__rosidl_generator_cpp;service_msgs::service_msgs__rosidl_generator_cpp;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so;fastcdr;rosidl_typesupport_fastrtps_cpp::rosidl_typesupport_fastrtps_cpp;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;std_msgs::std_msgs__rosidl_typesupport_fastrtps_cpp;service_msgs::service_msgs__rosidl_typesupport_fastrtps_cpp;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;std_msgs::std_msgs__rosidl_typesupport_introspection_c;service_msgs::service_msgs__rosidl_typesupport_introspection_c;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so;geometry_msgs::geometry_msgs__rosidl_typesupport_c;std_msgs::std_msgs__rosidl_typesupport_c;service_msgs::service_msgs__rosidl_typesupport_c;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so;rosidl_typesupport_interface::rosidl_typesupport_interface;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;service_msgs::service_msgs__rosidl_typesupport_introspection_cpp;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so;sensor_msgs::sensor_msgs__rosidl_generator_c;sensor_msgs::sensor_msgs__rosidl_generator_cpp;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;std_msgs::std_msgs__rosidl_typesupport_cpp;service_msgs::service_msgs__rosidl_typesupport_cpp;sensor_msgs::sensor_msgs__rosidl_typesupport_cpp;/opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_py.so;/opt/ros/jazzy/lib/librclcpp.so;builtin_interfaces::builtin_interfaces__rosidl_generator_c;builtin_interfaces::builtin_interfaces__rosidl_typesupport_fastrtps_c;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_c;builtin_interfaces::builtin_interfaces__rosidl_typesupport_c;builtin_interfaces::builtin_interfaces__rosidl_generator_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_fastrtps_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp;builtin_interfaces::builtin_interfaces__rosidl_generator_py;libstatistics_collector::libstatistics_collector;rcl::rcl;rcl_interfaces::rcl_interfaces__rosidl_generator_c;rcl_interfaces::rcl_interfaces__rosidl_typesupport_fastrtps_c;rcl_interfaces::rcl_interfaces__rosidl_typesupport_introspection_c;rcl_interfaces::rcl_interfaces__rosidl_typesupport_c;rcl_interfaces::rcl_interfaces__rosidl_generator_cpp;rcl_interfaces::rcl_interfaces__rosidl_typesupport_fastrtps_cpp;rcl_interfaces::rcl_interfaces__rosidl_typesupport_introspection_cpp;rcl_interfaces::rcl_interfaces__rosidl_typesupport_cpp;rcl_interfaces::rcl_interfaces__rosidl_generator_py;rcl_yaml_param_parser::rcl_yaml_param_parser;rcpputils::rcpputils;rcutils::rcutils;rmw::rmw;rosgraph_msgs::rosgraph_msgs__rosidl_generator_c;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_fastrtps_c;rosgraph_msgs::rosgraph_msgs__rosidl_generator_cpp;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_fastrtps_cpp;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_introspection_c;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_c;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_introspection_cpp;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_cpp;rosgraph_msgs::rosgraph_msgs__rosidl_generator_py;rosidl_dynamic_typesupport::rosidl_dynamic_typesupport;rosidl_runtime_c::rosidl_runtime_c;rosidl_runtime_cpp::rosidl_runtime_cpp;rosidl_typesupport_cpp::rosidl_typesupport_cpp;statistics_msgs::statistics_msgs__rosidl_generator_c;statistics_msgs::statistics_msgs__rosidl_typesupport_fastrtps_c;statistics_msgs::statistics_msgs__rosidl_generator_cpp;statistics_msgs::statistics_msgs__rosidl_typesupport_fastrtps_cpp;statistics_msgs::statistics_msgs__rosidl_typesupport_introspection_c;statistics_msgs::statistics_msgs__rosidl_typesupport_c;statistics_msgs::statistics_msgs__rosidl_typesupport_introspection_cpp;statistics_msgs::statistics_msgs__rosidl_typesupport_cpp;statistics_msgs::statistics_msgs__rosidl_generator_py;tracetools::tracetools
+[2.616s] -- Found OpenCV: /usr (found version "4.6.0") 
+[36.494s] -- Configuring loguru as sub-directory
+[36.498s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[36.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[36.761s] -- Found Threads: TRUE  
+[36.770s] [0mBuilding RELEASE BUILD of Rerun C++ SDK[0m
+[37.367s] [0mCompiler: GNU 13.3.0 (/usr/bin/c++)[0m
+[37.447s] [0mBuilding Rerun C++ SDK with strict compilation warnings.[0m
+[37.475s] -- Rerun SDK install version: 0.27.3
+[43.902s] -- Performing Test HAVE_FLAG__ffile_prefix_map__home_ubuntu_robot_ws_vrobots_build_ubicoders_svo_rerun__deps_catch2_src__
+[44.174s] -- Performing Test HAVE_FLAG__ffile_prefix_map__home_ubuntu_robot_ws_vrobots_build_ubicoders_svo_rerun__deps_catch2_src__ - Success
+[44.322s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[44.550s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[44.551s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun/include>
+[44.551s] -- Configured cppcheck exclude dirs and/or files: 
+[44.557s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[44.558s] -- Configured cpplint exclude dirs and/or files: 
+[44.560s] -- Added test 'flake8' to check Python code syntax and style conventions
+[44.560s] -- Configured 'flake8' exclude dirs and/or files: 
+[44.563s] -- Added test 'lint_cmake' to check CMake code style
+[44.567s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[44.575s] -- Added test 'uncrustify' to check C / C++ code style
+[44.575s] -- Configured uncrustify additional arguments: 
+[44.578s] -- Added test 'xmllint' to check XML markup files
+[44.603s] -- Configuring done (44.6s)
+[46.062s] -- Generating done (1.3s)
+[46.383s] -- Build files have been written to: /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun
+[46.414s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun
+[46.417s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun -- -j28 -l28
+[46.725s] [  0%] [32mBuilding CXX object _deps/logurugitrepo-build/CMakeFiles/loguru.dir/loguru.cpp.o[0m
+[46.729s] [  0%] [34m[1mCreating directories for 'arrow_cpp'[0m
+[46.753s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o[0m
+[46.754s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o[0m
+[46.756s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o[0m
+[46.756s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o[0m
+[46.757s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o[0m
+[46.757s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o[0m
+[46.758s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o[0m
+[46.758s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o[0m
+[46.758s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o[0m
+[46.761s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o[0m
+[46.761s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o[0m
+[46.764s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o[0m
+[46.767s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o[0m
+[46.771s] [  0%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o[0m
+[46.772s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o[0m
+[46.773s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o[0m
+[46.774s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o[0m
+[46.775s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o[0m
+[46.775s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o[0m
+[46.776s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o[0m
+[46.777s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o[0m
+[46.777s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o[0m
+[46.778s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o[0m
+[46.778s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o[0m
+[46.779s] [  3%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o[0m
+[46.785s] [  4%] [34m[1mPerforming download step (download, verify and extract) for 'arrow_cpp'[0m
+[46.801s] -- Downloading...
+[46.801s]    dst='/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-build/rerun_cpp/arrow/src/apache-arrow-18.0.0.tar.gz'
+[46.802s]    timeout='none'
+[46.802s]    inactivity timeout='none'
+[46.802s] -- Using src='https://github.com/apache/arrow/releases/download/apache-arrow-18.0.0/apache-arrow-18.0.0.tar.gz'
+[46.852s] [  4%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o[0m
+[46.900s] [  5%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o[0m
+[46.907s] [  5%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o[0m
+[46.918s] [  6%] [34m[1mBuilding rerun_c from source[0m
+[46.933s] [0m[1minfo: [0msyncing channel updates for '1.88.0-x86_64-unknown-linux-gnu'
+[47.167s] [0m[1minfo: [0mlatest update on 2025-06-26, rust version 1.88.0 (6b00bc388 2025-06-23)
+[47.167s] [0m[1minfo: [0mdownloading component 'cargo'
+[47.170s] [  6%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o[0m
+[47.175s] [  6%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o[0m
+[47.185s] [  6%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o[0m
+[47.242s] [  6%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o[0m
+[47.264s] [  6%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o[0m
+[47.294s] [  7%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o[0m
+[47.315s] [  7%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o[0m
+[47.318s] [  7%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o[0m
+[47.391s] [  7%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o[0m
+[47.401s] [  7%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o[0m
+[47.405s] [0m[1minfo: [0mdownloading component 'clippy'
+[47.446s] [  7%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o[0m
+[47.509s] [  8%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o[0m
+[47.520s] [  8%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o[0m
+[47.553s] [0m[1minfo: [0mdownloading component 'rust-docs'
+[47.559s] [  8%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o[0m
+[47.567s] [  8%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o[0m
+[47.581s] [  8%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o[0m
+[47.617s] [  8%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o[0m
+[47.620s] [  8%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o[0m
+[47.650s] [  9%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o[0m
+[47.676s] [  9%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o[0m
+[47.693s] [  9%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o[0m
+[47.707s] [  9%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o[0m
+[47.709s] -- verifying file...
+[47.710s]        file='/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-build/rerun_cpp/arrow/src/apache-arrow-18.0.0.tar.gz'
+[47.740s] [  9%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o[0m
+[47.774s] [  9%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o[0m
+[47.790s] [ 10%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o[0m
+[47.793s] [ 10%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o[0m
+[47.795s] -- Downloading... done
+[47.808s] [ 10%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o[0m
+[47.828s] [ 10%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o[0m
+[47.836s] -- extracting...
+[47.838s]      src='/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-build/rerun_cpp/arrow/src/apache-arrow-18.0.0.tar.gz'
+[47.842s]      dst='/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-build/rerun_cpp/arrow/src/arrow_cpp'
+[47.844s] -- extracting... [tar xfz]
+[47.885s] [ 10%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o[0m
+[47.889s] [ 10%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o[0m
+[47.907s] [ 10%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o[0m
+[47.908s] [0m[1minfo: [0mdownloading component 'rust-std' for 'wasm32-unknown-unknown'
+[47.956s] [ 11%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o[0m
+[47.961s] [ 11%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o[0m
+[47.962s] [ 11%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o[0m
+[47.980s] [ 11%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o[0m
+[48.056s] [ 11%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o[0m
+[48.061s] [ 11%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o[0m
+[48.163s] [ 11%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o[0m
+[48.181s] [ 12%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o[0m
+[48.199s] [ 12%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o[0m
+[48.265s] [ 12%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o[0m
+[48.306s] [ 12%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o[0m
+[48.332s] [ 12%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o[0m
+[48.332s] [ 12%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o[0m
+[48.354s] [ 13%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o[0m
+[48.396s] [0m[1minfo: [0mdownloading component 'rust-std'
+[48.422s] [ 13%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o[0m
+[48.433s] [ 13%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o[0m
+[48.446s] [ 13%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o[0m
+[48.465s] [ 13%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o[0m
+[48.482s] [ 13%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o[0m
+[48.484s] [ 14%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o[0m
+[48.485s] [ 14%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o[0m
+[48.518s] [ 14%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o[0m
+[48.520s] [ 14%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o[0m
+[48.549s] [ 14%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o[0m
+[48.549s] [ 14%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o[0m
+[48.598s] [ 14%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o[0m
+[48.611s] [ 15%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o[0m
+[48.632s] [ 15%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o[0m
+[48.657s] [ 15%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o[0m
+[48.689s] [ 15%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o[0m
+[48.700s] [ 15%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o[0m
+[48.700s] [ 15%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o[0m
+[48.797s] [ 15%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o[0m
+[48.797s] [ 16%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o[0m
+[48.798s] [ 16%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o[0m
+[48.924s] [ 16%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o[0m
+[48.930s] [0m[1minfo: [0mdownloading component 'rustc'
+[49.040s] [ 16%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o[0m
+[49.128s] [ 16%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o[0m
+[49.133s] [ 16%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o[0m
+[49.163s] [ 16%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o[0m
+[49.176s] [ 17%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o[0m
+[49.185s] [ 17%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o[0m
+[49.204s] [ 17%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o[0m
+[49.209s] [ 17%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o[0m
+[49.849s] [0m[1minfo: [0mdownloading component 'rustfmt'
+[49.978s] [0m[1minfo: [0minstalling component 'cargo'
+[50.406s] [ 18%] [32m[1mLinking CXX static library libloguru.a[0m
+[50.675s] [ 18%] Built target loguru
+[50.775s] [0m[1minfo: [0minstalling component 'clippy'
+[51.484s] [0m[1minfo: [0minstalling component 'rust-docs'
+[51.903s] [ 18%] [32m[1mLinking CXX static library libCatch2.a[0m
+[51.912s] -- extracting... [analysis]
+[51.914s] -- extracting... [rename]
+[51.915s] -- extracting... [clean up]
+[51.915s] -- extracting... done
+[51.947s] [ 18%] [34m[1mNo update step for 'arrow_cpp'[0m
+[52.006s] [ 18%] [34m[1mPerforming patch step for 'arrow_cpp'[0m
+[52.013s] warning: cpp/cmake_modules/ThirdpartyToolchain.cmake has type 100755, expected 100644
+[52.019s] warning: cpp/cmake_modules/ThirdpartyToolchain.cmake has type 100755, expected 100644
+[52.052s] [ 18%] [34m[1mPerforming configure step for 'arrow_cpp'[0m
+[52.932s] [ 18%] Built target Catch2
+[52.992s] [ 18%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o[0m
+[53.530s] [ 19%] [32m[1mLinking CXX static library libCatch2Main.a[0m
+[53.690s] [0m[1minfo: [0minstalling component 'rust-std' for 'wasm32-unknown-unknown'
+[53.694s] [ 19%] Built target Catch2WithMain
+[55.481s] [0m[1minfo: [0minstalling component 'rust-std'
+[56.945s] -- arrow_cpp configure command succeeded.  See also /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-build/rerun_cpp/arrow/src/arrow_cpp-stamp/arrow_cpp-configure-*.log
+[57.000s] [ 19%] [34m[1mPerforming build step for 'arrow_cpp'[0m
+[58.015s] [0m[1minfo: [0minstalling component 'rustc'
+[66.172s] [0m[1minfo: [0minstalling component 'rustfmt'
+[67.171s] [1m[32m    Updating[0m crates.io index
+[70.854s] [1m[32m Downloading[0m crates ...
+[71.078s] [1m[32m  Downloaded[0m anstyle-query v1.1.4
+[71.104s] [1m[32m  Downloaded[0m integer-encoding v3.0.4
+[71.108s] [1m[32m  Downloaded[0m env_filter v0.1.3
+[71.116s] [1m[32m  Downloaded[0m RustyXML v0.3.0
+[71.121s] [1m[32m  Downloaded[0m yoke-derive v0.8.0
+[71.123s] [1m[32m  Downloaded[0m jobserver v0.1.34
+[71.131s] [1m[32m  Downloaded[0m want v0.3.1
+[71.135s] [1m[32m  Downloaded[0m num-derive v0.4.2
+[71.141s] [1m[32m  Downloaded[0m yoke v0.8.0
+[71.148s] [1m[32m  Downloaded[0m weezl v0.1.10
+[71.159s] [1m[32m  Downloaded[0m clean-path v0.2.1
+[71.161s] [1m[32m  Downloaded[0m potential_utf v0.1.3
+[71.164s] [1m[32m  Downloaded[0m itoa v1.0.15
+[71.170s] [1m[32m  Downloaded[0m idna_adapter v1.2.1
+[71.174s] [1m[32m  Downloaded[0m atomic-waker v1.1.2
+[71.179s] [1m[32m  Downloaded[0m cfg-if v1.0.3
+[71.183s] [1m[32m  Downloaded[0m tonic-prost v0.14.2
+[71.189s] [1m[32m  Downloaded[0m zerovec-derive v0.11.1
+[71.193s] [1m[32m  Downloaded[0m socket2 v0.6.0
+[71.199s] [1m[32m  Downloaded[0m serde_repr v0.1.20
+[71.204s] [1m[32m  Downloaded[0m rfc6381-codec v0.2.0
+[71.209s] [1m[32m  Downloaded[0m zstd v0.13.3
+[71.217s] [1m[32m  Downloaded[0m tower-service v0.3.3
+[71.219s] [1m[32m  Downloaded[0m ecolor v0.33.0
+[71.225s] [1m[32m  Downloaded[0m inotify v0.11.0
+[71.232s] [1m[32m  Downloaded[0m rawpointer v0.2.1
+[71.234s] [1m[32m  Downloaded[0m simd-adler32 v0.3.7
+[71.243s] [1m[32m  Downloaded[0m owo-colors v3.5.0
+[71.248s] [1m[32m  Downloaded[0m unicase v2.8.1
+[71.254s] [1m[32m  Downloaded[0m tinystr v0.8.1
+[71.262s] [1m[32m  Downloaded[0m urdf-rs v0.9.0
+[71.270s] [1m[32m  Downloaded[0m thrift v0.17.0
+[71.276s] [1m[32m  Downloaded[0m uuid v1.18.1
+[71.284s] [1m[32m  Downloaded[0m url v2.5.7
+[71.292s] [1m[32m  Downloaded[0m rustls-webpki v0.103.7
+[71.301s] [1m[32m  Downloaded[0m tracing v0.1.41
+[71.312s] [1m[32m  Downloaded[0m unicode-segmentation v1.12.0
+[71.319s] [1m[32m  Downloaded[0m zerovec v0.11.4
+[71.334s] [1m[32m  Downloaded[0m hyper v1.7.0
+[71.360s] [1m[32m  Downloaded[0m sysinfo v0.30.13
+[71.383s] [1m[32m  Downloaded[0m rayon v1.11.0
+[71.393s] [1m[32m  Downloaded[0m quick-xml v0.36.2
+[71.400s] [1m[32m  Downloaded[0m fixed v1.29.0
+[71.414s] [1m[32m  Downloaded[0m gimli v0.32.3
+[71.429s] [1m[32m  Downloaded[0m ndarray v0.16.1
+[71.452s] [1m[32m  Downloaded[0m image v0.25.6
+[71.467s] [1m[32m  Downloaded[0m unicode-width v0.2.2
+[71.477s] [1m[32m  Downloaded[0m object v0.37.3
+[71.497s] [1m[32m  Downloaded[0m lz4-sys v1.11.1+lz4-1.10.0
+[71.533s] [1m[32m  Downloaded[0m rustls v0.23.32
+[71.553s] [1m[32m  Downloaded[0m regex-syntax v0.8.6
+[71.567s] [1m[32m  Downloaded[0m syn v2.0.106
+[71.585s] [1m[32m  Downloaded[0m chrono v0.4.42
+[71.596s] [1m[32m  Downloaded[0m zerocopy v0.8.27
+[71.628s] [1m[32m  Downloaded[0m rustix v1.1.2
+[71.669s] [1m[32m  Downloaded[0m arrow-array v56.2.0
+[71.682s] [1m[32m  Downloaded[0m serde_json v1.0.145
+[71.692s] [1m[32m  Downloaded[0m regex v1.11.3
+[71.702s] [1m[32m  Downloaded[0m h2 v0.4.12
+[71.713s] [1m[32m  Downloaded[0m lexical-parse-float v1.0.6
+[71.726s] [1m[32m  Downloaded[0m tonic v0.14.2
+[71.735s] [1m[32m  Downloaded[0m prost-reflect v0.16.2
+[71.762s] [1m[32m  Downloaded[0m zune-jpeg v0.4.21
+[71.768s] [1m[32m  Downloaded[0m tower-http v0.6.6
+[71.783s] [1m[32m  Downloaded[0m tower v0.5.2
+[71.802s] [1m[32m  Downloaded[0m parquet v56.1.0
+[71.837s] [1m[32m  Downloaded[0m regex-automata v0.4.11
+[71.870s] [1m[32m  Downloaded[0m tonic-web v0.14.2
+[71.886s] [1m[32m  Downloaded[0m jpeg-decoder v0.3.2
+[71.900s] [1m[32m  Downloaded[0m jiff v0.2.15
+[71.929s] [1m[32m  Downloaded[0m glam v0.30.8
+[71.971s] [1m[32m  Downloaded[0m zstd-sys v2.0.16+zstd.1.5.7
+[71.997s] [1m[32m  Downloaded[0m libc v0.2.176
+[72.045s] [1m[32m  Downloaded[0m tokio v1.47.1
+[72.107s] [1m[32m  Downloaded[0m mio v1.0.4
+[72.118s] [1m[32m  Downloaded[0m icu_properties_data v2.0.1
+[72.142s] [1m[32m  Downloaded[0m hashbrown v0.16.0
+[72.154s] [1m[32m  Downloaded[0m crossterm v0.29.0
+[72.176s] [1m[32m  Downloaded[0m axum v0.8.6
+[72.208s] [1m[32m  Downloaded[0m arrow-ipc v56.2.0
+[72.215s] [1m[32m  Downloaded[0m rayon-core v1.13.0
+[72.219s] [1m[32m  Downloaded[0m lexical-write-integer v1.0.6
+[72.225s] [1m[32m  Downloaded[0m itertools v0.10.5
+[72.237s] [1m[32m  Downloaded[0m tokio-util v0.7.16
+[72.251s] [1m[32m  Downloaded[0m proc-macro2 v1.0.101
+[72.255s] [1m[32m  Downloaded[0m matrixmultiply v0.3.10
+[72.262s] [1m[32m  Downloaded[0m log v0.4.28
+[72.265s] [1m[32m  Downloaded[0m lexical-util v1.0.7
+[72.278s] [1m[32m  Downloaded[0m icu_locale_core v2.0.0
+[72.284s] [1m[32m  Downloaded[0m icu_collections v2.0.0
+[72.294s] [1m[32m  Downloaded[0m hyper-util v0.1.17
+[72.304s] [1m[32m  Downloaded[0m bytemuck v1.24.0
+[72.310s] [1m[32m  Downloaded[0m backtrace v0.3.76
+[72.322s] [1m[32m  Downloaded[0m arrow-select v56.2.0
+[72.325s] [1m[32m  Downloaded[0m tracing-core v0.1.34
+[72.330s] [1m[32m  Downloaded[0m tokio-stream v0.1.17
+[72.338s] [1m[32m  Downloaded[0m ryu v1.0.20
+[72.344s] [1m[32m  Downloaded[0m prost-types v0.14.1
+[72.350s] [1m[32m  Downloaded[0m pin-project v1.1.10
+[72.369s] [1m[32m  Downloaded[0m lexical-write-float v1.0.6
+[72.376s] [1m[32m  Downloaded[0m flate2 v1.1.4
+[72.387s] [1m[32m  Downloaded[0m comfy-table v7.2.1
+[72.396s] [1m[32m  Downloaded[0m cc v1.2.40
+[72.405s] [1m[32m  Downloaded[0m arrow-schema v56.2.0
+[72.412s] [1m[32m  Downloaded[0m arrow-ord v56.2.0
+[72.414s] [1m[32m  Downloaded[0m tiff v0.9.1
+[72.440s] [1m[32m  Downloaded[0m snap v1.1.1
+[72.446s] [1m[32m  Downloaded[0m rustls-pki-types v1.12.0
+[72.455s] [1m[32m  Downloaded[0m re_mp4 v0.4.0
+[72.463s] [1m[32m  Downloaded[0m prost v0.14.1
+[72.467s] [1m[32m  Downloaded[0m notify v8.2.0
+[72.471s] [1m[32m  Downloaded[0m matchit v0.8.4
+[72.475s] [1m[32m  Downloaded[0m macaw v0.30.0
+[72.482s] [1m[32m  Downloaded[0m lz4_flex v0.12.0
+[72.487s] [1m[32m  Downloaded[0m litrs v0.4.2
+[72.491s] [1m[32m  Downloaded[0m jiff-static v0.2.15
+[72.496s] [1m[32m  Downloaded[0m icu_normalizer_data v2.0.0
+[72.501s] [1m[32m  Downloaded[0m h264-reader v0.8.0
+[72.509s] [1m[32m  Downloaded[0m getrandom v0.3.3
+[72.514s] [1m[32m  Downloaded[0m cfb v0.7.3
+[72.521s] [1m[32m  Downloaded[0m binrw_derive v0.12.0
+[72.528s] [1m[32m  Downloaded[0m binrw v0.12.0
+[72.550s] [1m[32m  Downloaded[0m arrow v56.1.0
+[72.558s] [1m[32m  Downloaded[0m twox-hash v2.1.2
+[72.563s] [1m[32m  Downloaded[0m mcap v0.23.3
+[72.598s] [1m[32m  Downloaded[0m tracing-attributes v0.1.30
+[72.604s] [1m[32m  Downloaded[0m unicode-ident v1.0.19
+[72.609s] [1m[32m  Downloaded[0m tiny-keccak v2.0.2
+[72.616s] [1m[32m  Downloaded[0m quote v1.0.41
+[72.617s] [1m[32m  Downloaded[0m pin-project-internal v1.1.10
+[72.621s] [1m[32m  Downloaded[0m peg v0.8.5
+[72.628s] [1m[32m  Downloaded[0m memmap2 v0.9.8
+[72.632s] [1m[32m  Downloaded[0m litemap v0.8.0
+[72.637s] [1m[32m  Downloaded[0m icu_provider v2.0.0
+[72.642s] [1m[32m  Downloaded[0m icu_properties v2.0.1
+[72.650s] [1m[32m  Downloaded[0m icu_normalizer v2.0.0
+[72.654s] [1m[32m  Downloaded[0m half v2.6.0
+[72.658s] [1m[32m  Downloaded[0m serde-xml-rs v0.6.0
+[72.663s] [1m[32m  Downloaded[0m puffin v0.19.1
+[72.668s] [1m[32m  Downloaded[0m prost-derive v0.14.1
+[72.670s] [1m[32m  Downloaded[0m ply-rs-bw v2.0.3
+[72.677s] [1m[32m  Downloaded[0m pkg-config v0.3.32
+[72.683s] [1m[32m  Downloaded[0m peg-macros v0.8.5
+[72.683s] [1m[32m  Downloaded[0m num-rational v0.4.2
+[72.686s] [1m[32m  Downloaded[0m num-complex v0.4.6
+[72.690s] [1m[32m  Downloaded[0m mp4ra-rust v0.3.0
+[72.693s] [1m[32m  Downloaded[0m mime_guess2 v2.3.1
+[72.696s] [1m[32m  Downloaded[0m zune-core v0.4.12
+[72.700s] [1m[32m  Downloaded[0m zstd-safe v7.2.4
+[72.703s] [1m[32m  Downloaded[0m arrow-cast v56.1.0
+[72.713s] [1m[32m  Downloaded[0m try-lock v0.2.5
+[72.714s] [1m[32m  Downloaded[0m rustc-demangle v0.1.26
+[72.715s] [1m[32m  Downloaded[0m poll-promise v0.3.0
+[72.721s] [1m[32m  Downloaded[0m zerotrie v0.2.2
+[72.725s] [1m[32m  Downloaded[0m emath v0.33.0
+[72.730s] [1m[32m  Downloaded[0m arrow-row v56.2.0
+[72.733s] [1m[32m  Downloaded[0m mpeg4-audio-const v0.2.0
+[72.735s] [1m[32m  Downloaded[0m lexical-parse-integer v1.0.6
+[72.742s] [1m[32m  Downloaded[0m lexical-core v1.0.6
+[72.743s] [1m[32m  Downloaded[0m getrandom v0.2.16
+[72.753s] [1m[32m  Downloaded[0m convert_case v0.6.0
+[72.755s] [1m[32m  Downloaded[0m camino v1.2.1
+[72.756s] [1m[32m  Downloaded[0m bitstream-io v2.6.0
+[72.763s] [1m[32m  Downloaded[0m bitflags v2.9.4
+[72.768s] [1m[32m  Downloaded[0m bit-vec v0.8.0
+[72.771s] [1m[32m  Downloaded[0m serde_bytes v0.11.19
+[72.783s] [1m[32m  Downloaded[0m seq-macro v0.3.6
+[72.788s] [1m[32m  Downloaded[0m nohash-hasher v0.2.0
+[72.790s] [1m[32m  Downloaded[0m natord v1.0.9
+[72.791s] [1m[32m  Downloaded[0m log-once v0.4.1
+[72.795s] [1m[32m  Downloaded[0m hyper-timeout v0.5.2
+[72.800s] [1m[32m  Downloaded[0m http-body-util v0.1.3
+[72.802s] [1m[32m  Downloaded[0m peg-runtime v0.8.5
+[72.803s] [1m[32m  Downloaded[0m ordered-float v2.10.1
+[72.807s] [1m[32m  Downloaded[0m memory-stats v1.2.0
+[72.812s] [1m[32m  Downloaded[0m lz4 v1.28.1
+[72.816s] [1m[32m  Downloaded[0m glob v0.3.3
+[72.819s] [1m[32m  Downloaded[0m flatbuffers v25.9.23
+[72.825s] [1m[32m  Downloaded[0m enumset v1.1.10
+[72.832s] [1m[32m  Downloaded[0m const-random v0.1.18
+[72.833s] [1m[32m  Downloaded[0m cargo_metadata v0.23.0
+[72.839s] [1m[32m  Downloaded[0m axum-core v0.5.5
+[72.847s] [1m[32m  Downloaded[0m az v1.2.1
+[72.852s] [1m[32m  Downloaded[0m tower-layer v0.3.3
+[72.852s] [1m[32m  Downloaded[0m sync_wrapper v1.0.2
+[72.856s] [1m[32m  Downloaded[0m saturating_cast v0.1.0
+[72.858s] [1m[32m  Downloaded[0m mime v0.3.17
+[72.858s] [1m[32m  Downloaded[0m find-msvc-tools v0.1.3
+[72.862s] [1m[32m  Downloaded[0m env_logger v0.11.8
+[72.868s] [1m[32m  Downloaded[0m notify-types v2.0.0
+[72.876s] [1m[32m  Downloaded[0m infer v0.16.0
+[72.880s] [1m[32m  Downloaded[0m enumset_derive v0.14.0
+[72.883s] [1m[32m  Downloaded[0m bytemuck_derive v1.10.2
+[72.888s] [1m[32m  Downloaded[0m bimap v0.6.3
+[72.891s] [1m[32m  Downloaded[0m arrow-buffer v56.2.0
+[72.901s] [1m[32m  Downloaded[0m document-features v0.2.11
+[72.905s] [1m[32m  Downloaded[0m cros-codecs v0.0.6
+[72.979s] [1m[32m  Downloaded[0m xml-rs v0.8.27
+[72.985s] [1m[32m  Downloaded[0m num v0.4.3
+[72.986s] [1m[32m  Downloaded[0m inotify-sys v0.1.5
+[72.989s] [1m[32m  Downloaded[0m httpdate v1.0.3
+[72.990s] [1m[32m  Downloaded[0m crunchy v0.2.4
+[72.991s] [1m[32m  Downloaded[0m cdr-encoding v0.10.2
+[72.993s] [1m[32m  Downloaded[0m byteorder-lite v0.1.0
+[72.994s] [1m[32m  Downloaded[0m atoi v2.0.0
+[72.999s] [1m[32m  Downloaded[0m http-body v1.0.1
+[73.000s] [1m[32m  Downloaded[0m cargo-platform v0.3.1
+[73.000s] [1m[32m  Downloaded[0m async-stream-impl v0.3.6
+[73.001s] [1m[32m  Downloaded[0m four-cc v0.4.0
+[73.002s] [1m[32m  Downloaded[0m const-random-macro v0.1.16
+[73.002s] [1m[32m  Downloaded[0m writeable v0.6.1
+[73.005s] [1m[32m  Downloaded[0m hex-slice v0.1.4
+[73.005s] [1m[32m  Downloaded[0m econtext v0.2.0
+[73.008s] [1m[32m  Downloaded[0m async-stream v0.3.6
+[73.009s] [1m[32m  Downloaded[0m arrow-string v56.2.0
+[73.011s] [1m[32m  Downloaded[0m arrow-data v56.2.0
+[73.016s] [1m[32m  Downloaded[0m arrow-arith v56.2.0
+[73.020s] [1m[32m  Downloaded[0m addr2line v0.25.1
+[73.362s] [1m[32m   Compiling[0m proc-macro2 v1.0.101
+[73.363s] [1m[32m   Compiling[0m quote v1.0.41
+[73.364s] [1m[32m   Compiling[0m unicode-ident v1.0.19
+[73.364s] [1m[32m   Compiling[0m libc v0.2.176
+[73.365s] [1m[32m   Compiling[0m cfg-if v1.0.3
+[73.366s] [1m[32m   Compiling[0m autocfg v1.5.0
+[73.369s] [1m[32m   Compiling[0m serde_core v1.0.228
+[73.373s] [1m[32m   Compiling[0m bytes v1.10.1
+[73.373s] [1m[32m   Compiling[0m libm v0.2.15
+[73.375s] [1m[32m   Compiling[0m once_cell v1.21.3
+[73.375s] [1m[32m   Compiling[0m version_check v0.9.5
+[73.376s] [1m[32m   Compiling[0m serde v1.0.228
+[73.376s] [1m[32m   Compiling[0m log v0.4.28
+[73.377s] [1m[32m   Compiling[0m hashbrown v0.16.0
+[73.377s] [1m[32m   Compiling[0m getrandom v0.3.3
+[73.377s] [1m[32m   Compiling[0m bitflags v2.9.4
+[73.379s] [1m[32m   Compiling[0m smallvec v1.15.1
+[73.379s] [1m[32m   Compiling[0m zerocopy v0.8.27
+[73.380s] [1m[32m   Compiling[0m memchr v2.7.6
+[73.380s] [1m[32m   Compiling[0m pin-project-lite v0.2.16
+[73.382s] [1m[32m   Compiling[0m anyhow v1.0.100
+[73.382s] [1m[32m   Compiling[0m iana-time-zone v0.1.64
+[73.388s] [1m[32m   Compiling[0m typenum v1.19.0
+[73.391s] [1m[32m   Compiling[0m itoa v1.0.15
+[73.391s] [1m[32m   Compiling[0m thiserror v2.0.17
+[73.391s] [1m[32m   Compiling[0m lexical-util v1.0.7
+[73.392s] [1m[32m   Compiling[0m parking_lot_core v0.9.12
+[73.586s] [1m[32m   Compiling[0m byteorder v1.5.0
+[73.700s] [1m[32m   Compiling[0m scopeguard v1.2.0
+[73.761s] [1m[32m   Compiling[0m base64 v0.22.1
+[73.804s] [1m[32m   Compiling[0m arrow-schema v56.2.0
+[73.836s] [1m[32m   Compiling[0m regex-syntax v0.8.6
+[73.991s] [1m[32m   Compiling[0m lock_api v0.4.14
+[74.008s] [1m[32m   Compiling[0m ryu v1.0.20
+[74.033s] [1m[32m   Compiling[0m either v1.15.0
+[74.228s] [1m[32m   Compiling[0m tracing-core v0.1.34
+[74.267s] [1m[32m   Compiling[0m ahash v0.8.12
+[74.339s] [1m[32m   Compiling[0m lexical-write-integer v1.0.6
+[74.361s] [1m[32m   Compiling[0m lexical-parse-integer v1.0.6
+[74.407s] [1m[32m   Compiling[0m fnv v1.0.7
+[74.452s] [1m[32m   Compiling[0m utf8parse v0.2.2
+[74.487s] [1m[32m   Compiling[0m num-traits v0.2.19
+[74.585s] [1m[32m   Compiling[0m litrs v0.4.2
+[74.615s] [1m[32m   Compiling[0m crossbeam-utils v0.8.21
+[74.645s] [1m[32m   Compiling[0m futures-core v0.3.31
+[74.678s] [1m[32m   Compiling[0m anstyle-parse v0.2.7
+[74.703s] [1m[32m   Compiling[0m anstyle v1.0.13
+[74.825s] [1m[32m   Compiling[0m is_terminal_polyfill v1.70.1
+[74.954s] [1m[32m   Compiling[0m lexical-parse-float v1.0.6
+[75.001s] [1m[32m   Compiling[0m lexical-write-float v1.0.6
+[75.020s] [1m[32m   Compiling[0m anstyle-query v1.1.4
+[75.052s] [1m[32m   Compiling[0m stable_deref_trait v1.2.0
+[75.121s] [1m[32m   Compiling[0m aho-corasick v1.1.3
+[75.125s] [1m[32m   Compiling[0m colorchoice v1.0.4
+[75.159s] [1m[32m   Compiling[0m static_assertions v1.1.0
+[75.184s] [1m[32m   Compiling[0m itertools v0.10.5
+[75.236s] [1m[32m   Compiling[0m itertools v0.14.0
+[75.256s] [1m[32m   Compiling[0m env_filter v0.1.3
+[75.283s] [1m[32m   Compiling[0m jiff v0.2.15
+[75.372s] [1m[32m   Compiling[0m anstream v0.6.21
+[75.570s] [1m[32m   Compiling[0m generic-array v0.14.7
+[75.603s] [1m[32m   Compiling[0m log-once v0.4.1
+[75.609s] [1m[32m   Compiling[0m serde_json v1.0.145
+[75.644s] [1m[32m   Compiling[0m unicode-segmentation v1.12.0
+[75.671s] [1m[32m   Compiling[0m rustix v1.1.2
+[75.700s] [1m[32m   Compiling[0m equivalent v1.0.2
+[75.727s] [1m[32m   Compiling[0m document-features v0.2.11
+[75.800s] [1m[32m   Compiling[0m web-time v1.1.0
+[75.856s] [1m[32m   Compiling[0m lexical-core v1.0.6
+[75.946s] [1m[32m   Compiling[0m indexmap v2.11.4
+[75.996s] [1m[32m   Compiling[0m http v1.3.1
+[76.030s] [1m[32m   Compiling[0m linux-raw-sys v0.11.0
+[76.168s] [1m[32m   Compiling[0m nohash-hasher v0.2.0
+[76.386s] [1m[32m   Compiling[0m convert_case v0.6.0
+[76.723s] [1m[32m   Compiling[0m futures-sink v0.3.31
+[76.851s] [1m[32m   Compiling[0m az v1.2.1
+[76.894s] [1m[32m   Compiling[0m re_case v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_case)
+[76.938s] [1m[32m   Compiling[0m re_error v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_error)
+[77.209s] [1m[32m   Compiling[0m camino v1.2.1
+[77.330s] [1m[32m   Compiling[0m unicode-width v0.2.2
+[77.424s] [1m[32m   Compiling[0m slab v0.4.11
+[77.509s] [1m[32m   Compiling[0m shlex v1.3.0
+[77.555s] [1m[32m   Compiling[0m writeable v0.6.1
+[77.576s] [1m[32m   Compiling[0m fixed v1.29.0
+[77.703s] [1m[32m   Compiling[0m regex-automata v0.4.11
+[77.737s] [1m[32m   Compiling[0m http-body v1.0.1
+[77.819s] [1m[32m   Compiling[0m litemap v0.8.0
+[77.864s] [1m[32m   Compiling[0m tower-service v0.3.3
+[77.882s] [1m[32m   Compiling[0m find-msvc-tools v0.1.3
+[77.922s] [1m[32m   Compiling[0m pin-utils v0.1.0
+[78.037s] [1m[32m   Compiling[0m crossbeam-epoch v0.9.18
+[78.038s] [1m[32m   Compiling[0m crossbeam-channel v0.5.15
+[78.172s] [1m[32m   Compiling[0m crypto-common v0.1.6
+[78.245s] [1m[32m   Compiling[0m block-buffer v0.10.4
+[78.318s] [1m[32m   Compiling[0m mime v0.3.17
+[78.340s] [1m[32m   Compiling[0m zeroize v1.8.2
+[78.365s] [1m[32m   Compiling[0m futures-task v0.3.31
+[78.393s] [1m[32m   Compiling[0m icu_normalizer_data v2.0.0
+[78.411s] [1m[32m   Compiling[0m digest v0.10.7
+[78.432s] [1m[32m   Compiling[0m percent-encoding v2.3.2
+[78.572s] [1m[32m   Compiling[0m syn v2.0.106
+[78.639s] [1m[32m   Compiling[0m crossbeam-deque v0.8.6
+[78.664s] [1m[32m   Compiling[0m icu_properties_data v2.0.1
+[78.749s] [1m[32m   Compiling[0m same-file v1.0.6
+[78.770s] [1m[32m   Compiling[0m cpufeatures v0.2.17
+[78.792s] [1m[32m   Compiling[0m httparse v1.10.1
+[78.798s] [1m[32m   Compiling[0m futures-util v0.3.31
+[78.913s] [1m[32m   Compiling[0m mio v1.0.4
+[78.933s] [1m[32m   Compiling[0m socket2 v0.6.0
+[78.956s] [1m[32m   Compiling[0m sha2 v0.10.9
+[78.983s] [1m[32m   Compiling[0m walkdir v2.5.0
+[78.984s] [1m[32m   Compiling[0m rustls-pki-types v1.12.0
+[79.056s] [1m[32m   Compiling[0m crossbeam-queue v0.3.12
+[79.106s] [1m[32m   Compiling[0m natord v1.0.9
+[79.172s] [1m[32m   Compiling[0m jobserver v0.1.34
+[79.271s] [1m[32m   Compiling[0m parking_lot v0.12.5
+[79.336s] [1m[32m   Compiling[0m clean-path v0.2.1
+[79.362s] [1m[32m   Compiling[0m unindent v0.2.4
+[79.408s] [1m[32m   Compiling[0m thiserror v1.0.69
+[79.412s] [1m[32m   Compiling[0m atomic-waker v1.1.2
+[79.449s] [1m[32m   Compiling[0m tower-layer v0.3.3
+[79.568s] [1m[32m   Compiling[0m try-lock v0.2.5
+[79.591s] [1m[32m   Compiling[0m glob v0.3.3
+[79.663s] [1m[32m   Compiling[0m crossbeam v0.8.4
+[79.757s] [1m[32m   Compiling[0m cc v1.2.40
+[79.792s] [1m[32m   Compiling[0m want v0.3.1
+[79.861s] [1m[32m   Compiling[0m futures-channel v0.3.31
+[79.880s] [1m[32m   Compiling[0m httpdate v1.0.3
+[79.924s] [1m[32m   Compiling[0m puffin v0.19.1
+[79.925s] [1m[32m   Compiling[0m crossterm v0.29.0
+[79.972s] [1m[32m   Compiling[0m rustls v0.23.32
+[79.975s] [1m[32m   Compiling[0m untrusted v0.9.0
+[79.992s] [1m[32m   Compiling[0m sync_wrapper v1.0.2
+[80.116s] [1m[32m   Compiling[0m http-body-util v0.1.3
+[80.161s] [1m[32m   Compiling[0m rustls-webpki v0.103.7
+[80.188s] [1m[32m   Compiling[0m simd-adler32 v0.3.7
+[80.284s] [1m[32m   Compiling[0m num-integer v0.1.46
+[80.349s] [1m[32m   Compiling[0m num-complex v0.4.6
+[80.380s] [1m[32m   Compiling[0m chrono v0.4.42
+[80.404s] [1m[32m   Compiling[0m atoi v2.0.0
+[80.461s] [1m[32m   Compiling[0m adler2 v2.0.1
+[80.517s] [1m[32m   Compiling[0m subtle v2.6.1
+[80.572s] [1m[32m   Compiling[0m re_span v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_span)
+[80.626s] [1m[32m   Compiling[0m rand_core v0.9.3
+[80.656s] [1m[32m   Compiling[0m miniz_oxide v0.8.9
+[80.686s] [1m[32m   Compiling[0m crc32fast v1.5.0
+[80.688s] [1m[32m   Compiling[0m siphasher v1.0.1
+[80.764s] [1m[32m   Compiling[0m ppv-lite86 v0.2.21
+[80.809s] [1m[32m   Compiling[0m comfy-table v7.2.1
+[80.847s] [1m[32m   Compiling[0m num-bigint v0.4.6
+[80.902s] [1m[32m   Compiling[0m num-iter v0.1.45
+[80.947s] [1m[32m   Compiling[0m re_tracing v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_tracing)
+[81.105s] [1m[32m   Compiling[0m axum-core v0.5.5
+[81.201s] [1m[32m   Compiling[0m semver v1.0.27
+[81.264s] [1m[32m   Compiling[0m unicase v2.8.1
+[81.271s] [1m[32m   Compiling[0m openssl-probe v0.1.6
+[81.323s] [1m[32m   Compiling[0m utf8_iter v1.0.4
+[81.394s] [1m[32m   Compiling[0m matchit v0.8.4
+[81.511s] [1m[32m   Compiling[0m pkg-config v0.3.32
+[81.546s] [1m[32m   Compiling[0m rustls-native-certs v0.8.1
+[81.620s] [1m[32m   Compiling[0m form_urlencoded v1.2.2
+[81.655s] [1m[32m   Compiling[0m rand_chacha v0.9.0
+[81.709s] [1m[32m   Compiling[0m phf_shared v0.11.3
+[81.745s] [1m[32m   Compiling[0m ident_case v1.0.1
+[81.772s] [1m[32m   Compiling[0m four-cc v0.4.0
+[82.023s] [1m[32m   Compiling[0m mp4ra-rust v0.3.0
+[82.043s] [1m[32m   Compiling[0m phf v0.11.3
+[82.069s] [1m[32m   Compiling[0m matrixmultiply v0.3.10
+[82.071s] [1m[32m   Compiling[0m peg-runtime v0.8.5
+[82.131s] [1m[32m   Compiling[0m rand v0.9.2
+[82.453s] [1m[32m   Compiling[0m regex v1.11.3
+[82.601s] [1m[32m   Compiling[0m cfg_aliases v0.2.1
+[82.645s] [1m[32m   Compiling[0m syn v1.0.109
+[82.663s] [1m[32m   Compiling[0m mpeg4-audio-const v0.2.0
+[82.663s] [1m[32m   Compiling[0m paste v1.0.15
+[82.760s] [1m[32m   Compiling[0m object v0.37.3
+[82.787s] [1m[32m   Compiling[0m peg-macros v0.8.5
+[82.913s] [1m[32m   Compiling[0m rfc6381-codec v0.2.0
+[82.989s] [1m[32m   Compiling[0m mime_guess2 v2.3.1
+[83.021s] [1m[32m   Compiling[0m gimli v0.32.3
+[83.022s] [1m[32m   Compiling[0m hex-slice v0.1.4
+[83.062s] [1m[32m   Compiling[0m array-init v2.1.0
+[83.201s] [1m[32m   Compiling[0m rustc_version v0.4.1
+[83.245s] [1m[32m   Compiling[0m saturating_cast v0.1.0
+[83.272s] [1m[32m   Compiling[0m zstd-safe v7.2.4
+[83.361s] [1m[32m   Compiling[0m econtext v0.2.0
+[83.441s] [1m[32m   Compiling[0m zune-core v0.4.12
+[83.531s] [1m[32m   Compiling[0m zstd-sys v2.0.16+zstd.1.5.7
+[83.555s] [1m[32m   Compiling[0m lz4-sys v1.11.1+lz4-1.10.0
+[83.744s] [1m[32m   Compiling[0m bitstream-io v2.6.0
+[83.787s] [1m[32m   Compiling[0m binrw_derive v0.12.0
+[83.809s] [1m[32m   Compiling[0m twox-hash v2.1.2
+[83.832s] [1m[32m   Compiling[0m rawpointer v0.2.1
+[84.060s] [1m[32m   Compiling[0m flatbuffers v25.9.23
+[84.126s] [1m[32m   Compiling[0m zune-jpeg v0.4.21
+[84.450s] [1m[32m   Compiling[0m flate2 v1.1.4
+[84.573s] [1m[32m   Compiling[0m poll-promise v0.3.0
+[84.611s] [1m[32m   Compiling[0m h264-reader v0.8.0
+[84.640s] [1m[32m   Compiling[0m cros-codecs v0.0.6
+[84.848s] [1m[32m   Compiling[0m binrw v0.12.0
+[85.192s] [1m[32m   Compiling[0m bit-vec v0.8.0
+[85.279s] [1m[32m   Compiling[0m glam v0.30.8
+[85.305s] [1m[32m   Compiling[0m weezl v0.1.10
+[85.510s] [1m[32m   Compiling[0m byteorder-lite v0.1.0
+[85.546s] [1m[32m   Compiling[0m rustc-demangle v0.1.26
+[85.635s] [1m[32m   Compiling[0m owo-colors v3.5.0
+[85.727s] [1m[32m   Compiling[0m jpeg-decoder v0.3.2
+[85.744s] [1m[32m   Compiling[0m emath v0.33.0
+[85.849s] [1m[32m   Compiling[0m lz4_flex v0.12.0
+[85.903s] [1m[32m   Compiling[0m rayon-core v1.13.0
+[85.997s] [1m[32m   Compiling[0m snap v1.1.1
+[86.083s] [1m[32m   Compiling[0m ordered-float v2.10.1
+[86.106s] [1m[32m   Compiling[0m inotify-sys v0.1.5
+[86.128s] [1m[32m   Compiling[0m env_logger v0.11.8
+[87.116s] [1m[32m   Compiling[0m synstructure v0.13.2
+[87.160s] [1m[32m   Compiling[0m darling_core v0.21.3
+[87.161s] [1m[32m   Compiling[0m ecolor v0.33.0
+[87.163s] [1m[32m   Compiling[0m num_cpus v1.17.0
+[87.365s] [1m[32m   Compiling[0m integer-encoding v3.0.4
+[87.410s] [1m[32m   Compiling[0m xml-rs v0.8.27
+[87.508s] [1m[32m   Compiling[0m bimap v0.6.3
+[87.647s] [1m[32m   Compiling[0m ndarray v0.16.1
+[87.703s] [1m[32m   Compiling[0m tiff v0.9.1
+[87.792s] [1m[32m   Compiling[0m thrift v0.17.0
+[87.897s] [1m[32m   Compiling[0m peg v0.8.5
+[88.043s] [1m[32m   Compiling[0m ply-rs-bw v2.0.3
+[88.068s] [1m[32m   Compiling[0m inotify v0.11.0
+[88.069s] [1m[32m   Compiling[0m serde_bytes v0.11.19
+[88.505s] [1m[32m   Compiling[0m addr2line v0.25.1
+[88.579s] [1m[32m   Compiling[0m memory-stats v1.2.0
+[88.605s] [1m[32m   Compiling[0m sysinfo v0.30.13
+[88.879s] [1m[32m   Compiling[0m RustyXML v0.3.0
+[88.906s] [1m[32m   Compiling[0m hashbrown v0.15.5
+[89.211s] [1m[32m   Compiling[0m seq-macro v0.3.6
+[89.237s] [1m[32m   Compiling[0m unicode-xid v0.2.6
+[89.274s] [1m[32m   Compiling[0m notify-types v2.0.0
+[89.409s] [1m[32m   Compiling[0m const_format_proc_macros v0.2.34
+[89.510s] [1m[32m   Compiling[0m rayon v1.11.0
+[89.599s] [1m[32m   Compiling[0m tower-http v0.6.6
+[89.767s] [1m[32m   Compiling[0m notify v8.2.0
+[89.978s] [1m[32m   Compiling[0m memmap2 v0.9.8
+[91.210s] [1m[32m   Compiling[0m serde_derive v1.0.228
+[91.211s] [1m[32m   Compiling[0m bytemuck_derive v1.10.2
+[91.250s] [1m[32m   Compiling[0m tracing-attributes v0.1.30
+[91.252s] [1m[32m   Compiling[0m thiserror-impl v2.0.17
+[91.290s] [1m[32m   Compiling[0m zerofrom-derive v0.1.6
+[91.439s] [1m[32m   Compiling[0m yoke-derive v0.8.0
+[91.544s] [1m[32m   Compiling[0m tokio-macros v2.5.0
+[91.671s] [1m[32m   Compiling[0m zerovec-derive v0.11.1
+[92.141s] [1m[32m   Compiling[0m displaydoc v0.2.5
+[92.611s] [1m[32m   Compiling[0m num-derive v0.4.2
+[93.166s] [1m[32m   Compiling[0m thiserror-impl v1.0.69
+[93.311s] [1m[32m   Compiling[0m prost-derive v0.14.1
+[93.917s] [1m[32m   Compiling[0m pin-project-internal v1.1.10
+[94.971s] [1m[32m   Compiling[0m async-trait v0.1.89
+[95.198s] [1m[32m   Compiling[0m darling_macro v0.21.3
+[95.439s] [1m[32m   Compiling[0m backtrace v0.3.76
+[95.480s] [1m[32m   Compiling[0m serde_repr v0.1.20
+[95.567s] [1m[32m   Compiling[0m async-stream-impl v0.3.6
+[96.563s] [1m[32m   Compiling[0m const_format v0.2.35
+[97.488s] [1m[32m   Compiling[0m tokio v1.47.1
+[98.386s] [1m[32m   Compiling[0m macaw v0.30.0
+[101.426s] [1m[32m   Compiling[0m bytemuck v1.24.0
+[101.521s] [1m[32m   Compiling[0m tokio-util v0.7.16
+[101.523s] [1m[32m   Compiling[0m tokio-rustls v0.26.2
+[101.672s] [1m[32m   Compiling[0m half v2.6.0
+[101.673s] [1m[32m   Compiling[0m image v0.25.6
+[101.827s] [1m[32m   Compiling[0m tracing v0.1.41
+[101.915s] [1m[32m   Compiling[0m async-stream v0.3.6
+[102.023s] [1m[32m   Compiling[0m re_format v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_format)
+[102.038s] [1m[32m   Compiling[0m re_log v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_log)
+[102.070s] [1m[32m   Compiling[0m h2 v0.4.12
+[102.071s] [1m[32m   Compiling[0m tower v0.5.2
+[102.072s] [1m[32m   Compiling[0m tokio-stream v0.1.17
+[102.306s] [1m[32m   Compiling[0m re_memory v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_memory)
+[102.821s] [1m[32m   Compiling[0m pin-project v1.1.10
+[102.912s] [1m[32m   Compiling[0m zerofrom v0.1.6
+[103.020s] [1m[32m   Compiling[0m yoke v0.8.0
+[103.141s] [1m[32m   Compiling[0m lz4 v1.28.1
+[103.200s] [1m[32m   Compiling[0m zerovec v0.11.4
+[103.202s] [1m[32m   Compiling[0m zerotrie v0.2.2
+[103.225s] [1m[32m   Compiling[0m axum v0.8.6
+[103.731s] [1m[32m   Compiling[0m prost v0.14.1
+[103.858s] [1m[32m   Compiling[0m darling v0.21.3
+[103.943s] [1m[32m   Compiling[0m enumset_derive v0.14.0
+[103.963s] [1m[32m   Compiling[0m zstd v0.13.3
+[104.344s] [1m[32m   Compiling[0m prost-types v0.14.1
+[104.728s] [1m[32m   Compiling[0m tinystr v0.8.1
+[104.730s] [1m[32m   Compiling[0m potential_utf v0.1.3
+[104.933s] [1m[32m   Compiling[0m icu_collections v2.0.0
+[104.946s] [1m[32m   Compiling[0m cargo-platform v0.3.1
+[104.962s] [1m[32m   Compiling[0m num-rational v0.4.2
+[104.964s] [1m[32m   Compiling[0m re_string_interner v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_string_interner)
+[104.966s] [1m[32m   Compiling[0m uuid v1.18.1
+[104.968s] [1m[32m   Compiling[0m re_ros_msg v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_ros_msg)
+[104.970s] [1m[32m   Compiling[0m cdr-encoding v0.10.2
+[104.971s] [1m[32m   Compiling[0m serde-xml-rs v0.6.0
+[104.972s] [1m[32m   Compiling[0m quick-xml v0.36.2
+[105.052s] [1m[32m   Compiling[0m icu_locale_core v2.0.0
+[105.252s] [1m[32m   Compiling[0m cargo_metadata v0.23.0
+[105.627s] [1m[32m   Compiling[0m num v0.4.3
+[105.630s] [1m[32m   Compiling[0m re_mp4 v0.4.0
+[105.675s] [1m[32m   Compiling[0m cfb v0.7.3
+[105.747s] [1m[32m   Compiling[0m arrow-buffer v56.2.0
+[106.254s] [1m[32m   Compiling[0m icu_provider v2.0.0
+[106.434s] [1m[32m   Compiling[0m prost-reflect v0.16.2
+[106.673s] [1m[32m   Compiling[0m icu_normalizer v2.0.0
+[106.675s] [1m[32m   Compiling[0m icu_properties v2.0.1
+[106.738s] [1m[32m   Compiling[0m arrow-data v56.2.0
+[106.756s] [1m[32m   Compiling[0m infer v0.16.0
+[107.030s] [1m[32m   Compiling[0m re_build_tools v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/build/re_build_tools)
+[107.577s] [1m[32m   Compiling[0m enumset v1.1.10
+[107.698s] [1m[32m   Compiling[0m re_video v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_video)
+[107.700s] [1m[32m   Compiling[0m re_sdk v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/top/re_sdk)
+[107.702s] [1m[32m   Compiling[0m rerun_c v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/top/rerun_c)
+[108.030s] [1m[32m   Compiling[0m arrow-array v56.2.0
+[108.116s] [1m[32m   Compiling[0m urdf-rs v0.9.0
+[108.375s] [1m[32m   Compiling[0m idna_adapter v1.2.1
+[108.534s] [1m[32m   Compiling[0m idna v1.1.0
+[108.670s] [1m[32m   Compiling[0m hyper v1.7.0
+[109.195s] [1m[32m   Compiling[0m url v2.5.7
+[109.256s] [1m[32m   Compiling[0m mcap v0.23.3
+[110.523s] [1m[32m   Compiling[0m hyper-util v0.1.17
+[111.247s] [1m[32m   Compiling[0m arrow-select v56.2.0
+[111.247s] [1m[32m   Compiling[0m arrow-arith v56.2.0
+[111.248s] [1m[32m   Compiling[0m arrow-row v56.2.0
+[112.482s] [1m[32m   Compiling[0m hyper-timeout v0.5.2
+[112.661s] [1m[32m   Compiling[0m tonic v0.14.2
+[113.145s] [1m[32m   Compiling[0m arrow-cast v56.1.0
+[113.148s] [1m[32m   Compiling[0m arrow-ipc v56.2.0
+[113.148s] [1m[32m   Compiling[0m arrow-ord v56.2.0
+[113.149s] [1m[32m   Compiling[0m arrow-string v56.2.0
+[114.794s] [1m[32m   Compiling[0m tonic-prost v0.14.2
+[114.794s] [1m[32m   Compiling[0m tonic-web v0.14.2
+[115.905s] [1m[32m   Compiling[0m arrow v56.1.0
+[115.905s] [1m[32m   Compiling[0m parquet v56.1.0
+[116.053s] [1m[32m   Compiling[0m re_byte_size v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_byte_size)
+[116.179s] [1m[32m   Compiling[0m re_tuid v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_tuid)
+[116.179s] [1m[32m   Compiling[0m re_build_info v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/build/re_build_info)
+[116.315s] [1m[32m   Compiling[0m re_types_core v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_types_core)
+[116.422s] [1m[32m   Compiling[0m re_crash_handler v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_crash_handler)
+[117.647s] [1m[32m   Compiling[0m re_arrow_util v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_arrow_util)
+[118.121s] [1m[32m   Compiling[0m re_log_types v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_log_types)
+[118.121s] [1m[32m   Compiling[0m re_arrow_combinators v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_arrow_combinators)
+[119.522s] [1m[32m   Compiling[0m re_sorbet v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_sorbet)
+[119.523s] [1m[32m   Compiling[0m re_uri v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_uri)
+[119.890s] [1m[32m   Compiling[0m re_smart_channel v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_smart_channel)
+[120.505s] [1m[32m   Compiling[0m re_chunk v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_chunk)
+[120.506s] [1m[32m   Compiling[0m re_types v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_types)
+[121.949s] [1m[32m   Compiling[0m re_protos v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_protos)
+[124.586s] [1m[32m   Compiling[0m re_log_encoding v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_log_encoding)
+[125.389s] [1m[32m   Compiling[0m re_grpc_client v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_grpc_client)
+[129.476s] [1m[32m   Compiling[0m re_mcap v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/utils/re_mcap)
+[129.477s] [1m[32m   Compiling[0m re_grpc_server v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_grpc_server)
+[131.494s] [1m[32m   Compiling[0m re_data_loader v0.27.3 (/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-src/crates/store/re_data_loader)
+[143.315s] -- arrow_cpp build command succeeded.  See also /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-build/rerun_cpp/arrow/src/arrow_cpp-stamp/arrow_cpp-build-*.log
+[143.362s] [ 19%] [34m[1mPerforming install step for 'arrow_cpp'[0m
+[146.307s] -- arrow_cpp install command succeeded.  See also /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/_deps/rerun-build/rerun_cpp/arrow/src/arrow_cpp-stamp/arrow_cpp-install-*.log
+[146.348s] [ 19%] [34m[1mCompleted 'arrow_cpp'[0m
+[146.417s] [ 19%] Built target arrow_cpp
+[192.004s] [1m[32m    Finished[0m ]8;;https://doc.rust-lang.org/cargo/reference/profiles.html#default-profiles\`release` profile [optimized]]8;;\ target(s) in 2m 05s
+[192.225s] [ 19%] Built target rerun_c_build
+[192.338s] [ 19%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/arrows3d_ext.cpp.o[0m
+[192.338s] [ 19%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/boxes3d.cpp.o[0m
+[192.346s] [ 19%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/annotation_context.cpp.o[0m
+[192.347s] [ 19%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/arrows2d.cpp.o[0m
+[192.350s] [ 20%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/asset3d_ext.cpp.o[0m
+[192.351s] [ 21%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/bar_chart_ext.cpp.o[0m
+[192.351s] [ 21%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/asset3d.cpp.o[0m
+[192.352s] [ 21%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/boxes3d_ext.cpp.o[0m
+[192.352s] [ 21%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/asset_video_ext.cpp.o[0m
+[192.353s] [ 21%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/asset_video.cpp.o[0m
+[192.354s] [ 21%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/capsules3d.cpp.o[0m
+[192.355s] [ 22%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/capsules3d_ext.cpp.o[0m
+[192.359s] [ 22%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/arrows3d.cpp.o[0m
+[192.362s] [ 21%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/boxes2d_ext.cpp.o[0m
+[192.362s] [ 21%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/arrows2d_ext.cpp.o[0m
+[192.363s] [ 22%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/clear.cpp.o[0m
+[192.363s] [ 22%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/clear_ext.cpp.o[0m
+[192.366s] [ 21%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/bar_chart.cpp.o[0m
+[192.368s] [ 22%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/boxes2d.cpp.o[0m
+[192.369s] [ 22%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/coordinate_frame.cpp.o[0m
+[192.369s] [ 22%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/encoded_image_ext.cpp.o[0m
+[192.370s] [ 22%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/ellipsoids3d.cpp.o[0m
+[192.370s] [ 23%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/depth_image_ext.cpp.o[0m
+[192.370s] [ 23%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/cylinders3d.cpp.o[0m
+[192.371s] [ 23%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/depth_image.cpp.o[0m
+[192.372s] [ 23%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/cylinders3d_ext.cpp.o[0m
+[192.372s] [ 23%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/encoded_image.cpp.o[0m
+[192.372s] [ 23%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/ellipsoids3d_ext.cpp.o[0m
+[192.387s] [ 23%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/geo_points.cpp.o[0m
+[192.387s] [ 23%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/geo_line_strings.cpp.o[0m
+[192.388s] [ 24%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/geo_points_ext.cpp.o[0m
+[193.321s] [ 24%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/graph_edges.cpp.o[0m
+[193.324s] [ 24%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/graph_nodes.cpp.o[0m
+[193.343s] [ 24%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/image.cpp.o[0m
+[193.369s] [ 24%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/image_ext.cpp.o[0m
+[193.412s] [ 24%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/instance_poses3d.cpp.o[0m
+[193.470s] [ 25%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/line_strips2d.cpp.o[0m
+[193.576s] [ 25%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/line_strips3d.cpp.o[0m
+[193.582s] [ 25%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/mcap_channel.cpp.o[0m
+[193.595s] [ 25%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/mcap_message.cpp.o[0m
+[193.682s] [ 25%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/mcap_schema.cpp.o[0m
+[193.685s] [ 25%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/mesh3d.cpp.o[0m
+[193.691s] [ 25%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/mcap_statistics.cpp.o[0m
+[193.702s] [ 26%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/pinhole.cpp.o[0m
+[193.768s] [ 26%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/pinhole_ext.cpp.o[0m
+[193.845s] [ 26%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/points2d.cpp.o[0m
+[193.857s] [ 26%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/points3d.cpp.o[0m
+[193.879s] [ 26%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/recording_info.cpp.o[0m
+[193.883s] [ 26%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/scalars.cpp.o[0m
+[193.891s] [ 27%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/segmentation_image.cpp.o[0m
+[193.913s] [ 27%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/segmentation_image_ext.cpp.o[0m
+[193.930s] [ 27%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/series_lines.cpp.o[0m
+[193.934s] [ 27%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/series_lines_ext.cpp.o[0m
+[193.949s] [ 27%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/series_points.cpp.o[0m
+[193.955s] [ 27%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/series_points_ext.cpp.o[0m
+[193.965s] [ 27%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/tensor.cpp.o[0m
+[193.974s] [ 28%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/tensor_ext.cpp.o[0m
+[193.990s] [ 28%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/text_document.cpp.o[0m
+[194.003s] [ 28%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/text_log.cpp.o[0m
+[194.031s] [ 28%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/transform3d.cpp.o[0m
+[194.046s] [ 28%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/transform3d_ext.cpp.o[0m
+[194.071s] [ 28%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/video_frame_reference.cpp.o[0m
+[194.487s] [ 28%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/video_stream.cpp.o[0m
+[194.675s] [ 29%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/view_coordinates.cpp.o[0m
+[194.687s] [ 29%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/archetypes/view_coordinates_ext.cpp.o[0m
+[194.699s] [ 29%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/background.cpp.o[0m
+[194.711s] [ 29%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/container_blueprint.cpp.o[0m
+[194.806s] [ 29%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/dataframe_query.cpp.o[0m
+[194.856s] [ 29%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/entity_behavior.cpp.o[0m
+[194.873s] [ 30%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/eye_controls3d.cpp.o[0m
+[194.897s] [ 30%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/force_center.cpp.o[0m
+[194.912s] [ 30%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/force_collision_radius.cpp.o[0m
+[194.927s] [ 30%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/force_link.cpp.o[0m
+[194.967s] [ 30%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/force_many_body.cpp.o[0m
+[194.991s] [ 30%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/force_position.cpp.o[0m
+[195.059s] [ 30%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/graph_background.cpp.o[0m
+[195.067s] [ 31%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/line_grid3d.cpp.o[0m
+[195.084s] [ 31%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/map_background.cpp.o[0m
+[195.154s] [ 31%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/map_zoom.cpp.o[0m
+[195.161s] [ 31%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/near_clip_plane.cpp.o[0m
+[195.163s] [ 31%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/panel_blueprint.cpp.o[0m
+[195.172s] [ 31%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/plot_background.cpp.o[0m
+[195.176s] [ 32%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/plot_legend.cpp.o[0m
+[195.183s] [ 32%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/scalar_axis.cpp.o[0m
+[195.193s] [ 32%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/spatial_information.cpp.o[0m
+[195.368s] [ 32%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/tensor_scalar_mapping.cpp.o[0m
+[195.370s] [ 32%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/tensor_slice_selection.cpp.o[0m
+[195.501s] [ 32%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/tensor_view_fit.cpp.o[0m
+[195.540s] [ 32%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/time_axis.cpp.o[0m
+[195.666s] [ 33%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/time_panel_blueprint.cpp.o[0m
+[195.684s] [ 33%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/view_blueprint.cpp.o[0m
+[195.823s] [ 33%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/view_contents.cpp.o[0m
+[195.920s] [ 33%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/viewport_blueprint.cpp.o[0m
+[195.981s] [ 33%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/visible_time_ranges.cpp.o[0m
+[196.013s] [ 33%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/visual_bounds2d.cpp.o[0m
+[196.066s] [ 33%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/archetypes/visualizer_overrides.cpp.o[0m
+[196.095s] [ 34%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/background_kind.cpp.o[0m
+[196.109s] [ 34%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/container_kind.cpp.o[0m
+[196.119s] [ 34%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/corner2d.cpp.o[0m
+[196.131s] [ 34%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/eye3d_kind.cpp.o[0m
+[196.150s] [ 34%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/link_axis.cpp.o[0m
+[196.166s] [ 34%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/loop_mode.cpp.o[0m
+[196.201s] [ 35%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/map_provider.cpp.o[0m
+[196.221s] [ 35%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/panel_state.cpp.o[0m
+[196.242s] [ 35%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/play_state.cpp.o[0m
+[196.294s] [ 35%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/components/view_fit.cpp.o[0m
+[196.306s] [ 35%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/datatypes/component_column_selector.cpp.o[0m
+[196.315s] [ 35%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/datatypes/filter_by_range.cpp.o[0m
+[196.331s] [ 35%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/datatypes/filter_is_not_null.cpp.o[0m
+[196.360s] [ 36%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/datatypes/selected_columns.cpp.o[0m
+[196.373s] [ 36%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/blueprint/datatypes/tensor_dimension_index_slider.cpp.o[0m
+[196.378s] [ 36%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/component_batch.cpp.o[0m
+[196.590s] [ 36%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/component_column.cpp.o[0m
+[196.619s] [ 36%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/component_type_registry.cpp.o[0m
+[196.623s] [ 36%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/component_type.cpp.o[0m
+[196.634s] [ 36%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/aggregation_policy.cpp.o[0m
+[196.883s] [ 37%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/annotation_context.cpp.o[0m
+[196.917s] [ 37%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/annotation_context_ext.cpp.o[0m
+[196.976s] [ 37%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/channel_message_counts.cpp.o[0m
+[196.996s] [ 37%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/color_ext.cpp.o[0m
+[197.091s] [ 37%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/colormap.cpp.o[0m
+[197.134s] [ 37%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/entity_path_ext.cpp.o[0m
+[197.177s] [ 37%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/geo_line_string.cpp.o[0m
+[197.183s] [ 37%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/geo_line_string_ext.cpp.o[0m
+[197.186s] [ 38%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/fill_mode.cpp.o[0m
+[197.544s] [ 38%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/graph_edge_ext.cpp.o[0m
+[197.580s] [ 38%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/graph_node_ext.cpp.o[0m
+[197.594s] [ 38%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/graph_type.cpp.o[0m
+[197.689s] [ 39%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/half_size3d_ext.cpp.o[0m
+[197.691s] [ 39%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/half_size2d_ext.cpp.o[0m
+[197.703s] [ 39%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/image_buffer_ext.cpp.o[0m
+[197.885s] [ 39%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/image_format_ext.cpp.o[0m
+[197.929s] [ 39%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/key_value_pairs.cpp.o[0m
+[198.070s] [ 39%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/lat_lon_ext.cpp.o[0m
+[198.172s] [ 39%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/line_strip2d.cpp.o[0m
+[198.192s] [ 40%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/line_strip3d.cpp.o[0m
+[198.393s] [ 40%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/magnification_filter.cpp.o[0m
+[198.428s] [ 40%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/marker_shape.cpp.o[0m
+[198.441s] [ 40%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/media_type_ext.cpp.o[0m
+[198.449s] [ 40%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/name_ext.cpp.o[0m
+[198.481s] [ 40%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/pose_scale3d_ext.cpp.o[0m
+[198.484s] [ 40%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/pinhole_projection_ext.cpp.o[0m
+[198.488s] [ 41%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/pose_translation3d_ext.cpp.o[0m
+[198.512s] [ 41%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/position2d_ext.cpp.o[0m
+[198.524s] [ 41%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/position3d_ext.cpp.o[0m
+[198.525s] [ 41%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/resolution_ext.cpp.o[0m
+[198.526s] [ 41%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/scale3d_ext.cpp.o[0m
+[198.537s] [ 41%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/radius_ext.cpp.o[0m
+[198.563s] [ 41%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/tensor_data_ext.cpp.o[0m
+[198.582s] [ 42%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/texcoord2d_ext.cpp.o[0m
+[198.657s] [ 42%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/text_ext.cpp.o[0m
+[198.667s] [ 42%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/text_log_level_ext.cpp.o[0m
+[198.718s] [ 42%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/transform_mat3x3_ext.cpp.o[0m
+[198.719s] [ 42%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/transform_frame_id_ext.cpp.o[0m
+[198.759s] [ 42%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/transform_relation.cpp.o[0m
+[198.763s] [ 43%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/translation3d_ext.cpp.o[0m
+[198.775s] [ 43%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/triangle_indices_ext.cpp.o[0m
+[198.803s] [ 43%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/vector2d_ext.cpp.o[0m
+[198.817s] [ 43%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/vector3d_ext.cpp.o[0m
+[198.847s] [ 43%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/video_codec.cpp.o[0m
+[198.919s] [ 43%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/video_timestamp_ext.cpp.o[0m
+[198.965s] [ 43%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/components/view_coordinates_ext.cpp.o[0m
+[198.969s] [ 44%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/config.cpp.o[0m
+[198.994s] [ 44%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/absolute_time_range.cpp.o[0m
+[199.019s] [ 44%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/angle.cpp.o[0m
+[199.030s] [ 44%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/angle_ext.cpp.o[0m
+[199.038s] [ 44%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/annotation_info.cpp.o[0m
+[199.081s] [ 44%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/annotation_info_ext.cpp.o[0m
+[199.098s] [ 45%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/blob.cpp.o[0m
+[199.145s] [ 45%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/blob_ext.cpp.o[0m
+[199.170s] [ 45%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/bool.cpp.o[0m
+[199.183s] [ 45%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/channel_count_pair.cpp.o[0m
+[199.251s] [ 45%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/class_description.cpp.o[0m
+[199.252s] [ 45%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/channel_datatype.cpp.o[0m
+[199.313s] [ 45%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/class_description_ext.cpp.o[0m
+[199.447s] [ 46%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/class_description_map_elem.cpp.o[0m
+[199.474s] [ 46%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/class_description_map_elem_ext.cpp.o[0m
+[199.484s] [ 46%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/color_model.cpp.o[0m
+[199.485s] [ 46%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/class_id.cpp.o[0m
+[199.520s] [ 46%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/dvec2d.cpp.o[0m
+[199.525s] [ 46%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/dvec2d_ext.cpp.o[0m
+[199.569s] [ 46%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/entity_path.cpp.o[0m
+[199.627s] [ 47%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/float32.cpp.o[0m
+[199.636s] [ 47%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/float64.cpp.o[0m
+[199.669s] [ 47%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/image_format.cpp.o[0m
+[199.764s] [ 47%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/image_format_ext.cpp.o[0m
+[199.856s] [ 47%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/keypoint_id.cpp.o[0m
+[199.996s] [ 47%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/keypoint_pair.cpp.o[0m
+[200.030s] [ 48%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/keypoint_pair_ext.cpp.o[0m
+[200.278s] [ 48%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/mat3x3_ext.cpp.o[0m
+[200.280s] [ 48%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/mat3x3.cpp.o[0m
+[200.310s] [ 48%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/mat4x4.cpp.o[0m
+[200.452s] [ 48%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/mat4x4_ext.cpp.o[0m
+[200.512s] [ 48%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/pixel_format.cpp.o[0m
+[200.554s] [ 48%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/plane3d.cpp.o[0m
+[200.706s] [ 49%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/quaternion.cpp.o[0m
+[200.742s] [ 49%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/quaternion_ext.cpp.o[0m
+[200.765s] [ 49%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/range1d.cpp.o[0m
+[201.045s] [ 49%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/range2d.cpp.o[0m
+[201.250s] [ 49%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/rgba32.cpp.o[0m
+[201.276s] [ 49%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/rgba32_ext.cpp.o[0m
+[201.290s] [ 50%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/rotation_axis_angle.cpp.o[0m
+[201.370s] [ 50%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/rotation_axis_angle_ext.cpp.o[0m
+[201.556s] [ 50%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/tensor_buffer.cpp.o[0m
+[201.641s] [ 50%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/tensor_buffer_ext.cpp.o[0m
+[201.651s] [ 50%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/tensor_data.cpp.o[0m
+[201.664s] [ 50%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/tensor_data_ext.cpp.o[0m
+[201.701s] [ 50%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/tensor_dimension_index_selection.cpp.o[0m
+[201.743s] [ 51%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/tensor_dimension_selection.cpp.o[0m
+[201.805s] [ 51%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/time_int.cpp.o[0m
+[201.840s] [ 51%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/time_range.cpp.o[0m
+[201.854s] [ 51%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/time_range_boundary.cpp.o[0m
+[201.900s] [ 51%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/uint16.cpp.o[0m
+[201.955s] [ 51%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/uint32.cpp.o[0m
+[202.003s] [ 51%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/uint64.cpp.o[0m
+[202.019s] [ 52%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/utf8.cpp.o[0m
+[202.045s] [ 52%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/utf8_ext.cpp.o[0m
+[202.090s] [ 52%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/utf8pair.cpp.o[0m
+[202.120s] [ 52%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/utf8pair_ext.cpp.o[0m
+[202.308s] [ 52%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/uuid.cpp.o[0m
+[202.340s] [ 52%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/uvec2d.cpp.o[0m
+[202.380s] [ 53%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/uvec2d_ext.cpp.o[0m
+[202.473s] [ 53%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/uvec3d.cpp.o[0m
+[202.557s] [ 53%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/uvec3d_ext.cpp.o[0m
+[202.587s] [ 53%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/uvec4d.cpp.o[0m
+[202.613s] [ 53%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/vec2d.cpp.o[0m
+[202.684s] [ 53%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/vec2d_ext.cpp.o[0m
+[202.869s] [ 53%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/vec3d.cpp.o[0m
+[202.907s] [ 54%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/vec3d_ext.cpp.o[0m
+[203.003s] [ 54%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/vec4d.cpp.o[0m
+[203.096s] [ 54%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/vec4d_ext.cpp.o[0m
+[203.109s] [ 54%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/video_timestamp.cpp.o[0m
+[203.138s] [ 54%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/view_coordinates_ext.cpp.o[0m
+[203.151s] [ 54%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/view_coordinates.cpp.o[0m
+[203.239s] [ 54%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/datatypes/visible_time_range.cpp.o[0m
+[203.421s] [ 55%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/demo_utils.cpp.o[0m
+[203.450s] [ 55%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/entity_path.cpp.o[0m
+[203.666s] [ 55%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/error.cpp.o[0m
+[203.668s] [ 55%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/log_sink.cpp.o[0m
+[203.790s] [ 55%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/recording_stream.cpp.o[0m
+[203.790s] [ 55%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/sdk_info.cpp.o[0m
+[203.988s] [ 56%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/spawn.cpp.o[0m
+[204.083s] [ 56%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/spawn_options.cpp.o[0m
+[204.278s] [ 56%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/string_utils.cpp.o[0m
+[204.290s] [ 56%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/time_column.cpp.o[0m
+[204.326s] [ 56%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/CMakeFiles/rerun_sdk.dir/src/rerun/timeline.cpp.o[0m
+[206.622s] [ 56%] [32m[1mLinking CXX static library librerun_sdk.a[0m
+[209.309s] [ 56%] Built target rerun_sdk
+[209.378s] [ 56%] [32mBuilding CXX object CMakeFiles/rerun_node.dir/src/rerun_node.cpp.o[0m
+[209.381s] [ 56%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/custom_collection_adapter/CMakeFiles/example_custom_collection_adapter.dir/main.cpp.o[0m
+[209.383s] [ 56%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/external_data_loader/CMakeFiles/rerun-loader-cpp-file.dir/main.cpp.o[0m
+[209.385s] [ 56%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/clock/CMakeFiles/example_clock.dir/main.cpp.o[0m
+[209.387s] [ 56%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/spawn_viewer/CMakeFiles/example_spawn_viewer.dir/main.cpp.o[0m
+[209.389s] [ 56%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/minimal/CMakeFiles/example_minimal.dir/main.cpp.o[0m
+[209.389s] [ 56%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/dna/CMakeFiles/example_dna.dir/main.cpp.o[0m
+[209.390s] [ 56%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/boxes3d_simple.dir/all/archetypes/boxes3d_simple.cpp.o[0m
+[209.392s] [ 56%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/arrows3d_simple.dir/all/archetypes/arrows3d_simple.cpp.o[0m
+[209.394s] [ 57%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/clear_recursive.dir/all/archetypes/clear_recursive.cpp.o[0m
+[209.399s] [ 57%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/arrows3d_column_updates.dir/all/archetypes/arrows3d_column_updates.cpp.o[0m
+[209.400s] [ 58%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/annotation_context_segmentation.dir/all/archetypes/annotation_context_segmentation.cpp.o[0m
+[209.400s] [ 58%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/annotation_context_connections.dir/all/archetypes/annotation_context_connections.cpp.o[0m
+[209.402s] [ 58%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/arrows3d_row_updates.dir/all/archetypes/arrows3d_row_updates.cpp.o[0m
+[209.402s] [ 58%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/capsules3d_batch.dir/all/archetypes/capsules3d_batch.cpp.o[0m
+[209.403s] [ 58%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/annotation_context_rects.dir/all/archetypes/annotation_context_rects.cpp.o[0m
+[209.404s] [ 58%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/boxes2d_simple.dir/all/archetypes/boxes2d_simple.cpp.o[0m
+[209.405s] [ 58%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/arrows2d_simple.dir/all/archetypes/arrows2d_simple.cpp.o[0m
+[209.406s] [ 59%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/shared_recording/CMakeFiles/example_shared_recording.dir/main.cpp.o[0m
+[209.406s] [ 59%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/stdio/CMakeFiles/example_stdio.dir/main.cpp.o[0m
+[209.407s] [ 59%] [32mBuilding CXX object _deps/rerun-build/tests/cpp/plot_dashboard_stress/CMakeFiles/plot_dashboard_stress.dir/main.cpp.o[0m
+[209.407s] [ 59%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/log_file/CMakeFiles/example_log_file.dir/main.cpp.o[0m
+[209.407s] [ 59%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/boxes3d_batch.dir/all/archetypes/boxes3d_batch.cpp.o[0m
+[209.408s] [ 61%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/asset3d_simple.dir/all/archetypes/asset3d_simple.cpp.o[0m
+[209.408s] [ 61%] [32mBuilding CXX object _deps/rerun-build/tests/cpp/log_benchmark/CMakeFiles/log_benchmark.dir/image.cpp.o[0m
+[209.408s] [ 61%] [32mBuilding CXX object _deps/rerun-build/examples/cpp/incremental_logging/CMakeFiles/example_incremental_logging.dir/main.cpp.o[0m
+[209.409s] [ 61%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/bar_chart.dir/all/archetypes/bar_chart.cpp.o[0m
+[209.412s] [ 61%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/annotation_context.cpp.o[0m
+[212.153s] [ 62%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/arrows3d.cpp.o[0m
+[212.575s] [ 62%] [32m[1mLinking CXX executable example_spawn_viewer[0m
+[212.861s] [ 62%] [32m[1mLinking CXX executable asset3d_simple[0m
+[212.882s] [ 62%] [32m[1mLinking CXX executable boxes3d_simple[0m
+[212.988s] [ 62%] [32m[1mLinking CXX executable example_stdio[0m
+[213.031s] [ 62%] [32mBuilding CXX object _deps/rerun-build/tests/cpp/log_benchmark/CMakeFiles/log_benchmark.dir/main.cpp.o[0m
+[213.088s] [ 62%] [32m[1mLinking CXX executable example_shared_recording[0m
+[213.101s] [ 62%] [32m[1mLinking CXX executable clear_recursive[0m
+[213.138s] [ 62%] [32m[1mLinking CXX executable example_custom_collection_adapter[0m
+[213.167s] [ 62%] [32m[1mLinking CXX executable arrows3d_row_updates[0m
+[213.201s] [ 62%] [32m[1mLinking CXX executable arrows3d_simple[0m
+[213.204s] [ 62%] [32m[1mLinking CXX executable capsules3d_batch[0m
+[213.288s] [ 62%] [32m[1mLinking CXX executable boxes2d_simple[0m
+[213.297s] [ 63%] [32m[1mLinking CXX executable boxes3d_batch[0m
+[213.302s] [ 63%] [32m[1mLinking CXX executable annotation_context_connections[0m
+[213.304s] [ 63%] [32m[1mLinking CXX executable example_minimal[0m
+[213.381s] [ 63%] [32mBuilding CXX object _deps/rerun-build/tests/cpp/log_benchmark/CMakeFiles/log_benchmark.dir/points3d_large_batch.cpp.o[0m
+[213.394s] [ 63%] [32m[1mLinking CXX executable example_incremental_logging[0m
+[213.407s] [ 63%] [32m[1mLinking CXX executable arrows2d_simple[0m
+[213.427s] [ 63%] [32m[1mLinking CXX executable annotation_context_segmentation[0m
+[213.534s] [ 63%] [32m[1mLinking CXX executable example_clock[0m
+[213.598s] [ 63%] [32m[1mLinking CXX executable arrows3d_column_updates[0m
+[213.608s] [ 63%] [32m[1mLinking CXX executable bar_chart[0m
+[213.628s] [ 63%] [32m[1mLinking CXX executable annotation_context_rects[0m
+[213.741s] [ 64%] [32m[1mLinking CXX executable example_dna[0m
+[214.591s] [ 64%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/boxes2d.cpp.o[0m
+[216.706s] [ 64%] [32mBuilding CXX object _deps/rerun-build/tests/cpp/log_benchmark/CMakeFiles/log_benchmark.dir/points3d_many_individual.cpp.o[0m
+[216.754s] [ 64%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/boxes3d.cpp.o[0m
+[218.467s] [ 64%] [32m[1mLinking CXX executable example_log_file[0m
+[218.781s] [ 64%] [32m[1mLinking CXX executable rerun-loader-cpp-file[0m
+[219.503s] [ 64%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/clear.cpp.o[0m
+[219.682s] [ 65%] [32m[1mLinking CXX executable plot_dashboard_stress[0m
+[219.862s] [ 65%] [32mBuilding CXX object _deps/rerun-build/tests/cpp/log_benchmark/CMakeFiles/log_benchmark.dir/profile_scope.cpp.o[0m
+[220.064s] [ 65%] [32m[1mLinking CXX executable log_benchmark[0m
+[221.465s] [ 65%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/image.cpp.o[0m
+[226.182s] [ 65%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/lines_strips2d.cpp.o[0m
+[228.811s] [ 66%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/lines_strips3d.cpp.o[0m
+[231.426s] [ 66%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/mesh3d.cpp.o[0m
+[234.289s] [ 66%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/pinhole.cpp.o[0m
+[236.905s] [ 66%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/points2d.cpp.o[0m
+[239.612s] [ 66%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/points3d.cpp.o[0m
+[241.490s] [ 66%] [32m[1mLinking CXX executable rerun_node[0m
+[242.356s] [ 66%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/segmentation_and_depth_image.cpp.o[0m
+[245.277s] [ 66%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/tensor.cpp.o[0m
+[246.126s] [ 66%] Built target example_spawn_viewer
+[246.158s] [ 67%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/transform3d.cpp.o[0m
+[248.216s] [ 67%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/archetypes/view_coordinates.cpp.o[0m
+[248.807s] [ 68%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/clear_simple.dir/all/archetypes/clear_simple.cpp.o[0m
+[250.576s] [ 68%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/collection.cpp.o[0m
+[252.035s] [ 68%] [32m[1mLinking CXX executable clear_simple[0m
+[253.887s] [ 68%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/color.cpp.o[0m
+[255.242s] [ 68%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/component_type.cpp.o[0m
+[258.320s] [ 68%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/config.cpp.o[0m
+[261.706s] [ 68%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/archetypes/affix_fuzzer1.cpp.o[0m
+[264.286s] [ 69%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/archetypes/affix_fuzzer2.cpp.o[0m
+[266.725s] [ 69%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/archetypes/affix_fuzzer3.cpp.o[0m
+[266.857s] [ 69%] Built target example_stdio
+[266.887s] [ 69%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/archetypes/affix_fuzzer4.cpp.o[0m
+[266.964s] [ 69%] Built target asset3d_simple
+[266.993s] [ 69%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer10.cpp.o[0m
+[267.404s] [ 69%] Built target boxes3d_simple
+[267.433s] [ 69%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer11.cpp.o[0m
+[267.577s] [ 69%] Built target clear_recursive
+[267.610s] [ 69%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer12.cpp.o[0m
+[268.284s] [ 69%] Built target example_custom_collection_adapter
+[268.306s] [ 70%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer13.cpp.o[0m
+[268.379s] [ 70%] Built target example_shared_recording
+[268.397s] [ 70%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer15.cpp.o[0m
+[268.456s] [ 70%] Built target arrows3d_simple
+[268.477s] [ 70%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer16.cpp.o[0m
+[268.618s] [ 70%] Built target boxes2d_simple
+[268.645s] [ 70%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer17.cpp.o[0m
+[269.016s] [ 70%] Built target arrows2d_simple
+[269.020s] [ 70%] Built target arrows3d_row_updates
+[269.030s] [ 70%] Built target capsules3d_batch
+[269.036s] [ 70%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer18.cpp.o[0m
+[269.039s] [ 70%] Built target example_minimal
+[269.042s] [ 70%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer22.cpp.o[0m
+[269.052s] [ 71%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer4.cpp.o[0m
+[269.058s] [ 71%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer23.cpp.o[0m
+[269.061s] [ 71%] Built target boxes3d_batch
+[269.086s] [ 71%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer5.cpp.o[0m
+[269.156s] [ 71%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/coordinate_frame_builtin_frames.dir/all/archetypes/coordinate_frame_builtin_frames.cpp.o[0m
+[269.219s] [ 71%] Built target annotation_context_connections
+[269.229s] [ 72%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/cylinders3d_batch.dir/all/archetypes/cylinders3d_batch.cpp.o[0m
+[269.246s] [ 72%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer6.cpp.o[0m
+[269.309s] [ 72%] Built target arrows3d_column_updates
+[269.335s] [ 72%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer7.cpp.o[0m
+[269.348s] [ 72%] Built target example_incremental_logging
+[269.367s] [ 72%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer8.cpp.o[0m
+[269.451s] [ 72%] Built target annotation_context_rects
+[269.457s] [ 72%] Built target annotation_context_segmentation
+[269.460s] [ 72%] Built target bar_chart
+[269.465s] [ 72%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/components/affix_fuzzer9.cpp.o[0m
+[269.475s] [ 73%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/affix_fuzzer1.cpp.o[0m
+[269.483s] [ 73%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/affix_fuzzer2.cpp.o[0m
+[269.500s] [ 73%] Built target example_clock
+[269.516s] [ 73%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/affix_fuzzer20.cpp.o[0m
+[269.522s] [ 73%] Built target example_dna
+[269.573s] [ 73%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/depth_image_3d.dir/all/archetypes/depth_image_3d.cpp.o[0m
+[269.928s] [ 73%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/affix_fuzzer21.cpp.o[0m
+[270.409s] [ 73%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/depth_image_simple.dir/all/archetypes/depth_image_simple.cpp.o[0m
+[270.874s] [ 74%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/ellipsoids3d_batch.dir/all/archetypes/ellipsoids3d_batch.cpp.o[0m
+[271.474s] [ 74%] Built target example_log_file
+[271.523s] [ 74%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/encoded_image.dir/all/archetypes/encoded_image.cpp.o[0m
+[271.575s] [ 74%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/ellipsoids3d_simple.dir/all/archetypes/ellipsoids3d_simple.cpp.o[0m
+[271.610s] [ 74%] Built target rerun-loader-cpp-file
+[271.614s] [ 74%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/entity_path.dir/all/archetypes/entity_path.cpp.o[0m
+[271.619s] [ 74%] Built target log_benchmark
+[271.636s] [ 74%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/affix_fuzzer22.cpp.o[0m
+[271.649s] [ 74%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/affix_fuzzer3.cpp.o[0m
+[271.677s] [ 74%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/geo_line_strings_simple.dir/all/archetypes/geo_line_strings_simple.cpp.o[0m
+[271.708s] [ 74%] Built target plot_dashboard_stress
+[271.726s] [ 74%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/affix_fuzzer4.cpp.o[0m
+[271.768s] [ 75%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/affix_fuzzer5.cpp.o[0m
+[271.921s] [ 75%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/geo_points_simple.dir/all/archetypes/geo_points_simple.cpp.o[0m
+[271.924s] [ 75%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/enum_test.cpp.o[0m
+[271.978s] [ 75%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/flattened_scalar.cpp.o[0m
+[272.034s] [ 75%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/graph_directed.dir/all/archetypes/graph_directed.cpp.o[0m
+[272.064s] [ 75%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/graph_undirected.dir/all/archetypes/graph_undirected.cpp.o[0m
+[272.075s] [ 75%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/image_column_updates.dir/all/archetypes/image_column_updates.cpp.o[0m
+[272.080s] [ 75%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/image_formats.dir/all/archetypes/image_formats.cpp.o[0m
+[272.109s] [ 75%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/multi_enum.cpp.o[0m
+[272.241s] [ 75%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/primitive_component.cpp.o[0m
+[272.267s] [ 75%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/string_component.cpp.o[0m
+[272.347s] [ 75%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/generated/datatypes/valued_enum.cpp.o[0m
+[272.618s] [ 76%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/header_checks.cpp.o[0m
+[272.732s] [ 77%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/image_row_updates.dir/all/archetypes/image_row_updates.cpp.o[0m
+[272.957s] [ 77%] [32m[1mLinking CXX executable coordinate_frame_builtin_frames[0m
+[272.990s] [ 77%] [32m[1mLinking CXX executable cylinders3d_batch[0m
+[273.157s] [ 77%] [32m[1mLinking CXX executable depth_image_3d[0m
+[273.975s] [ 78%] [32m[1mLinking CXX executable depth_image_simple[0m
+[274.508s] [ 78%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/image_simple.dir/all/archetypes/image_simple.cpp.o[0m
+[274.635s] [ 78%] [32m[1mLinking CXX executable ellipsoids3d_batch[0m
+[274.640s] [ 78%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/log_empty.cpp.o[0m
+[274.748s] [ 79%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/instance_poses3d_combined.dir/all/archetypes/instance_poses3d_combined.cpp.o[0m
+[274.769s] [ 79%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/main.cpp.o[0m
+[274.977s] [ 79%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/line_strips2d_batch.dir/all/archetypes/line_strips2d_batch.cpp.o[0m
+[275.028s] [ 79%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/mat.cpp.o[0m
+[275.037s] [ 79%] [32m[1mLinking CXX executable encoded_image[0m
+[275.039s] [ 79%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/line_strips2d_segments_simple.dir/all/archetypes/line_strips2d_segments_simple.cpp.o[0m
+[275.040s] [ 79%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/line_strips2d_simple.dir/all/archetypes/line_strips2d_simple.cpp.o[0m
+[275.058s] [ 80%] [32m[1mLinking CXX executable entity_path[0m
+[275.060s] [ 80%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/recording_stream.cpp.o[0m
+[275.136s] [ 80%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/line_strips2d_ui_radius.dir/all/archetypes/line_strips2d_ui_radius.cpp.o[0m
+[275.354s] [ 80%] [32m[1mLinking CXX executable geo_points_simple[0m
+[275.432s] [ 80%] [32m[1mLinking CXX executable ellipsoids3d_simple[0m
+[275.466s] [ 80%] Built target clear_simple
+[275.477s] [ 80%] [32m[1mLinking CXX executable geo_line_strings_simple[0m
+[275.486s] [ 80%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/sdk_info.cpp.o[0m
+[275.752s] [ 80%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/line_strips3d_batch.dir/all/archetypes/line_strips3d_batch.cpp.o[0m
+[275.760s] [ 80%] [32m[1mLinking CXX executable graph_undirected[0m
+[275.791s] [ 80%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/line_strips3d_segments_simple.dir/all/archetypes/line_strips3d_segments_simple.cpp.o[0m
+[275.820s] [ 80%] [32m[1mLinking CXX executable image_formats[0m
+[275.954s] [ 80%] [32m[1mLinking CXX executable image_column_updates[0m
+[276.006s] [ 81%] [32m[1mLinking CXX executable graph_directed[0m
+[276.017s] [ 81%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/line_strips3d_simple.dir/all/archetypes/line_strips3d_simple.cpp.o[0m
+[276.485s] [ 81%] [32m[1mLinking CXX executable image_row_updates[0m
+[277.830s] [ 81%] [32m[1mLinking CXX executable image_simple[0m
+[277.982s] [ 81%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/line_strips3d_ui_radius.dir/all/archetypes/line_strips3d_ui_radius.cpp.o[0m
+[278.085s] [ 81%] [32m[1mLinking CXX executable instance_poses3d_combined[0m
+[278.120s] [ 82%] [32m[1mLinking CXX executable line_strips2d_simple[0m
+[278.143s] [ 82%] [32m[1mLinking CXX executable line_strips2d_batch[0m
+[278.265s] [ 83%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/test_types.cpp.o[0m
+[278.386s] [ 83%] [32m[1mLinking CXX executable line_strips2d_segments_simple[0m
+[278.397s] [ 83%] [32m[1mLinking CXX executable line_strips2d_ui_radius[0m
+[278.745s] [ 84%] [32m[1mLinking CXX executable line_strips3d_segments_simple[0m
+[278.957s] [ 84%] [32m[1mLinking CXX executable line_strips3d_simple[0m
+[278.963s] [ 84%] [32m[1mLinking CXX executable line_strips3d_batch[0m
+[279.431s] [ 84%] Built target rerun_node
+[279.458s] [ 84%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/vec_and_quaternion.cpp.o[0m
+[279.673s] [ 84%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/mcap_channel_simple.dir/all/archetypes/mcap_channel_simple.cpp.o[0m
+[280.517s] [ 84%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/windows_min_max_robustness.cpp.o[0m
+[280.563s] [ 84%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/mcap_message_simple.dir/all/archetypes/mcap_message_simple.cpp.o[0m
+[281.034s] [ 84%] [32m[1mLinking CXX executable line_strips3d_ui_radius[0m
+[282.603s] [ 84%] [32m[1mLinking CXX executable mcap_channel_simple[0m
+[283.391s] [ 84%] [32m[1mLinking CXX executable mcap_message_simple[0m
+[283.485s] [ 84%] [32mBuilding CXX object _deps/rerun-build/rerun_cpp/tests/CMakeFiles/rerun_sdk_tests.dir/__/__/__/rerun-src/rerun_cpp/docs/readme_snippets.cpp.o[0m
+[287.134s] [ 84%] [32m[1mLinking CXX executable rerun_sdk_tests[0m
+[315.432s] [ 84%] Built target coordinate_frame_builtin_frames
+[315.540s] [ 84%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/mcap_schema_simple.dir/all/archetypes/mcap_schema_simple.cpp.o[0m
+[315.675s] [ 84%] Built target cylinders3d_batch
+[315.767s] [ 84%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/mcap_statistics_simple.dir/all/archetypes/mcap_statistics_simple.cpp.o[0m
+[316.358s] [ 84%] Built target depth_image_3d
+[316.461s] [ 84%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/mesh3d_indexed.dir/all/archetypes/mesh3d_indexed.cpp.o[0m
+[318.628s] [ 85%] [32m[1mLinking CXX executable mcap_schema_simple[0m
+[318.788s] [ 85%] [32m[1mLinking CXX executable mcap_statistics_simple[0m
+[319.680s] [ 85%] [32m[1mLinking CXX executable mesh3d_indexed[0m
+[320.127s] [ 85%] Built target depth_image_simple
+[320.216s] [ 85%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/mesh3d_instancing.dir/all/archetypes/mesh3d_instancing.cpp.o[0m
+[322.904s] [ 85%] Built target ellipsoids3d_batch
+[323.010s] [ 86%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/mesh3d_partial_updates.dir/all/archetypes/mesh3d_partial_updates.cpp.o[0m
+[323.557s] [ 86%] [32m[1mLinking CXX executable mesh3d_instancing[0m
+[324.096s] [ 86%] Built target encoded_image
+[324.186s] [ 86%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/mesh3d_simple.dir/all/archetypes/mesh3d_simple.cpp.o[0m
+[324.192s] [ 86%] Built target entity_path
+[324.268s] [ 86%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/pinhole_perspective.dir/all/archetypes/pinhole_perspective.cpp.o[0m
+[325.090s] [ 86%] Built target geo_points_simple
+[325.182s] [ 86%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/pinhole_simple.dir/all/archetypes/pinhole_simple.cpp.o[0m
+[325.647s] [ 86%] Built target geo_line_strings_simple
+[325.719s] [ 86%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/points2d_random.dir/all/archetypes/points2d_random.cpp.o[0m
+[325.819s] [ 86%] Built target ellipsoids3d_simple
+[325.905s] [ 86%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/points2d_simple.dir/all/archetypes/points2d_simple.cpp.o[0m
+[325.971s] [ 86%] Built target image_formats
+[326.049s] [ 86%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/points2d_ui_radius.dir/all/archetypes/points2d_ui_radius.cpp.o[0m
+[326.223s] [ 86%] [32m[1mLinking CXX executable mesh3d_partial_updates[0m
+[326.330s] [ 86%] Built target graph_undirected
+[326.417s] [ 87%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/points3d_column_updates.dir/all/archetypes/points3d_column_updates.cpp.o[0m
+[326.538s] [ 87%] Built target image_column_updates
+[326.564s] [ 87%] Built target graph_directed
+[326.611s] [ 87%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/points3d_partial_updates.dir/all/archetypes/points3d_partial_updates.cpp.o[0m
+[326.638s] [ 87%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/points3d_random.dir/all/archetypes/points3d_random.cpp.o[0m
+[326.928s] [ 87%] Built target image_row_updates
+[326.992s] [ 88%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/points3d_row_updates.dir/all/archetypes/points3d_row_updates.cpp.o[0m
+[327.409s] [ 88%] [32m[1mLinking CXX executable mesh3d_simple[0m
+[327.545s] [ 88%] [32m[1mLinking CXX executable pinhole_perspective[0m
+[328.366s] [ 88%] Built target image_simple
+[328.435s] [ 88%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/points3d_simple.dir/all/archetypes/points3d_simple.cpp.o[0m
+[328.481s] [ 88%] [32m[1mLinking CXX executable pinhole_simple[0m
+[328.709s] [ 88%] Built target line_strips2d_simple
+[328.750s] [ 88%] Built target line_strips2d_batch
+[328.759s] [ 88%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/points3d_ui_radius.dir/all/archetypes/points3d_ui_radius.cpp.o[0m
+[328.806s] [ 88%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/scalars_column_updates.dir/all/archetypes/scalars_column_updates.cpp.o[0m
+[328.832s] [ 88%] Built target instance_poses3d_combined
+[328.910s] [ 89%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/scalars_multiple_plots.dir/all/archetypes/scalars_multiple_plots.cpp.o[0m
+[328.946s] [ 89%] [32m[1mLinking CXX executable points2d_simple[0m
+[328.970s] [ 89%] Built target line_strips2d_ui_radius
+[328.976s] [ 89%] [32m[1mLinking CXX executable points2d_random[0m
+[329.023s] [ 89%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/scalars_row_updates.dir/all/archetypes/scalars_row_updates.cpp.o[0m
+[329.047s] [ 89%] Built target line_strips2d_segments_simple
+[329.096s] [ 89%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/scalars_simple.dir/all/archetypes/scalars_simple.cpp.o[0m
+[329.119s] [ 89%] [32m[1mLinking CXX executable points2d_ui_radius[0m
+[329.261s] [ 89%] Built target line_strips3d_segments_simple
+[329.320s] [ 90%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/segmentation_image_simple.dir/all/archetypes/segmentation_image_simple.cpp.o[0m
+[329.398s] [ 90%] Built target line_strips3d_simple
+[329.417s] [ 90%] Built target line_strips3d_batch
+[329.446s] [ 90%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/series_lines_style.dir/all/archetypes/series_lines_style.cpp.o[0m
+[329.466s] [ 90%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/series_points_style.dir/all/archetypes/series_points_style.cpp.o[0m
+[329.621s] [ 90%] [32m[1mLinking CXX executable points3d_column_updates[0m
+[329.647s] [ 90%] [32m[1mLinking CXX executable points3d_partial_updates[0m
+[329.798s] [ 90%] [32m[1mLinking CXX executable points3d_random[0m
+[330.134s] [ 90%] [32m[1mLinking CXX executable points3d_row_updates[0m
+[330.565s] [ 90%] Built target line_strips3d_ui_radius
+[330.624s] [ 90%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/tensor_simple.dir/all/archetypes/tensor_simple.cpp.o[0m
+[331.322s] [ 90%] Built target mcap_channel_simple
+[331.377s] [ 90%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/text_document.dir/all/archetypes/text_document.cpp.o[0m
+[331.435s] [ 90%] [32m[1mLinking CXX executable points3d_simple[0m
+[331.689s] [ 90%] Built target mcap_message_simple
+[331.745s] [ 90%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/text_log.dir/all/archetypes/text_log.cpp.o[0m
+[331.964s] [ 90%] [32m[1mLinking CXX executable scalars_column_updates[0m
+[331.975s] [ 90%] [32m[1mLinking CXX executable points3d_ui_radius[0m
+[331.987s] [ 90%] [32m[1mLinking CXX executable scalars_row_updates[0m
+[332.048s] [ 90%] [32m[1mLinking CXX executable scalars_simple[0m
+[332.115s] [ 90%] [32m[1mLinking CXX executable scalars_multiple_plots[0m
+[332.675s] [ 90%] [32m[1mLinking CXX executable series_lines_style[0m
+[332.718s] [ 90%] [32m[1mLinking CXX executable segmentation_image_simple[0m
+[332.909s] [ 90%] [32m[1mLinking CXX executable series_points_style[0m
+[334.042s] [ 90%] [32m[1mLinking CXX executable tensor_simple[0m
+[334.203s] [ 90%] [32m[1mLinking CXX executable text_document[0m
+[334.562s] [ 90%] [32m[1mLinking CXX executable text_log[0m
+[345.419s] [ 90%] Built target rerun_sdk_tests
+[345.526s] [ 91%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/text_log_integration.dir/all/archetypes/text_log_integration.cpp.o[0m
+[348.980s] [ 91%] [32m[1mLinking CXX executable text_log_integration[0m
+[370.758s] [ 91%] Built target mcap_schema_simple
+[370.862s] [ 91%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/transform3d_axes.dir/all/archetypes/transform3d_axes.cpp.o[0m
+[370.920s] [ 91%] Built target mcap_statistics_simple
+[371.020s] [ 91%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/transform3d_column_updates.dir/all/archetypes/transform3d_column_updates.cpp.o[0m
+[372.077s] [ 91%] Built target mesh3d_indexed
+[372.157s] [ 92%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/transform3d_hierarchy.dir/all/archetypes/transform3d_hierarchy.cpp.o[0m
+[373.775s] [ 92%] [32m[1mLinking CXX executable transform3d_axes[0m
+[374.379s] [ 92%] [32m[1mLinking CXX executable transform3d_column_updates[0m
+[375.587s] [ 92%] [32m[1mLinking CXX executable transform3d_hierarchy[0m
+[376.032s] [ 92%] Built target mesh3d_instancing
+[376.138s] [ 92%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/transform3d_partial_updates.dir/all/archetypes/transform3d_partial_updates.cpp.o[0m
+[379.289s] [ 92%] [32m[1mLinking CXX executable transform3d_partial_updates[0m
+[380.010s] [ 92%] Built target mesh3d_partial_updates
+[380.123s] [ 92%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/transform3d_row_updates.dir/all/archetypes/transform3d_row_updates.cpp.o[0m
+[382.157s] [ 92%] Built target mesh3d_simple
+[382.257s] [ 92%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/transform3d_simple.dir/all/archetypes/transform3d_simple.cpp.o[0m
+[382.593s] [ 92%] Built target pinhole_perspective
+[382.691s] [ 92%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/video_auto_frames.dir/all/archetypes/video_auto_frames.cpp.o[0m
+[383.406s] [ 92%] [32m[1mLinking CXX executable transform3d_row_updates[0m
+[384.598s] [ 92%] Built target pinhole_simple
+[384.686s] [ 92%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/video_manual_frames.dir/all/archetypes/video_manual_frames.cpp.o[0m
+[385.451s] [ 93%] [32m[1mLinking CXX executable transform3d_simple[0m
+[385.488s] [ 93%] Built target points2d_simple
+[385.573s] [ 93%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/view_coordinates_simple.dir/all/archetypes/view_coordinates_simple.cpp.o[0m
+[385.727s] [ 93%] Built target points2d_random
+[385.831s] [ 93%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/native-async.dir/all/concepts/app-model/native-async.cpp.o[0m
+[385.933s] [ 93%] [32m[1mLinking CXX executable video_auto_frames[0m
+[385.937s] [ 93%] Built target points2d_ui_radius
+[386.033s] [ 93%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/native-sync.dir/all/concepts/app-model/native-sync.cpp.o[0m
+[386.884s] [ 93%] Built target points3d_column_updates
+[386.904s] [ 93%] Built target points3d_partial_updates
+[386.967s] [ 93%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/different_data_per_timeline.dir/all/concepts/different_data_per_timeline.cpp.o[0m
+[386.992s] [ 93%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/indices.dir/all/concepts/indices.cpp.o[0m
+[387.166s] [ 93%] Built target points3d_random
+[387.242s] [ 93%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/recording_properties.dir/all/concepts/recording_properties.cpp.o[0m
+[387.434s] [ 93%] Built target points3d_row_updates
+[387.532s] [ 93%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/descr_builtin_archetype.dir/all/descriptors/descr_builtin_archetype.cpp.o[0m
+[387.714s] [ 93%] [32m[1mLinking CXX executable video_manual_frames[0m
+[388.450s] [ 94%] [32m[1mLinking CXX executable view_coordinates_simple[0m
+[388.754s] [ 94%] [32m[1mLinking CXX executable native-async[0m
+[388.878s] [ 95%] [32m[1mLinking CXX executable native-sync[0m
+[389.079s] [ 95%] Built target points3d_simple
+[389.164s] [ 95%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/descr_builtin_component.dir/all/descriptors/descr_builtin_component.cpp.o[0m
+[389.536s] [ 95%] Built target scalars_row_updates
+[389.585s] [ 95%] Built target scalars_simple
+[389.600s] [ 95%] Built target scalars_column_updates
+[389.605s] [ 95%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/descr_custom_archetype.dir/all/descriptors/descr_custom_archetype.cpp.o[0m
+[389.644s] [ 95%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/descr_custom_component.dir/all/descriptors/descr_custom_component.cpp.o[0m
+[389.671s] [ 95%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/any_batch_value_column_updates.dir/all/howto/any_batch_value_column_updates.cpp.o[0m
+[389.675s] [ 95%] Built target points3d_ui_radius
+[389.748s] [ 96%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/any_values_column_updates.dir/all/howto/any_values_column_updates.cpp.o[0m
+[389.766s] [ 96%] Built target scalars_multiple_plots
+[389.792s] [ 96%] [32m[1mLinking CXX executable indices[0m
+[389.851s] [ 96%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/any_values_row_updates.dir/all/howto/any_values_row_updates.cpp.o[0m
+[390.029s] [ 96%] [32m[1mLinking CXX executable different_data_per_timeline[0m
+[390.414s] [ 96%] [32m[1mLinking CXX executable descr_builtin_archetype[0m
+[390.504s] [ 96%] Built target series_lines_style
+[390.530s] [ 96%] Built target series_points_style
+[390.595s] [ 96%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/load_mcap.dir/all/howto/load_mcap.cpp.o[0m
+[390.602s] [ 96%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/set_sinks.dir/all/howto/set_sinks.cpp.o[0m
+[390.654s] [ 96%] Built target segmentation_image_simple
+[390.719s] [ 96%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/quick_start_connect.dir/all/quick_start/quick_start_connect.cpp.o[0m
+[391.089s] [ 96%] Built target text_document
+[391.153s] [ 96%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/quick_start_spawn.dir/all/quick_start/quick_start_spawn.cpp.o[0m
+[391.213s] [ 96%] Built target text_log
+[391.231s] [ 96%] Built target tensor_simple
+[391.281s] [ 96%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/dataframe_view_query_external.dir/all/reference/dataframe_view_query_external.cpp.o[0m
+[391.288s] [ 96%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/annotation_context.dir/all/tutorials/annotation_context.cpp.o[0m
+[391.888s] [ 96%] [32m[1mLinking CXX executable recording_properties[0m
+[391.986s] [ 96%] [32m[1mLinking CXX executable descr_builtin_component[0m
+[392.758s] [ 96%] [32m[1mLinking CXX executable descr_custom_component[0m
+[392.802s] [ 97%] [32m[1mLinking CXX executable descr_custom_archetype[0m
+[393.335s] [ 97%] [32m[1mLinking CXX executable load_mcap[0m
+[393.748s] [ 98%] [32m[1mLinking CXX executable set_sinks[0m
+[393.826s] [ 99%] [32m[1mLinking CXX executable quick_start_connect[0m
+[393.859s] [ 99%] [32m[1mLinking CXX executable dataframe_view_query_external[0m
+[394.251s] [ 99%] [32m[1mLinking CXX executable quick_start_spawn[0m
+[394.452s] [ 99%] [32m[1mLinking CXX executable any_values_column_updates[0m
+[394.556s] [ 99%] [32m[1mLinking CXX executable annotation_context[0m
+[394.561s] [ 99%] [32m[1mLinking CXX executable any_batch_value_column_updates[0m
+[394.576s] [ 99%] [32m[1mLinking CXX executable any_values_row_updates[0m
+[402.891s] [ 99%] Built target text_log_integration
+[402.991s] [ 99%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/any_values.dir/all/tutorials/any_values.cpp.o[0m
+[407.746s] [ 99%] [32m[1mLinking CXX executable any_values[0m
+[427.422s] [ 99%] Built target transform3d_axes
+[427.525s] [ 99%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/custom_data.dir/all/tutorials/custom_data.cpp.o[0m
+[428.868s] [ 99%] Built target transform3d_column_updates
+[428.963s] [ 99%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/dynamic_archetype.dir/all/tutorials/dynamic_archetype.cpp.o[0m
+[430.193s] [ 99%] Built target transform3d_hierarchy
+[430.295s] [100%] [32mBuilding CXX object _deps/rerun-build/docs/snippets/CMakeFiles/extra_values.dir/all/tutorials/extra_values.cpp.o[0m
+[430.829s] [100%] [32m[1mLinking CXX executable custom_data[0m
+[433.560s] [100%] [32m[1mLinking CXX executable dynamic_archetype[0m
+[433.863s] [100%] Built target transform3d_partial_updates
+[434.802s] [100%] [32m[1mLinking CXX executable extra_values[0m
+[437.742s] [100%] Built target transform3d_row_updates
+[440.160s] [100%] Built target transform3d_simple
+[440.438s] [100%] Built target video_auto_frames
+[442.757s] [100%] Built target video_manual_frames
+[443.432s] [100%] Built target view_coordinates_simple
+[443.651s] [100%] Built target native-async
+[443.750s] [100%] Built target native-sync
+[444.619s] [100%] Built target indices
+[444.840s] [100%] Built target different_data_per_timeline
+[445.198s] [100%] Built target descr_builtin_archetype
+[446.631s] [100%] Built target descr_builtin_component
+[446.650s] [100%] Built target recording_properties
+[447.259s] [100%] Built target descr_custom_component
+[447.395s] [100%] Built target descr_custom_archetype
+[447.702s] [100%] Built target load_mcap
+[447.892s] [100%] Built target set_sinks
+[447.908s] [100%] Built target dataframe_view_query_external
+[447.951s] [100%] Built target quick_start_connect
+[448.237s] [100%] Built target quick_start_spawn
+[448.286s] [100%] Built target any_values_column_updates
+[448.320s] [100%] Built target annotation_context
+[448.329s] [100%] Built target any_values_row_updates
+[448.352s] [100%] Built target any_batch_value_column_updates
+[449.828s] [100%] Built target any_values
+[452.078s] [100%] Built target custom_data
+[452.334s] [100%] Built target dynamic_archetype
+[452.582s] [100%] Built target extra_values
+[452.624s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun -- -j28 -l28
+[452.630s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun
+[452.653s] -- Install configuration: ""
+[452.655s] -- Execute custom install script
+[452.656s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/librerun_c.a
+[452.678s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/libarrow.a
+[452.703s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/libarrow_bundled_dependencies.a
+[452.726s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/cmake/rerun_sdk/rerun_sdkConfig.cmake
+[452.747s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/cmake/rerun_sdk/rerun_sdkConfigVersion.cmake
+[452.778s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/ubicoders_svo_rerun/rerun_node
+[452.805s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ament_index/resource_index/package_run_dependencies/ubicoders_svo_rerun
+[452.826s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ament_index/resource_index/parent_prefix_path/ubicoders_svo_rerun
+[452.849s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/environment/ament_prefix_path.sh
+[452.877s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/environment/ament_prefix_path.dsv
+[452.899s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/environment/path.sh
+[452.924s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/environment/path.dsv
+[452.954s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/local_setup.bash
+[452.979s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/local_setup.sh
+[453.006s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/local_setup.zsh
+[453.033s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/local_setup.dsv
+[453.051s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.dsv
+[453.072s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ament_index/resource_index/packages/ubicoders_svo_rerun
+[453.086s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/cmake/ubicoders_svo_rerunConfig.cmake
+[453.098s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/cmake/ubicoders_svo_rerunConfig-version.cmake
+[453.114s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/share/ubicoders_svo_rerun/package.xml
+[453.129s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/librerun_sdk.a
+[453.558s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include
+[453.558s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun
+[453.558s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/component_descriptor.hpp
+[453.560s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes
+[453.560s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/annotation_context.hpp
+[453.561s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/arrows2d.hpp
+[453.562s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/arrows3d.hpp
+[453.563s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/asset3d.hpp
+[453.564s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/asset_video.hpp
+[453.565s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/bar_chart.hpp
+[453.566s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/boxes2d.hpp
+[453.568s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/boxes3d.hpp
+[453.569s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/capsules3d.hpp
+[453.570s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/clear.hpp
+[453.571s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/coordinate_frame.hpp
+[453.572s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/cylinders3d.hpp
+[453.573s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/depth_image.hpp
+[453.574s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/ellipsoids3d.hpp
+[453.575s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/encoded_image.hpp
+[453.576s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/geo_line_strings.hpp
+[453.577s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/geo_points.hpp
+[453.578s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/graph_edges.hpp
+[453.578s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/graph_nodes.hpp
+[453.579s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/image.hpp
+[453.581s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/instance_poses3d.hpp
+[453.581s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/line_strips2d.hpp
+[453.582s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/line_strips3d.hpp
+[453.583s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/mcap_channel.hpp
+[453.584s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/mcap_message.hpp
+[453.585s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/mcap_schema.hpp
+[453.585s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/mcap_statistics.hpp
+[453.586s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/mesh3d.hpp
+[453.587s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/pinhole.hpp
+[453.589s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/points2d.hpp
+[453.590s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/points3d.hpp
+[453.591s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/recording_info.hpp
+[453.592s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/scalars.hpp
+[453.593s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/segmentation_image.hpp
+[453.594s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/series_lines.hpp
+[453.595s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/series_points.hpp
+[453.595s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/tensor.hpp
+[453.596s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/text_document.hpp
+[453.597s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/text_log.hpp
+[453.598s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/transform3d.hpp
+[453.599s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/video_frame_reference.hpp
+[453.600s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/video_stream.hpp
+[453.601s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes/view_coordinates.hpp
+[453.601s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes.hpp
+[453.602s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/arrow_utils.hpp
+[453.603s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/as_components.hpp
+[453.603s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint
+[453.604s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes
+[453.604s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/force_link.hpp
+[453.606s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/background.hpp
+[453.606s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/container_blueprint.hpp
+[453.607s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/dataframe_query.hpp
+[453.608s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/entity_behavior.hpp
+[453.609s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/eye_controls3d.hpp
+[453.610s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/force_center.hpp
+[453.611s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/force_collision_radius.hpp
+[453.612s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/force_many_body.hpp
+[453.613s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/force_position.hpp
+[453.615s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/graph_background.hpp
+[453.616s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/line_grid3d.hpp
+[453.617s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/map_background.hpp
+[453.618s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/map_zoom.hpp
+[453.619s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/near_clip_plane.hpp
+[453.620s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/panel_blueprint.hpp
+[453.621s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/plot_background.hpp
+[453.622s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/plot_legend.hpp
+[453.623s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/scalar_axis.hpp
+[453.624s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/spatial_information.hpp
+[453.629s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/tensor_scalar_mapping.hpp
+[453.630s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/tensor_slice_selection.hpp
+[453.636s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/tensor_view_fit.hpp
+[453.639s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/time_axis.hpp
+[453.640s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/time_panel_blueprint.hpp
+[453.641s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/viewport_blueprint.hpp
+[453.646s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/view_blueprint.hpp
+[453.648s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/view_contents.hpp
+[453.651s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/visible_time_ranges.hpp
+[453.653s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/visualizer_overrides.hpp
+[453.657s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes/visual_bounds2d.hpp
+[453.660s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes.hpp
+[453.661s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components
+[453.662s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/eye3d_kind.hpp
+[453.664s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/near_clip_plane.hpp
+[453.667s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/absolute_time_range.hpp
+[453.668s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/active_tab.hpp
+[453.673s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/angular_speed.hpp
+[453.676s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/apply_latest_at.hpp
+[453.677s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/auto_layout.hpp
+[453.680s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/auto_views.hpp
+[453.681s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/background_kind.hpp
+[453.683s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/column_share.hpp
+[453.684s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/component_column_selector.hpp
+[453.687s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/container_kind.hpp
+[453.688s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/corner2d.hpp
+[453.690s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/enabled.hpp
+[453.691s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/filter_by_range.hpp
+[453.694s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/filter_is_not_null.hpp
+[453.695s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/force_distance.hpp
+[453.697s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/force_iterations.hpp
+[453.698s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/force_strength.hpp
+[453.700s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/fps.hpp
+[453.702s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/grid_columns.hpp
+[453.704s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/grid_spacing.hpp
+[453.705s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/included_content.hpp
+[453.707s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/link_axis.hpp
+[453.709s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/lock_range_during_zoom.hpp
+[453.710s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/loop_mode.hpp
+[453.712s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/map_provider.hpp
+[453.715s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/panel_state.hpp
+[453.717s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/playback_speed.hpp
+[453.721s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/play_state.hpp
+[453.723s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/query_expression.hpp
+[453.725s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/root_container.hpp
+[453.727s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/row_share.hpp
+[453.729s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/selected_columns.hpp
+[453.730s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/tensor_dimension_index_slider.hpp
+[453.733s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/timeline_name.hpp
+[453.735s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/time_int.hpp
+[453.738s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/time_range.hpp
+[453.741s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/viewer_recommendation_hash.hpp
+[453.744s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/view_class.hpp
+[453.746s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/view_fit.hpp
+[453.750s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/view_maximized.hpp
+[453.751s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/view_origin.hpp
+[453.753s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/visible_time_range.hpp
+[453.755s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/visualizer_override.hpp
+[453.757s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/visual_bounds2d.hpp
+[453.759s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components/zoom_level.hpp
+[453.762s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components.hpp
+[453.763s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/datatypes
+[453.764s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/datatypes/component_column_selector.hpp
+[453.766s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/datatypes/filter_by_range.hpp
+[453.770s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/datatypes/filter_is_not_null.hpp
+[453.771s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/datatypes/selected_columns.hpp
+[453.775s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/datatypes/tensor_dimension_index_slider.hpp
+[453.776s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/datatypes.hpp
+[453.778s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/c
+[453.779s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/c/sdk_info.h
+[453.780s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/collection.hpp
+[453.782s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/collection_adapter.hpp
+[453.783s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/collection_adapter_builtins.hpp
+[453.785s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/compiler_utils.hpp
+[453.786s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components
+[453.787s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/aggregation_policy.hpp
+[453.791s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/albedo_factor.hpp
+[453.794s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/annotation_context.hpp
+[453.795s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/axis_length.hpp
+[453.799s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/blob.hpp
+[453.801s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/channel_id.hpp
+[453.804s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/channel_message_counts.hpp
+[453.810s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/class_id.hpp
+[453.811s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/clear_is_recursive.hpp
+[453.815s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/color.hpp
+[453.817s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/colormap.hpp
+[453.820s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/count.hpp
+[453.821s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/depth_meter.hpp
+[453.825s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/draw_order.hpp
+[453.825s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/entity_path.hpp
+[453.828s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/fill_mode.hpp
+[453.829s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/fill_ratio.hpp
+[453.831s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/gamma_correction.hpp
+[453.832s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/geo_line_string.hpp
+[453.835s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/graph_edge.hpp
+[453.836s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/graph_node.hpp
+[453.839s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/half_size2d.hpp
+[453.842s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/half_size3d.hpp
+[453.850s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/image_buffer.hpp
+[453.852s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/image_format.hpp
+[453.856s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/image_plane_distance.hpp
+[453.857s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/interactive.hpp
+[453.861s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/keypoint_id.hpp
+[453.863s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/key_value_pairs.hpp
+[453.866s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/lat_lon.hpp
+[453.868s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/length.hpp
+[453.872s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/line_strip2d.hpp
+[453.874s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/line_strip3d.hpp
+[453.878s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/magnification_filter.hpp
+[453.879s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/marker_shape.hpp
+[453.884s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/marker_size.hpp
+[453.886s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/media_type.hpp
+[453.890s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/name.hpp
+[453.894s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/opacity.hpp
+[453.897s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/pinhole_projection.hpp
+[453.901s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/graph_type.hpp
+[453.902s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/linear_speed.hpp
+[453.903s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/plane3d.hpp
+[453.907s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/rotation_axis_angle.hpp
+[453.909s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/pose_rotation_axis_angle.hpp
+[453.913s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/pose_rotation_quat.hpp
+[453.915s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/pose_scale3d.hpp
+[453.919s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/pose_transform_mat3x3.hpp
+[453.920s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/pose_translation3d.hpp
+[453.923s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/position2d.hpp
+[453.925s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/position3d.hpp
+[453.928s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/radius.hpp
+[453.931s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/range1d.hpp
+[453.932s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/resolution.hpp
+[453.936s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/rotation_quat.hpp
+[453.938s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/scalar.hpp
+[453.940s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/scale3d.hpp
+[453.942s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/schema_id.hpp
+[453.944s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/series_visible.hpp
+[453.945s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/show_labels.hpp
+[453.947s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/stroke_width.hpp
+[453.949s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/tensor_data.hpp
+[453.954s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/tensor_dimension_index_selection.hpp
+[453.955s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/tensor_height_dimension.hpp
+[453.956s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/tensor_width_dimension.hpp
+[453.959s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/texcoord2d.hpp
+[453.961s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/text.hpp
+[453.964s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/text_log_level.hpp
+[453.967s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/timestamp.hpp
+[453.969s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/transform_frame_id.hpp
+[453.973s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/transform_mat3x3.hpp
+[453.979s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/transform_relation.hpp
+[453.982s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/translation3d.hpp
+[453.984s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/triangle_indices.hpp
+[453.985s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/value_range.hpp
+[453.988s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/vector2d.hpp
+[453.989s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/vector3d.hpp
+[453.991s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/video_codec.hpp
+[453.992s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/video_sample.hpp
+[453.994s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/video_timestamp.hpp
+[453.995s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/view_coordinates.hpp
+[453.998s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components/visible.hpp
+[454.000s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components.hpp
+[454.005s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/component_batch.hpp
+[454.007s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/component_column.hpp
+[454.011s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/component_type.hpp
+[454.016s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/component_type_registry.hpp
+[454.018s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/config.hpp
+[454.019s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes
+[454.020s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/absolute_time_range.hpp
+[454.024s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/angle.hpp
+[454.026s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/annotation_info.hpp
+[454.029s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/blob.hpp
+[454.030s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/bool.hpp
+[454.033s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/channel_count_pair.hpp
+[454.035s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/channel_datatype.hpp
+[454.040s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/class_description.hpp
+[454.043s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/class_description_map_elem.hpp
+[454.047s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/class_id.hpp
+[454.049s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/color_model.hpp
+[454.053s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/dvec2d.hpp
+[454.059s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/entity_path.hpp
+[454.061s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/float64.hpp
+[454.067s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/image_format.hpp
+[454.069s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/keypoint_id.hpp
+[454.073s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/keypoint_pair.hpp
+[454.074s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/mat3x3.hpp
+[454.078s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/mat4x4.hpp
+[454.080s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/plane3d.hpp
+[454.084s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/quaternion.hpp
+[454.086s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/range1d.hpp
+[454.091s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/range2d.hpp
+[454.094s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/rgba32.hpp
+[454.098s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/rotation_axis_angle.hpp
+[454.100s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/tensor_buffer.hpp
+[454.103s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/float32.hpp
+[454.105s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/pixel_format.hpp
+[454.108s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/tensor_data.hpp
+[454.111s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/tensor_dimension_index_selection.hpp
+[454.115s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/tensor_dimension_selection.hpp
+[454.116s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/time_int.hpp
+[454.119s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/time_range.hpp
+[454.120s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/time_range_boundary.hpp
+[454.123s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/uint16.hpp
+[454.125s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/uint32.hpp
+[454.129s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/uint64.hpp
+[454.130s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/utf8.hpp
+[454.134s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/utf8pair.hpp
+[454.136s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/uuid.hpp
+[454.140s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/uvec2d.hpp
+[454.142s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/uvec3d.hpp
+[454.145s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/uvec4d.hpp
+[454.147s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/vec2d.hpp
+[454.150s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/vec3d.hpp
+[454.154s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/vec4d.hpp
+[454.160s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/video_timestamp.hpp
+[454.163s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/view_coordinates.hpp
+[454.167s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes/visible_time_range.hpp
+[454.169s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes.hpp
+[454.172s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/demo_utils.hpp
+[454.174s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/entity_path.hpp
+[454.176s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/error.hpp
+[454.178s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/half.hpp
+[454.180s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/image_utils.hpp
+[454.181s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/loggable.hpp
+[454.183s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/log_sink.hpp
+[454.184s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/recording_stream.hpp
+[454.187s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/rerun_sdk_export.hpp
+[454.188s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/result.hpp
+[454.190s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/rotation3d.hpp
+[454.195s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/sdk_info.hpp
+[454.198s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/spawn.hpp
+[454.199s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/spawn_options.hpp
+[454.204s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/string_utils.hpp
+[454.206s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/third_party
+[454.207s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/third_party/cxxopts.hpp
+[454.213s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/timeline.hpp
+[454.216s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/time_column.hpp
+[454.220s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/type_traits.hpp
+[454.221s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun.hpp
+[454.225s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include
+[454.225s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun
+[454.226s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/archetypes
+[454.233s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint
+[454.234s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/archetypes
+[454.238s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/components
+[454.242s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/blueprint/datatypes
+[454.244s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/c
+[454.244s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/c/arrow_c_data_interface.h
+[454.246s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/c/compiler_utils.h
+[454.249s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/c/rerun.h
+[454.252s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/components
+[454.260s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/datatypes
+[454.269s] -- Up-to-date: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/include/rerun/third_party
+[454.271s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/cmake/rerun_sdk/rerun_sdkTargets.cmake
+[454.274s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun/lib/cmake/rerun_sdk/rerun_sdkTargets-noconfig.cmake
+[454.294s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun

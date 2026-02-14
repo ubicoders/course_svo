@@ -1,0 +1,316 @@
+[0.037s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_msg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg
+[0.196s] -- The C compiler identification is GNU 13.3.0
+[0.327s] -- The CXX compiler identification is GNU 13.3.0
+[0.373s] -- Detecting C compiler ABI info
+[0.660s] -- Detecting C compiler ABI info - done
+[0.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.695s] -- Detecting C compile features - done
+[0.725s] -- Detecting CXX compiler ABI info
+[1.026s] -- Detecting CXX compiler ABI info - done
+[1.066s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.067s] -- Detecting CXX compile features
+[1.067s] -- Detecting CXX compile features - done
+[1.086s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.303s] -- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter 
+[1.389s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.547s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.728s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.897s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.905s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.998s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.079s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.803s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.850s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.048s] -- Found PythonExtra: /miniconda/bin/python3  
+[5.737s] -- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.007s] -- Configuring done (5.9s)
+[6.267s] -- Generating done (0.2s)
+[6.321s] -- Build files have been written to: /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg
+[6.336s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_msg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg
+[6.338s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg -- -j28 -l28
+[6.487s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.518s] [  1%] Built target ament_cmake_python_symlink_vrobots_ros2_msg
+[6.880s] [  1%] Built target vrobots_ros2_msg__rosidl_generator_type_description
+[6.904s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.907s] running egg_info
+[6.917s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.935s] creating vrobots_ros2_msg.egg-info
+[6.936s] writing vrobots_ros2_msg.egg-info/PKG-INFO
+[6.937s] writing dependency_links to vrobots_ros2_msg.egg-info/dependency_links.txt
+[6.940s] writing top-level names to vrobots_ros2_msg.egg-info/top_level.txt
+[6.940s] writing manifest file 'vrobots_ros2_msg.egg-info/SOURCES.txt'
+[7.051s] reading manifest file 'vrobots_ros2_msg.egg-info/SOURCES.txt'
+[7.052s] writing manifest file 'vrobots_ros2_msg.egg-info/SOURCES.txt'
+[7.110s] [  4%] Built target ament_cmake_python_build_vrobots_ros2_msg_egg
+[7.528s] [  4%] Built target vrobots_ros2_msg__cpp
+[7.676s] [  8%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/vec4__description.c.o[0m
+[7.677s] [  8%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/vec3__description.c.o[0m
+[7.677s] [  8%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/vec3__functions.c.o[0m
+[7.678s] [  9%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/vec3__type_support.c.o[0m
+[7.679s] [ 12%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/vec4__functions.c.o[0m
+[7.679s] [ 12%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/collision__description.c.o[0m
+[7.680s] [ 13%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/collision__type_support.c.o[0m
+[7.681s] [ 16%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/collision__functions.c.o[0m
+[7.682s] [ 16%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/states__type_support.c.o[0m
+[7.683s] [ 18%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/states__description.c.o[0m
+[7.683s] [ 18%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/commands__type_support.c.o[0m
+[7.687s] [ 20%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/commands__functions.c.o[0m
+[7.687s] [ 24%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/commands__description.c.o[0m
+[7.688s] [ 24%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/states__functions.c.o[0m
+[7.688s] [ 24%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/vrobots_ros2_msg/msg/detail/vec4__type_support.c.o[0m
+[7.810s] [ 25%] [32m[1mLinking C shared library libvrobots_ros2_msg__rosidl_generator_c.so[0m
+[7.897s] [ 25%] Built target vrobots_ros2_msg__rosidl_generator_c
+[7.915s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.915s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.916s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.916s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.919s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.925s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.377s] [ 37%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vrobots_ros2_msg/msg/commands__type_support.cpp.o[0m
+[8.378s] [ 37%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vrobots_ros2_msg/msg/states__type_support.cpp.o[0m
+[8.378s] [ 37%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vrobots_ros2_msg/msg/vec3__type_support.cpp.o[0m
+[8.378s] [ 40%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vrobots_ros2_msg/msg/vec4__type_support.cpp.o[0m
+[8.379s] [ 40%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vrobots_ros2_msg/msg/collision__type_support.cpp.o[0m
+[8.408s] [ 47%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vrobots_ros2_msg/msg/collision__type_support.cpp.o[0m
+[8.408s] [ 47%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vrobots_ros2_msg/msg/states__type_support.cpp.o[0m
+[8.408s] [ 47%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vrobots_ros2_msg/msg/vec4__type_support.cpp.o[0m
+[8.409s] [ 47%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vrobots_ros2_msg/msg/vec3__type_support.cpp.o[0m
+[8.409s] [ 47%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vrobots_ros2_msg/msg/commands__type_support.cpp.o[0m
+[8.465s] [ 48%] [32m[1mLinking CXX shared library libvrobots_ros2_msg__rosidl_typesupport_c.so[0m
+[8.494s] [ 50%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vrobots_ros2_msg/msg/detail/vec4__type_support.cpp.o[0m
+[8.499s] [ 52%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vrobots_ros2_msg/msg/detail/vec3__type_support.cpp.o[0m
+[8.500s] [ 55%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vrobots_ros2_msg/msg/detail/commands__type_support.cpp.o[0m
+[8.500s] [ 55%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vrobots_ros2_msg/msg/detail/collision__type_support.cpp.o[0m
+[8.501s] [ 55%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vrobots_ros2_msg/msg/detail/states__type_support.cpp.o[0m
+[8.551s] [ 55%] Built target vrobots_ros2_msg__rosidl_typesupport_c
+[8.602s] [ 56%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vrobots_ros2_msg/msg/detail/collision__type_support.c.o[0m
+[8.603s] [ 60%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vrobots_ros2_msg/msg/detail/vec3__type_support.c.o[0m
+[8.603s] [ 60%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vrobots_ros2_msg/msg/detail/states__type_support.c.o[0m
+[8.604s] [ 60%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vrobots_ros2_msg/msg/detail/vec4__type_support.c.o[0m
+[8.604s] [ 62%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vrobots_ros2_msg/msg/detail/commands__type_support.c.o[0m
+[8.700s] [ 63%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vrobots_ros2_msg/msg/detail/vec3__type_support_c.cpp.o[0m
+[8.702s] [ 64%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vrobots_ros2_msg/msg/detail/vec4__type_support_c.cpp.o[0m
+[8.706s] [ 67%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vrobots_ros2_msg/msg/detail/states__type_support_c.cpp.o[0m
+[8.707s] [ 67%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vrobots_ros2_msg/msg/detail/collision__type_support_c.cpp.o[0m
+[8.707s] [ 68%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vrobots_ros2_msg/msg/detail/commands__type_support_c.cpp.o[0m
+[8.732s] [ 71%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vrobots_ros2_msg/msg/detail/dds_fastrtps/vec3__type_support.cpp.o[0m
+[8.734s] [ 71%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vrobots_ros2_msg/msg/detail/dds_fastrtps/vec4__type_support.cpp.o[0m
+[8.735s] [ 75%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vrobots_ros2_msg/msg/detail/dds_fastrtps/commands__type_support.cpp.o[0m
+[8.735s] [ 75%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vrobots_ros2_msg/msg/detail/dds_fastrtps/states__type_support.cpp.o[0m
+[8.735s] [ 75%] [32mBuilding CXX object CMakeFiles/vrobots_ros2_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vrobots_ros2_msg/msg/detail/dds_fastrtps/collision__type_support.cpp.o[0m
+[8.749s] [ 77%] [32m[1mLinking C shared library libvrobots_ros2_msg__rosidl_typesupport_introspection_c.so[0m
+[8.879s] [ 77%] Built target vrobots_ros2_msg__rosidl_typesupport_introspection_c
+[8.953s] [ 78%] [32m[1mLinking CXX shared library libvrobots_ros2_msg__rosidl_typesupport_cpp.so[0m
+[9.054s] [ 78%] Built target vrobots_ros2_msg__rosidl_typesupport_cpp
+[9.277s] [ 79%] [32m[1mLinking CXX shared library libvrobots_ros2_msg__rosidl_typesupport_introspection_cpp.so[0m
+[9.446s] [ 79%] Built target vrobots_ros2_msg__rosidl_typesupport_introspection_cpp
+[9.585s] [ 81%] [32m[1mLinking CXX shared library libvrobots_ros2_msg__rosidl_typesupport_fastrtps_c.so[0m
+[9.733s] [ 81%] Built target vrobots_ros2_msg__rosidl_typesupport_fastrtps_c
+[9.771s] [ 82%] [32m[1mLinking CXX shared library libvrobots_ros2_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.979s] [ 82%] Built target vrobots_ros2_msg__rosidl_typesupport_fastrtps_cpp
+[10.030s] [ 82%] Built target vrobots_ros2_msg
+[10.077s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.027s] [ 83%] Built target vrobots_ros2_msg__py
+[11.061s] [ 85%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_py.dir/rosidl_generator_py/vrobots_ros2_msg/msg/_vec4_s.c.o[0m
+[11.062s] [ 86%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_py.dir/rosidl_generator_py/vrobots_ros2_msg/msg/_vec3_s.c.o[0m
+[11.062s] [ 87%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_py.dir/rosidl_generator_py/vrobots_ros2_msg/msg/_collision_s.c.o[0m
+[11.063s] [ 89%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_py.dir/rosidl_generator_py/vrobots_ros2_msg/msg/_commands_s.c.o[0m
+[11.063s] [ 90%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg__rosidl_generator_py.dir/rosidl_generator_py/vrobots_ros2_msg/msg/_states_s.c.o[0m
+[11.456s] [ 91%] [32m[1mLinking C shared library libvrobots_ros2_msg__rosidl_generator_py.so[0m
+[11.546s] [ 91%] Built target vrobots_ros2_msg__rosidl_generator_py
+[11.582s] [ 94%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg_s__rosidl_typesupport_c.dir/rosidl_generator_py/vrobots_ros2_msg/_vrobots_ros2_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[11.583s] [ 94%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/vrobots_ros2_msg/_vrobots_ros2_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.590s] [ 95%] [32mBuilding C object CMakeFiles/vrobots_ros2_msg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/vrobots_ros2_msg/_vrobots_ros2_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.763s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/vrobots_ros2_msg/vrobots_ros2_msg_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.766s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/vrobots_ros2_msg/vrobots_ros2_msg_s__rosidl_typesupport_introspection_c.so[0m
+[11.791s] [100%] [32m[1mLinking C shared module rosidl_generator_py/vrobots_ros2_msg/vrobots_ros2_msg_s__rosidl_typesupport_c.so[0m
+[11.813s] [100%] Built target vrobots_ros2_msg_s__rosidl_typesupport_fastrtps_c
+[11.822s] [100%] Built target vrobots_ros2_msg_s__rosidl_typesupport_introspection_c
+[11.844s] [100%] Built target vrobots_ros2_msg_s__rosidl_typesupport_c
+[11.866s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg -- -j28 -l28
+[11.881s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg
+[11.896s] -- Install configuration: ""
+[11.898s] -- Execute custom install script
+[11.899s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/ament_index/resource_index/rosidl_interfaces/vrobots_ros2_msg
+[11.919s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Vec3.json
+[11.935s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Vec4.json
+[11.947s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Collision.json
+[11.960s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/States.json
+[11.972s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Commands.json
+[11.987s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/collision.h
+[12.000s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/commands.h
+[12.012s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__functions.h
+[12.025s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__struct.h
+[12.037s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__type_support.h
+[12.052s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__functions.h
+[12.065s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__struct.h
+[12.077s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__type_support.h
+[12.089s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__functions.h
+[12.102s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__struct.h
+[12.114s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__type_support.h
+[12.127s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__functions.h
+[12.139s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__struct.h
+[12.152s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__type_support.h
+[12.165s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__functions.h
+[12.177s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__struct.h
+[12.189s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__type_support.h
+[12.201s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/rosidl_generator_c__visibility_control.h
+[12.214s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/states.h
+[12.228s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/vec3.h
+[12.240s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/vec4.h
+[12.254s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/environment/library_path.sh
+[12.268s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/environment/library_path.dsv
+[12.285s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__rosidl_typesupport_fastrtps_c.h
+[12.299s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__rosidl_typesupport_fastrtps_c.h
+[12.318s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__rosidl_typesupport_fastrtps_c.h
+[12.333s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__rosidl_typesupport_fastrtps_c.h
+[12.346s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__rosidl_typesupport_fastrtps_c.h
+[12.359s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.373s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__rosidl_typesupport_introspection_c.h
+[12.391s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__rosidl_typesupport_introspection_c.h
+[12.404s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__rosidl_typesupport_introspection_c.h
+[12.417s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__rosidl_typesupport_introspection_c.h
+[12.435s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__rosidl_typesupport_introspection_c.h
+[12.448s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.468s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/collision.hpp
+[12.484s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/commands.hpp
+[12.499s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__builder.hpp
+[12.513s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__struct.hpp
+[12.528s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__traits.hpp
+[12.541s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__type_support.hpp
+[12.554s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__builder.hpp
+[12.566s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__struct.hpp
+[12.583s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__traits.hpp
+[12.602s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__type_support.hpp
+[12.616s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__builder.hpp
+[12.628s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__struct.hpp
+[12.645s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__traits.hpp
+[12.662s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__type_support.hpp
+[12.674s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__builder.hpp
+[12.690s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__struct.hpp
+[12.703s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__traits.hpp
+[12.715s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__type_support.hpp
+[12.727s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__builder.hpp
+[12.740s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__struct.hpp
+[12.752s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__traits.hpp
+[12.766s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__type_support.hpp
+[12.782s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.798s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/states.hpp
+[12.811s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/vec3.hpp
+[12.823s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/vec4.hpp
+[12.839s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__rosidl_typesupport_fastrtps_cpp.hpp
+[12.862s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__rosidl_typesupport_fastrtps_cpp.hpp
+[12.878s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__rosidl_typesupport_fastrtps_cpp.hpp
+[12.891s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__rosidl_typesupport_fastrtps_cpp.hpp
+[12.903s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__rosidl_typesupport_fastrtps_cpp.hpp
+[12.916s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.935s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/collision__rosidl_typesupport_introspection_cpp.hpp
+[12.953s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/commands__rosidl_typesupport_introspection_cpp.hpp
+[12.977s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/states__rosidl_typesupport_introspection_cpp.hpp
+[12.991s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec3__rosidl_typesupport_introspection_cpp.hpp
+[13.007s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/include/vrobots_ros2_msg/vrobots_ros2_msg/msg/detail/vec4__rosidl_typesupport_introspection_cpp.hpp
+[13.020s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/environment/pythonpath.sh
+[13.043s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/environment/pythonpath.dsv
+[13.064s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg-0.0.0-py3.13.egg-info/PKG-INFO
+[13.084s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg-0.0.0-py3.13.egg-info/SOURCES.txt
+[13.108s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg-0.0.0-py3.13.egg-info/dependency_links.txt
+[13.122s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg-0.0.0-py3.13.egg-info/top_level.txt
+[13.143s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/__init__.py
+[13.159s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/_vrobots_ros2_msg_s.ep.rosidl_typesupport_c.c
+[13.172s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/_vrobots_ros2_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.185s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/_vrobots_ros2_msg_s.ep.rosidl_typesupport_introspection_c.c
+[13.199s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/__init__.py
+[13.212s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_collision.py
+[13.226s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_collision_s.c
+[13.238s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_commands.py
+[13.250s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_commands_s.c
+[13.268s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_states.py
+[13.287s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_states_s.c
+[13.303s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_vec3.py
+[13.321s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_vec3_s.c
+[13.335s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_vec4.py
+[13.347s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_vec4_s.c
+[13.360s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/vrobots_ros2_msg_s__rosidl_typesupport_c.so
+[13.377s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/vrobots_ros2_msg_s__rosidl_typesupport_fastrtps_c.so
+[13.392s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/vrobots_ros2_msg_s__rosidl_typesupport_introspection_c.so
+[13.405s] -- Up-to-date symlink: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/vrobots_ros2_msg_s__rosidl_typesupport_fastrtps_c.so
+[13.406s] -- Up-to-date symlink: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/vrobots_ros2_msg_s__rosidl_typesupport_introspection_c.so
+[13.408s] -- Up-to-date symlink: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/vrobots_ros2_msg_s__rosidl_typesupport_c.so
+[13.409s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Vec3.idl
+[13.436s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Vec4.idl
+[13.453s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Collision.idl
+[13.468s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/States.idl
+[13.482s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Commands.idl
+[13.496s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Vec3.msg
+[13.522s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Vec4.msg
+[13.545s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Collision.msg
+[13.561s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/States.msg
+[13.574s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/msg/Commands.msg
+[13.586s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/ament_index/resource_index/package_run_dependencies/vrobots_ros2_msg
+[13.599s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/ament_index/resource_index/parent_prefix_path/vrobots_ros2_msg
+[13.611s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/environment/ament_prefix_path.sh
+[13.626s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/environment/ament_prefix_path.dsv
+[13.640s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/environment/path.sh
+[13.654s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/environment/path.dsv
+[13.666s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/local_setup.bash
+[13.680s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/local_setup.sh
+[13.694s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/local_setup.zsh
+[13.710s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/local_setup.dsv
+[13.727s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.dsv
+[13.743s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/ament_index/resource_index/packages/vrobots_ros2_msg
+[13.760s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/rosidl_cmake-extras.cmake
+[13.776s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.789s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.803s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[13.818s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/ament_cmake_export_targets-extras.cmake
+[13.834s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.848s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.861s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msgConfig.cmake
+[13.885s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msgConfig-version.cmake
+[13.904s] -- Symlinking: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/package.xml
+[13.917s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_generator_c.so
+[13.920s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_generator_c.so" to ""
+[13.921s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_fastrtps_c.so
+[13.923s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[13.924s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_introspection_c.so
+[13.927s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_introspection_c.so" to ""
+[13.927s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_c.so
+[13.929s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_c.so" to ""
+[13.929s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_fastrtps_cpp.so
+[13.934s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.934s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_introspection_cpp.so
+[13.938s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[13.940s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_cpp.so
+[13.941s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_typesupport_cpp.so" to ""
+[14.042s] Listing '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg'...
+[14.043s] Compiling '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/__init__.py'...
+[14.043s] Listing '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg'...
+[14.043s] Compiling '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/__init__.py'...
+[14.044s] Compiling '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_collision.py'...
+[14.044s] Compiling '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_commands.py'...
+[14.045s] Compiling '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_states.py'...
+[14.045s] Compiling '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_vec3.py'...
+[14.045s] Compiling '/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/python3.13/site-packages/vrobots_ros2_msg/msg/_vec4.py'...
+[14.052s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_generator_py.so
+[14.057s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/lib/libvrobots_ros2_msg__rosidl_generator_py.so" to ""
+[14.059s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/export_vrobots_ros2_msg__rosidl_generator_cExport.cmake
+[14.060s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/export_vrobots_ros2_msg__rosidl_generator_cExport-noconfig.cmake
+[14.062s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/export_vrobots_ros2_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[14.063s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/export_vrobots_ros2_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.066s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msg__rosidl_typesupport_introspection_cExport.cmake
+[14.067s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.070s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msg__rosidl_typesupport_cExport.cmake
+[14.071s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msg__rosidl_typesupport_cExport-noconfig.cmake
+[14.073s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/export_vrobots_ros2_msg__rosidl_generator_cppExport.cmake
+[14.075s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/export_vrobots_ros2_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.077s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/export_vrobots_ros2_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.078s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msg__rosidl_typesupport_introspection_cppExport.cmake
+[14.081s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.083s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msg__rosidl_typesupport_cppExport.cmake
+[14.086s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/vrobots_ros2_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[14.088s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/export_vrobots_ros2_msg__rosidl_generator_pyExport.cmake
+[14.089s] -- Installing: /home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg/share/vrobots_ros2_msg/cmake/export_vrobots_ros2_msg__rosidl_generator_pyExport-noconfig.cmake
+[14.095s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg

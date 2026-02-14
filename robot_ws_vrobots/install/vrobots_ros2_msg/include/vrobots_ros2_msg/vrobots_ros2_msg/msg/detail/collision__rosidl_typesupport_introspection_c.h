@@ -1,0 +1,1 @@
+/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg/rosidl_typesupport_introspection_c/vrobots_ros2_msg/msg/detail/collision__rosidl_typesupport_introspection_c.h

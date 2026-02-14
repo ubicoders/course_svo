@@ -12,6 +12,7 @@ class StereoGeometry {
 
 public:
   StereoGeometry();
+  StereoGeometry(const CameraConfig& config);
   // getters
   cv::Mat get_K();
   cv::Mat get_T1();

@@ -1,0 +1,8 @@
+source;share/euroc_image_publisher/hook/cmake_prefix_path.ps1
+source;share/euroc_image_publisher/hook/cmake_prefix_path.dsv
+source;share/euroc_image_publisher/hook/cmake_prefix_path.sh
+source;share/euroc_image_publisher/local_setup.bash
+source;share/euroc_image_publisher/local_setup.dsv
+source;share/euroc_image_publisher/local_setup.ps1
+source;share/euroc_image_publisher/local_setup.sh
+source;share/euroc_image_publisher/local_setup.zsh

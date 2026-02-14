@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_msg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/vrobots_ros2_msg

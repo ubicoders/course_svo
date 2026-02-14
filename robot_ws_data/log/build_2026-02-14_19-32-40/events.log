@@ -1,0 +1,440 @@
+[0.000000] (-) TimerEvent: {}
+[0.000296] (-) JobUnselected: {'identifier': 'customdata_publisher'}
+[0.000482] (-) JobUnselected: {'identifier': 'euroc_image_publisher'}
+[0.000666] (-) JobUnselected: {'identifier': 'kitti_image_publisher'}
+[0.000791] (ubicoders_svo) JobQueued: {'identifier': 'ubicoders_svo', 'dependencies': OrderedDict()}
+[0.000905] (ubicoders_svo) JobStarted: {'identifier': 'ubicoders_svo'}
+[0.017298] (ubicoders_svo) JobProgress: {'identifier': 'ubicoders_svo', 'progress': 'cmake'}
+[0.019731] (ubicoders_svo) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/robot_ws_data/src/ubicoders_svo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/ubicoders_svo'], 'cwd': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'env': OrderedDict({'VSCODE_CWD': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'elcom', 'CLAUDE_AGENT_SDK_VERSION': '0.2.42', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/ubuntu', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-3ee87eb4-f0ef-4cdb-8a8e-28aad5d26bdc.sock', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/miniconda/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', '_CE_CONDA': '', 'MCP_CONNECTION_NONBLOCKING': 'true', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CONDA_DEFAULT_ENV': 'base', 'CLAUDECODE': '1', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.066687] (ubicoders_svo) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099632] (-) TimerEvent: {}
+[0.200037] (-) TimerEvent: {}
+[0.300517] (-) TimerEvent: {}
+[0.400908] (-) TimerEvent: {}
+[0.454936] (ubicoders_svo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.489283] (ubicoders_svo) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.501104] (-) TimerEvent: {}
+[0.544046] (ubicoders_svo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.554088] (ubicoders_svo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.568227] (ubicoders_svo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.584253] (ubicoders_svo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601301] (-) TimerEvent: {}
+[0.652693] (ubicoders_svo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.654170] (ubicoders_svo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701448] (-) TimerEvent: {}
+[0.734202] (ubicoders_svo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801520] (-) TimerEvent: {}
+[0.813930] (ubicoders_svo) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.888924] (ubicoders_svo) StdoutLine: {'line': b'-- Found tf2_eigen: 0.36.19 (/opt/ros/jazzy/share/tf2_eigen/cmake)\n'}
+[0.901686] (-) TimerEvent: {}
+[1.002024] (-) TimerEvent: {}
+[1.085747] (ubicoders_svo) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.102202] (-) TimerEvent: {}
+[1.115114] (ubicoders_svo) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.165722] (ubicoders_svo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.202347] (-) TimerEvent: {}
+[1.302851] (-) TimerEvent: {}
+[1.321506] (ubicoders_svo) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.402994] (-) TimerEvent: {}
+[1.438244] (ubicoders_svo) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.474821] (ubicoders_svo) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/robot_ws_data/build/ubicoders_svo\n'}
+[1.498032] (ubicoders_svo) CommandEnded: {'returncode': 0}
+[1.499755] (ubicoders_svo) JobProgress: {'identifier': 'ubicoders_svo', 'progress': 'build'}
+[1.501258] (ubicoders_svo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/robot_ws_data/build/ubicoders_svo', '--', '-j28', '-l28'], 'cwd': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'env': OrderedDict({'VSCODE_CWD': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'elcom', 'CLAUDE_AGENT_SDK_VERSION': '0.2.42', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/ubuntu', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-3ee87eb4-f0ef-4cdb-8a8e-28aad5d26bdc.sock', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/miniconda/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', '_CE_CONDA': '', 'MCP_CONNECTION_NONBLOCKING': 'true', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CONDA_DEFAULT_ENV': 'base', 'CLAUDECODE': '1', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.503404] (-) TimerEvent: {}
+[1.603729] (-) TimerEvent: {}
+[1.704192] (-) TimerEvent: {}
+[1.804478] (-) TimerEvent: {}
+[1.904761] (-) TimerEvent: {}
+[2.004992] (-) TimerEvent: {}
+[2.040647] (ubicoders_svo) StdoutLine: {'line': b'[ 11%] Building CXX object CMakeFiles/sv_lib.dir/src/stereo_geometry.cpp.o\n'}
+[2.046491] (ubicoders_svo) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/sv_lib.dir/src/svo_node.cpp.o\n'}
+[2.047909] (ubicoders_svo) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/sv_lib.dir/src/backend.cpp.o\n'}
+[2.049076] (ubicoders_svo) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/sv_lib.dir/src/frontend.cpp.o\n'}
+[2.052407] (ubicoders_svo) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/sv_lib.dir/src/viewer.cpp.o\n'}
+[2.105118] (-) TimerEvent: {}
+[2.205528] (-) TimerEvent: {}
+[2.305938] (-) TimerEvent: {}
+[2.406291] (-) TimerEvent: {}
+[2.506651] (-) TimerEvent: {}
+[2.607006] (-) TimerEvent: {}
+[2.707388] (-) TimerEvent: {}
+[2.807791] (-) TimerEvent: {}
+[2.908146] (-) TimerEvent: {}
+[3.008726] (-) TimerEvent: {}
+[3.109087] (-) TimerEvent: {}
+[3.209567] (-) TimerEvent: {}
+[3.310046] (-) TimerEvent: {}
+[3.410420] (-) TimerEvent: {}
+[3.511019] (-) TimerEvent: {}
+[3.611498] (-) TimerEvent: {}
+[3.712008] (-) TimerEvent: {}
+[3.812490] (-) TimerEvent: {}
+[3.912879] (-) TimerEvent: {}
+[4.013347] (-) TimerEvent: {}
+[4.113872] (-) TimerEvent: {}
+[4.214353] (-) TimerEvent: {}
+[4.314804] (-) TimerEvent: {}
+[4.415168] (-) TimerEvent: {}
+[4.515537] (-) TimerEvent: {}
+[4.616084] (-) TimerEvent: {}
+[4.716504] (-) TimerEvent: {}
+[4.817010] (-) TimerEvent: {}
+[4.917501] (-) TimerEvent: {}
+[5.017945] (-) TimerEvent: {}
+[5.118328] (-) TimerEvent: {}
+[5.218801] (-) TimerEvent: {}
+[5.319186] (-) TimerEvent: {}
+[5.419664] (-) TimerEvent: {}
+[5.520094] (-) TimerEvent: {}
+[5.620495] (-) TimerEvent: {}
+[5.721010] (-) TimerEvent: {}
+[5.821362] (-) TimerEvent: {}
+[5.921820] (-) TimerEvent: {}
+[6.022342] (-) TimerEvent: {}
+[6.122816] (-) TimerEvent: {}
+[6.223271] (-) TimerEvent: {}
+[6.323778] (-) TimerEvent: {}
+[6.424230] (-) TimerEvent: {}
+[6.524773] (-) TimerEvent: {}
+[6.625301] (-) TimerEvent: {}
+[6.725847] (-) TimerEvent: {}
+[6.826302] (-) TimerEvent: {}
+[6.926709] (-) TimerEvent: {}
+[7.027150] (-) TimerEvent: {}
+[7.127689] (-) TimerEvent: {}
+[7.228156] (-) TimerEvent: {}
+[7.328650] (-) TimerEvent: {}
+[7.429163] (-) TimerEvent: {}
+[7.529731] (-) TimerEvent: {}
+[7.630247] (-) TimerEvent: {}
+[7.730796] (-) TimerEvent: {}
+[7.831249] (-) TimerEvent: {}
+[7.931735] (-) TimerEvent: {}
+[8.032197] (-) TimerEvent: {}
+[8.132731] (-) TimerEvent: {}
+[8.233130] (-) TimerEvent: {}
+[8.333621] (-) TimerEvent: {}
+[8.434074] (-) TimerEvent: {}
+[8.534498] (-) TimerEvent: {}
+[8.634950] (-) TimerEvent: {}
+[8.735420] (-) TimerEvent: {}
+[8.835776] (-) TimerEvent: {}
+[8.936282] (-) TimerEvent: {}
+[9.036717] (-) TimerEvent: {}
+[9.137102] (-) TimerEvent: {}
+[9.237462] (-) TimerEvent: {}
+[9.338043] (-) TimerEvent: {}
+[9.438515] (-) TimerEvent: {}
+[9.538987] (-) TimerEvent: {}
+[9.639432] (-) TimerEvent: {}
+[9.739842] (-) TimerEvent: {}
+[9.840281] (-) TimerEvent: {}
+[9.940760] (-) TimerEvent: {}
+[10.041070] (-) TimerEvent: {}
+[10.141454] (-) TimerEvent: {}
+[10.241868] (-) TimerEvent: {}
+[10.342313] (-) TimerEvent: {}
+[10.442781] (-) TimerEvent: {}
+[10.543225] (-) TimerEvent: {}
+[10.643763] (-) TimerEvent: {}
+[10.744277] (-) TimerEvent: {}
+[10.844798] (-) TimerEvent: {}
+[10.945310] (-) TimerEvent: {}
+[11.045882] (-) TimerEvent: {}
+[11.146329] (-) TimerEvent: {}
+[11.246727] (-) TimerEvent: {}
+[11.347199] (-) TimerEvent: {}
+[11.447683] (-) TimerEvent: {}
+[11.548145] (-) TimerEvent: {}
+[11.648655] (-) TimerEvent: {}
+[11.749125] (-) TimerEvent: {}
+[11.849638] (-) TimerEvent: {}
+[11.950097] (-) TimerEvent: {}
+[12.050626] (-) TimerEvent: {}
+[12.151107] (-) TimerEvent: {}
+[12.251503] (-) TimerEvent: {}
+[12.351950] (-) TimerEvent: {}
+[12.452347] (-) TimerEvent: {}
+[12.552796] (-) TimerEvent: {}
+[12.653235] (-) TimerEvent: {}
+[12.753802] (-) TimerEvent: {}
+[12.854280] (-) TimerEvent: {}
+[12.954729] (-) TimerEvent: {}
+[13.055217] (-) TimerEvent: {}
+[13.155733] (-) TimerEvent: {}
+[13.256244] (-) TimerEvent: {}
+[13.356713] (-) TimerEvent: {}
+[13.457167] (-) TimerEvent: {}
+[13.557538] (-) TimerEvent: {}
+[13.657998] (-) TimerEvent: {}
+[13.758485] (-) TimerEvent: {}
+[13.858932] (-) TimerEvent: {}
+[13.959380] (-) TimerEvent: {}
+[14.059891] (-) TimerEvent: {}
+[14.160350] (-) TimerEvent: {}
+[14.260805] (-) TimerEvent: {}
+[14.361245] (-) TimerEvent: {}
+[14.461756] (-) TimerEvent: {}
+[14.562219] (-) TimerEvent: {}
+[14.662697] (-) TimerEvent: {}
+[14.763148] (-) TimerEvent: {}
+[14.863603] (-) TimerEvent: {}
+[14.964072] (-) TimerEvent: {}
+[15.064486] (-) TimerEvent: {}
+[15.164924] (-) TimerEvent: {}
+[15.265386] (-) TimerEvent: {}
+[15.365933] (-) TimerEvent: {}
+[15.466481] (-) TimerEvent: {}
+[15.567087] (-) TimerEvent: {}
+[15.667595] (-) TimerEvent: {}
+[15.768270] (-) TimerEvent: {}
+[15.868779] (-) TimerEvent: {}
+[15.969234] (-) TimerEvent: {}
+[16.069559] (-) TimerEvent: {}
+[16.169914] (-) TimerEvent: {}
+[16.270348] (-) TimerEvent: {}
+[16.370788] (-) TimerEvent: {}
+[16.471262] (-) TimerEvent: {}
+[16.571799] (-) TimerEvent: {}
+[16.672269] (-) TimerEvent: {}
+[16.772667] (-) TimerEvent: {}
+[16.873112] (-) TimerEvent: {}
+[16.973528] (-) TimerEvent: {}
+[17.073917] (-) TimerEvent: {}
+[17.174376] (-) TimerEvent: {}
+[17.274816] (-) TimerEvent: {}
+[17.375254] (-) TimerEvent: {}
+[17.475734] (-) TimerEvent: {}
+[17.576218] (-) TimerEvent: {}
+[17.676690] (-) TimerEvent: {}
+[17.777151] (-) TimerEvent: {}
+[17.877742] (-) TimerEvent: {}
+[17.978266] (-) TimerEvent: {}
+[18.078786] (-) TimerEvent: {}
+[18.179242] (-) TimerEvent: {}
+[18.279768] (-) TimerEvent: {}
+[18.380300] (-) TimerEvent: {}
+[18.480831] (-) TimerEvent: {}
+[18.581312] (-) TimerEvent: {}
+[18.681718] (-) TimerEvent: {}
+[18.782193] (-) TimerEvent: {}
+[18.882724] (-) TimerEvent: {}
+[18.983237] (-) TimerEvent: {}
+[19.083663] (-) TimerEvent: {}
+[19.184071] (-) TimerEvent: {}
+[19.284528] (-) TimerEvent: {}
+[19.385020] (-) TimerEvent: {}
+[19.485484] (-) TimerEvent: {}
+[19.585942] (-) TimerEvent: {}
+[19.686421] (-) TimerEvent: {}
+[19.786892] (-) TimerEvent: {}
+[19.887405] (-) TimerEvent: {}
+[19.988004] (-) TimerEvent: {}
+[20.088419] (-) TimerEvent: {}
+[20.188998] (-) TimerEvent: {}
+[20.289494] (-) TimerEvent: {}
+[20.389909] (-) TimerEvent: {}
+[20.490339] (-) TimerEvent: {}
+[20.590796] (-) TimerEvent: {}
+[20.691293] (-) TimerEvent: {}
+[20.791826] (-) TimerEvent: {}
+[20.892345] (-) TimerEvent: {}
+[20.992809] (-) TimerEvent: {}
+[21.093246] (-) TimerEvent: {}
+[21.193725] (-) TimerEvent: {}
+[21.294209] (-) TimerEvent: {}
+[21.394746] (-) TimerEvent: {}
+[21.495259] (-) TimerEvent: {}
+[21.595707] (-) TimerEvent: {}
+[21.696131] (-) TimerEvent: {}
+[21.796736] (-) TimerEvent: {}
+[21.897337] (-) TimerEvent: {}
+[21.997880] (-) TimerEvent: {}
+[22.098348] (-) TimerEvent: {}
+[22.198799] (-) TimerEvent: {}
+[22.299229] (-) TimerEvent: {}
+[22.399771] (-) TimerEvent: {}
+[22.500223] (-) TimerEvent: {}
+[22.600554] (-) TimerEvent: {}
+[22.700859] (-) TimerEvent: {}
+[22.801199] (-) TimerEvent: {}
+[22.901502] (-) TimerEvent: {}
+[22.933232] (ubicoders_svo) StdoutLine: {'line': b'[ 66%] Linking CXX static library libsv_lib.a\n'}
+[23.001632] (-) TimerEvent: {}
+[23.102067] (-) TimerEvent: {}
+[23.202467] (-) TimerEvent: {}
+[23.302777] (-) TimerEvent: {}
+[23.403142] (-) TimerEvent: {}
+[23.503431] (-) TimerEvent: {}
+[23.603726] (-) TimerEvent: {}
+[23.704011] (-) TimerEvent: {}
+[23.804411] (-) TimerEvent: {}
+[23.904842] (-) TimerEvent: {}
+[24.005254] (-) TimerEvent: {}
+[24.105638] (-) TimerEvent: {}
+[24.205912] (-) TimerEvent: {}
+[24.285536] (ubicoders_svo) StdoutLine: {'line': b'[ 77%] Built target sv_lib\n'}
+[24.306030] (-) TimerEvent: {}
+[24.406453] (-) TimerEvent: {}
+[24.506744] (-) TimerEvent: {}
+[24.552239] (ubicoders_svo) StdoutLine: {'line': b'[ 88%] Building CXX object CMakeFiles/ubicoders_svo.dir/executables/svo_main.cpp.o\n'}
+[24.606857] (-) TimerEvent: {}
+[24.707264] (-) TimerEvent: {}
+[24.807635] (-) TimerEvent: {}
+[24.908010] (-) TimerEvent: {}
+[25.008429] (-) TimerEvent: {}
+[25.108817] (-) TimerEvent: {}
+[25.209257] (-) TimerEvent: {}
+[25.309727] (-) TimerEvent: {}
+[25.410287] (-) TimerEvent: {}
+[25.510836] (-) TimerEvent: {}
+[25.611251] (-) TimerEvent: {}
+[25.711523] (-) TimerEvent: {}
+[25.811903] (-) TimerEvent: {}
+[25.912262] (-) TimerEvent: {}
+[26.012773] (-) TimerEvent: {}
+[26.113219] (-) TimerEvent: {}
+[26.213755] (-) TimerEvent: {}
+[26.314181] (-) TimerEvent: {}
+[26.414714] (-) TimerEvent: {}
+[26.515175] (-) TimerEvent: {}
+[26.615555] (-) TimerEvent: {}
+[26.716000] (-) TimerEvent: {}
+[26.816518] (-) TimerEvent: {}
+[26.916908] (-) TimerEvent: {}
+[27.017415] (-) TimerEvent: {}
+[27.117896] (-) TimerEvent: {}
+[27.218292] (-) TimerEvent: {}
+[27.318787] (-) TimerEvent: {}
+[27.419257] (-) TimerEvent: {}
+[27.519754] (-) TimerEvent: {}
+[27.620205] (-) TimerEvent: {}
+[27.720700] (-) TimerEvent: {}
+[27.821081] (-) TimerEvent: {}
+[27.921524] (-) TimerEvent: {}
+[28.021924] (-) TimerEvent: {}
+[28.122339] (-) TimerEvent: {}
+[28.222816] (-) TimerEvent: {}
+[28.323277] (-) TimerEvent: {}
+[28.423707] (-) TimerEvent: {}
+[28.524049] (-) TimerEvent: {}
+[28.624481] (-) TimerEvent: {}
+[28.724955] (-) TimerEvent: {}
+[28.825406] (-) TimerEvent: {}
+[28.925970] (-) TimerEvent: {}
+[29.026363] (-) TimerEvent: {}
+[29.126836] (-) TimerEvent: {}
+[29.227357] (-) TimerEvent: {}
+[29.327867] (-) TimerEvent: {}
+[29.428329] (-) TimerEvent: {}
+[29.528863] (-) TimerEvent: {}
+[29.629322] (-) TimerEvent: {}
+[29.729803] (-) TimerEvent: {}
+[29.830251] (-) TimerEvent: {}
+[29.930716] (-) TimerEvent: {}
+[30.006817] (<colcon_parallel_executor.executor.parallel.ParallelExecutorExtension object at 0x7a8ca10e5e80>) ParallelStatus: {'processing': ('ubicoders_svo',)}
+[30.030807] (-) TimerEvent: {}
+[30.131152] (-) TimerEvent: {}
+[30.231616] (-) TimerEvent: {}
+[30.332083] (-) TimerEvent: {}
+[30.432624] (-) TimerEvent: {}
+[30.533046] (-) TimerEvent: {}
+[30.633564] (-) TimerEvent: {}
+[30.734024] (-) TimerEvent: {}
+[30.834506] (-) TimerEvent: {}
+[30.934946] (-) TimerEvent: {}
+[31.035407] (-) TimerEvent: {}
+[31.135892] (-) TimerEvent: {}
+[31.236430] (-) TimerEvent: {}
+[31.336932] (-) TimerEvent: {}
+[31.437340] (-) TimerEvent: {}
+[31.537711] (-) TimerEvent: {}
+[31.638156] (-) TimerEvent: {}
+[31.738611] (-) TimerEvent: {}
+[31.839126] (-) TimerEvent: {}
+[31.939684] (-) TimerEvent: {}
+[32.040138] (-) TimerEvent: {}
+[32.140586] (-) TimerEvent: {}
+[32.240988] (-) TimerEvent: {}
+[32.341474] (-) TimerEvent: {}
+[32.441934] (-) TimerEvent: {}
+[32.542432] (-) TimerEvent: {}
+[32.642815] (-) TimerEvent: {}
+[32.743219] (-) TimerEvent: {}
+[32.843615] (-) TimerEvent: {}
+[32.944160] (-) TimerEvent: {}
+[33.044608] (-) TimerEvent: {}
+[33.145054] (-) TimerEvent: {}
+[33.245524] (-) TimerEvent: {}
+[33.346004] (-) TimerEvent: {}
+[33.446404] (-) TimerEvent: {}
+[33.546859] (-) TimerEvent: {}
+[33.647416] (-) TimerEvent: {}
+[33.747907] (-) TimerEvent: {}
+[33.848423] (-) TimerEvent: {}
+[33.948951] (-) TimerEvent: {}
+[34.049369] (-) TimerEvent: {}
+[34.149775] (-) TimerEvent: {}
+[34.250154] (-) TimerEvent: {}
+[34.350534] (-) TimerEvent: {}
+[34.450931] (-) TimerEvent: {}
+[34.551350] (-) TimerEvent: {}
+[34.651736] (-) TimerEvent: {}
+[34.752175] (-) TimerEvent: {}
+[34.852753] (-) TimerEvent: {}
+[34.953183] (-) TimerEvent: {}
+[35.053618] (-) TimerEvent: {}
+[35.154072] (-) TimerEvent: {}
+[35.254574] (-) TimerEvent: {}
+[35.354988] (-) TimerEvent: {}
+[35.455274] (-) TimerEvent: {}
+[35.554930] (ubicoders_svo) StdoutLine: {'line': b'[100%] Linking CXX executable ubicoders_svo\n'}
+[35.555663] (-) TimerEvent: {}
+[35.655978] (-) TimerEvent: {}
+[35.756410] (-) TimerEvent: {}
+[35.857020] (-) TimerEvent: {}
+[35.957598] (-) TimerEvent: {}
+[36.058135] (-) TimerEvent: {}
+[36.158683] (-) TimerEvent: {}
+[36.259203] (-) TimerEvent: {}
+[36.359655] (-) TimerEvent: {}
+[36.460163] (-) TimerEvent: {}
+[36.560699] (-) TimerEvent: {}
+[36.661191] (-) TimerEvent: {}
+[36.761628] (-) TimerEvent: {}
+[36.862013] (-) TimerEvent: {}
+[36.962372] (-) TimerEvent: {}
+[37.062677] (-) TimerEvent: {}
+[37.162957] (-) TimerEvent: {}
+[37.263238] (-) TimerEvent: {}
+[37.363687] (-) TimerEvent: {}
+[37.464056] (-) TimerEvent: {}
+[37.563282] (ubicoders_svo) StdoutLine: {'line': b'[100%] Built target ubicoders_svo\n'}
+[37.564127] (-) TimerEvent: {}
+[37.595889] (ubicoders_svo) CommandEnded: {'returncode': 0}
+[37.597743] (ubicoders_svo) JobProgress: {'identifier': 'ubicoders_svo', 'progress': 'install'}
+[37.624658] (ubicoders_svo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/robot_ws_data/build/ubicoders_svo'], 'cwd': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'env': OrderedDict({'VSCODE_CWD': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'elcom', 'CLAUDE_AGENT_SDK_VERSION': '0.2.42', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/helpers/browser.sh', 'HOME': '/root', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/ubuntu', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/tmp/runtime-root/vscode-ipc-3ee87eb4-f0ef-4cdb-8a8e-28aad5d26bdc.sock', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'REMOTE_CONTAINERS': 'true', '_CONDA_ROOT': '/miniconda', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/miniconda/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', '_CE_CONDA': '', 'MCP_CONNECTION_NONBLOCKING': 'true', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/.vscode-server/bin/b6a47e94e326b5c209d118cf0f994d6065585705/bin/remote-cli:/miniconda/bin:/miniconda/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.cargo/bin:/miniconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-996637f4-2242-4c3a-a1ae-4f82dfe6f23e.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/miniconda/bin/python', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CONDA_DEFAULT_ENV': 'base', 'CLAUDECODE': '1', '_CONDA_EXE': '/miniconda/bin/conda', 'CONDA_DIR': '/miniconda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/robot_ws_data/build/ubicoders_svo', 'LC_ALL': 'en_US.UTF-8', 'CONDA_EXE': '/miniconda/bin/conda', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'CONDA_PREFIX': '/miniconda', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[37.640897] (ubicoders_svo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.642364] (ubicoders_svo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.643676] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/lib/ubicoders_svo/ubicoders_svo\n'}
+[37.644946] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/launch/slam.launch.py\n'}
+[37.645894] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ament_index/resource_index/package_run_dependencies/ubicoders_svo\n'}
+[37.646759] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ament_index/resource_index/parent_prefix_path/ubicoders_svo\n'}
+[37.647365] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/ament_prefix_path.sh\n'}
+[37.648114] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/ament_prefix_path.dsv\n'}
+[37.648687] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/path.sh\n'}
+[37.649312] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/path.dsv\n'}
+[37.650007] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.bash\n'}
+[37.650649] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.sh\n'}
+[37.651290] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.zsh\n'}
+[37.651933] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.dsv\n'}
+[37.652554] (ubicoders_svo) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.dsv\n'}
+[37.664239] (-) TimerEvent: {}
+[37.680013] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ament_index/resource_index/packages/ubicoders_svo\n'}
+[37.680988] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/cmake/ubicoders_svoConfig.cmake\n'}
+[37.681742] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/cmake/ubicoders_svoConfig-version.cmake\n'}
+[37.682700] (ubicoders_svo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.xml\n'}
+[37.686725] (ubicoders_svo) CommandEnded: {'returncode': 0}
+[37.755497] (ubicoders_svo) JobEnded: {'identifier': 'ubicoders_svo', 'rc': 0}
+[37.756906] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+[0.033s] Invoking command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun
+[0.177s] -- The C compiler identification is GNU 13.3.0
+[0.307s] -- The CXX compiler identification is GNU 13.3.0
+[0.354s] -- Detecting C compiler ABI info
+[0.660s] -- Detecting C compiler ABI info - done
+[0.694s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.695s] -- Detecting C compile features
+[0.696s] -- Detecting C compile features - done
+[0.726s] -- Detecting CXX compiler ABI info
+[1.039s] -- Detecting CXX compiler ABI info - done
+[1.080s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.082s] -- Detecting CXX compile features
+[1.083s] -- Detecting CXX compile features - done
+[1.094s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.314s] -- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter 
+[1.587s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.677s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.740s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.811s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.950s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.958s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.963s] Invoked command in '/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_vrobots/src/ubicoders_svo_rerun -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_vrobots/install/ubicoders_svo_rerun

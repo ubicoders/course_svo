@@ -1,0 +1,71 @@
+[0.038s] Invoking command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/ubicoders_svo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/ubicoders_svo
+[0.126s] -- The C compiler identification is GNU 13.3.0
+[0.222s] -- The CXX compiler identification is GNU 13.3.0
+[0.260s] -- Detecting C compiler ABI info
+[0.449s] -- Detecting C compiler ABI info - done
+[0.488s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.489s] -- Detecting C compile features
+[0.490s] -- Detecting C compile features - done
+[0.512s] -- Detecting CXX compiler ABI info
+[0.692s] -- Detecting CXX compiler ABI info - done
+[0.728s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.728s] -- Detecting CXX compile features
+[0.729s] -- Detecting CXX compile features - done
+[0.742s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.926s] -- Found Python3: /miniconda/bin/python3 (found version "3.13.11") found components: Interpreter 
+[1.027s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.171s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.291s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.347s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.468s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.730s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.738s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.943s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.983s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.027s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.228s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[2.381s] -- Found tf2_eigen: 0.36.19 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[2.679s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.717s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.786s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.792s] -- Found OpenCV: /usr (found version "4.6.0") 
+[2.830s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.000s] -- Configuring done (2.9s)
+[3.079s] -- Generating done (0.0s)
+[3.101s] -- Build files have been written to: /home/ubuntu/robot_ws_data/build/ubicoders_svo
+[3.121s] Invoked command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/ubicoders_svo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/ubicoders_svo
+[3.124s] Invoking command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/ubicoders_svo -- -j28 -l28
+[3.250s] [ 11%] [32mBuilding CXX object CMakeFiles/sv_lib.dir/src/svo_node.cpp.o[0m
+[3.255s] [ 22%] [32mBuilding CXX object CMakeFiles/sv_lib.dir/src/backend.cpp.o[0m
+[3.256s] [ 33%] [32mBuilding CXX object CMakeFiles/sv_lib.dir/src/viewer.cpp.o[0m
+[3.262s] [ 55%] [32mBuilding CXX object CMakeFiles/sv_lib.dir/src/stereo_geometry.cpp.o[0m
+[3.264s] [ 55%] [32mBuilding CXX object CMakeFiles/sv_lib.dir/src/map.cpp.o[0m
+[3.264s] [ 66%] [32mBuilding CXX object CMakeFiles/sv_lib.dir/src/frontend.cpp.o[0m
+[26.778s] [ 77%] [32m[1mLinking CXX static library libsv_lib.a[0m
+[28.793s] [ 77%] Built target sv_lib
+[28.862s] [ 88%] [32mBuilding CXX object CMakeFiles/ubicoders_svo.dir/executables/svo_main.cpp.o[0m
+[40.408s] [100%] [32m[1mLinking CXX executable ubicoders_svo[0m
+[44.887s] [100%] Built target ubicoders_svo
+[44.905s] Invoked command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/ubicoders_svo -- -j28 -l28
+[44.908s] Invoking command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/ubicoders_svo
+[44.922s] -- Install configuration: ""
+[44.923s] -- Execute custom install script
+[44.924s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/lib/ubicoders_svo/ubicoders_svo
+[44.948s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/launch/slam.launch.py
+[44.963s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ament_index/resource_index/package_run_dependencies/ubicoders_svo
+[44.976s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ament_index/resource_index/parent_prefix_path/ubicoders_svo
+[44.998s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/ament_prefix_path.sh
+[45.022s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/ament_prefix_path.dsv
+[45.036s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/path.sh
+[45.061s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/environment/path.dsv
+[45.082s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.bash
+[45.108s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.sh
+[45.127s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.zsh
+[45.141s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/local_setup.dsv
+[45.155s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.dsv
+[45.181s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ament_index/resource_index/packages/ubicoders_svo
+[45.198s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/cmake/ubicoders_svoConfig.cmake
+[45.220s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/cmake/ubicoders_svoConfig-version.cmake
+[45.237s] -- Symlinking: /home/ubuntu/robot_ws_data/install/ubicoders_svo/share/ubicoders_svo/package.xml
+[45.253s] Invoked command in '/home/ubuntu/robot_ws_data/build/ubicoders_svo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/ubicoders_svo
