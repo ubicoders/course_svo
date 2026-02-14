@@ -19,6 +19,8 @@ services:
       - ./extra_shared:/home/ubuntu/extra_shared/ # Extra shared files
       - "${EUROC_DATASET_PATH}:/home/ubuntu/euroc" # EuroC dataset
       - "${KITTI_DATASET_PATH}:/home/ubuntu/KITTI" # KITTI dataset
+      - "${CUSTOM_DATASET_PATH}:/home/ubuntu/custom_vo" # Custom VO dataset
+
 
     environment:
       - DISPLAY
