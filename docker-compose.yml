@@ -1,8 +1,8 @@
 services:
-  ros2_vrobots:
+  ubicoders_svo:
     #build: .
     image: ubicoders/ros2:jazzy_svo_vrobots
-    container_name: ros2_vrobots
+    container_name: rubicoders_svo
     network_mode: host
     privileged: true
     stdin_open: true # docker run -i
@@ -14,7 +14,8 @@ services:
       - /tmp:/tmp
       # Mount workspaces and datasets
       - ./virtual_robots:/home/ubuntu/virtual_robots/ # Virtual robots workspace
-      - ./robot_ws:/home/ubuntu/robot_ws/ # Robot workspace
+      - ./robot_ws_data:/home/ubuntu/robot_ws_data/ # Robot workspace
+      - ./robot_ws_vrobots:/home/ubuntu/robot_ws_vrobots/ # Robot workspace for virtual robots
       - ./extra_shared:/home/ubuntu/extra_shared/ # Extra shared files
       - "${EUROC_DATASET_PATH}:/home/ubuntu/euroc" # EuroC dataset
       - "${KITTI_DATASET_PATH}:/home/ubuntu/KITTI" # KITTI dataset
