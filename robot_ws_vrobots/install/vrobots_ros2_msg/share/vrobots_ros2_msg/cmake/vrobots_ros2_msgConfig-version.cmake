@@ -1,1 +1,0 @@
-/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_msg/ament_cmake_core/vrobots_ros2_msgConfig-version.cmake

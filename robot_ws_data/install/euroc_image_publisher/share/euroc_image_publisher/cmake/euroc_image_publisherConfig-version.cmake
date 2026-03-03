@@ -1,1 +1,0 @@
-/home/ubuntu/robot_ws_data/build/euroc_image_publisher/ament_cmake_core/euroc_image_publisherConfig-version.cmake

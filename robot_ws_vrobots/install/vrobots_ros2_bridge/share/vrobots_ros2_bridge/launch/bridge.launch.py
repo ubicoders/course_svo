@@ -1,1 +1,0 @@
-/home/ubuntu/robot_ws_vrobots/src/vrobots_ros2_bridge/launch/bridge.launch.py

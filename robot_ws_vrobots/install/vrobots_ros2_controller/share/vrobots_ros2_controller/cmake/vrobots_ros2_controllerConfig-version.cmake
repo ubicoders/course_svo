@@ -1,1 +1,0 @@
-/home/ubuntu/robot_ws_vrobots/build/vrobots_ros2_controller/ament_cmake_core/vrobots_ros2_controllerConfig-version.cmake

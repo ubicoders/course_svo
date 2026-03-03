@@ -1,1 +1,0 @@
-/home/ubuntu/robot_ws_data/build/ubicoders_svo/ament_cmake_environment_hooks/local_setup.zsh

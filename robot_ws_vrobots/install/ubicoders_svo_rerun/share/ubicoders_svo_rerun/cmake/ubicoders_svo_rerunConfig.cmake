@@ -1,1 +1,0 @@
-/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo_rerun/ament_cmake_core/ubicoders_svo_rerunConfig.cmake

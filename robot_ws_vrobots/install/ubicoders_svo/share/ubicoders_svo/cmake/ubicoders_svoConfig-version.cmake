@@ -1,1 +1,0 @@
-/home/ubuntu/robot_ws_vrobots/build/ubicoders_svo/ament_cmake_core/ubicoders_svoConfig-version.cmake

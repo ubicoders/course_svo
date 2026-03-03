@@ -1,1 +1,0 @@
-/home/ubuntu/robot_ws_data/src/ubicoders_svo/launch/slam.launch.py
