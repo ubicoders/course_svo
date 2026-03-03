@@ -1,0 +1,25 @@
+[0.053s] Invoking command in '/home/ubuntu/robot_ws_data/build/customdata_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/customdata_publisher -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/customdata_publisher
+[0.074s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.358s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.406s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.416s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.545s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.547s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.792s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.854s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.871s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.009s] -- Configuring done (0.9s)
+[1.064s] -- Generating done (0.0s)
+[1.091s] -- Build files have been written to: /home/ubuntu/robot_ws_data/build/customdata_publisher
+[1.114s] Invoked command in '/home/ubuntu/robot_ws_data/build/customdata_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/customdata_publisher -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/customdata_publisher
+[1.121s] Invoking command in '/home/ubuntu/robot_ws_data/build/customdata_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/customdata_publisher -- -j28 -l28
+[1.450s] [100%] Built target customdata_publisher_node
+[1.508s] Invoked command in '/home/ubuntu/robot_ws_data/build/customdata_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/customdata_publisher -- -j28 -l28
+[1.511s] Invoking command in '/home/ubuntu/robot_ws_data/build/customdata_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/customdata_publisher
+[1.527s] -- Install configuration: ""
+[1.528s] -- Up-to-date: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/launch
+[1.534s] -- Installing: /home/ubuntu/robot_ws_data/install/customdata_publisher/share/customdata_publisher/package.dsv
+[1.605s] Invoked command in '/home/ubuntu/robot_ws_data/build/customdata_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/customdata_publisher

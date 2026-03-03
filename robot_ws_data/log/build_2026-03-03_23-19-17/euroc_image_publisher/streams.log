@@ -1,0 +1,52 @@
+[0.058s] Invoking command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/euroc_image_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/euroc_image_publisher
+[0.101s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.440s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.470s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.520s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.531s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.697s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.700s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.806s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.946s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.035s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.046s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.078s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.261s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.265s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.265s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/robot_ws_data/src/euroc_image_publisher/include>
+[1.266s] -- Configured cppcheck exclude dirs and/or files: 
+[1.269s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.270s] -- Configured cpplint exclude dirs and/or files: 
+[1.271s] -- Added test 'lint_cmake' to check CMake code style
+[1.275s] -- Added test 'uncrustify' to check C / C++ code style
+[1.276s] -- Configured uncrustify additional arguments: 
+[1.277s] -- Added test 'xmllint' to check XML markup files
+[1.285s] -- Configuring done (1.2s)
+[1.353s] -- Generating done (0.0s)
+[1.371s] -- Build files have been written to: /home/ubuntu/robot_ws_data/build/euroc_image_publisher
+[1.394s] Invoked command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/euroc_image_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/euroc_image_publisher
+[1.397s] Invoking command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/euroc_image_publisher -- -j28 -l28
+[1.693s] [100%] Built target euroc_image_publisher_node
+[1.740s] Invoked command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/euroc_image_publisher -- -j28 -l28
+[1.747s] Invoking command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/euroc_image_publisher
+[1.765s] -- Install configuration: ""
+[1.766s] -- Execute custom install script
+[1.767s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/lib/euroc_image_publisher/euroc_image_publisher_node
+[1.768s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/ament_index/resource_index/package_run_dependencies/euroc_image_publisher
+[1.770s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/ament_index/resource_index/parent_prefix_path/euroc_image_publisher
+[1.771s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/environment/ament_prefix_path.sh
+[1.771s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/environment/ament_prefix_path.dsv
+[1.773s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/environment/path.sh
+[1.773s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/environment/path.dsv
+[1.774s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/local_setup.bash
+[1.776s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/local_setup.sh
+[1.777s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/local_setup.zsh
+[1.777s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/local_setup.dsv
+[1.778s] -- Symlinking: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.dsv
+[1.804s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/ament_index/resource_index/packages/euroc_image_publisher
+[1.805s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/cmake/euroc_image_publisherConfig.cmake
+[1.806s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/cmake/euroc_image_publisherConfig-version.cmake
+[1.807s] -- Up-to-date symlink: /home/ubuntu/robot_ws_data/install/euroc_image_publisher/share/euroc_image_publisher/package.xml
+[1.810s] Invoked command in '/home/ubuntu/robot_ws_data/build/euroc_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/euroc_image_publisher

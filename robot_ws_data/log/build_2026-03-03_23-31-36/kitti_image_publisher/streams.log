@@ -1,0 +1,23 @@
+[0.045s] Invoking command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/kitti_image_publisher -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/kitti_image_publisher
+[0.067s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.400s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.438s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.450s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.597s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.599s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.698s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.773s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.835s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.017s] -- Configuring done (1.0s)
+[1.063s] -- Generating done (0.0s)
+[1.086s] -- Build files have been written to: /home/ubuntu/robot_ws_data/build/kitti_image_publisher
+[1.104s] Invoked command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/robot_ws_data/src/kitti_image_publisher -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws_data/install/kitti_image_publisher
+[1.107s] Invoking command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/kitti_image_publisher -- -j28 -l28
+[1.422s] [100%] Built target kitti_image_publisher_node
+[1.452s] Invoked command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/robot_ws_data/build/kitti_image_publisher -- -j28 -l28
+[1.486s] Invoking command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/kitti_image_publisher
+[1.510s] -- Install configuration: ""
+[1.514s] -- Installing: /home/ubuntu/robot_ws_data/install/kitti_image_publisher/share/kitti_image_publisher/package.dsv
+[1.520s] Invoked command in '/home/ubuntu/robot_ws_data/build/kitti_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/robot_ws_data/build/kitti_image_publisher
