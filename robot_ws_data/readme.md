@@ -1,13 +1,5 @@
 # vrobots ROS2 Workspace
 
-## Prerequisites
-
-If conda is active, make the system use default python.
-```bash
-bash use_system_python.bash
-source ~/.bashrc
-```
-
 ## Building
 
 ### Build all packages
@@ -69,7 +61,7 @@ ros2 run kitti_image_publisher kitti_image_publisher_node
 
 Select a specific sequence (e.g., sequence 05):
 ```bash
-ros2 run kitti_image_publisher kitti_image_publisher_node 05
+ros2 run kitti_image_publisher kitti_image_publisher_node 07
 ```
 
 All available parameters:
@@ -93,6 +85,15 @@ ros2 run euroc_image_publisher euroc_image_publisher_node MH_01_easy
 Or use short codes (m1, m2, m3, m4, m5, v1, v1_02, v1_03, v2, v2_02):
 ```bash
 ros2 run euroc_image_publisher euroc_image_publisher_node m1
+```
+```bash
+ros2 run euroc_image_publisher euroc_image_publisher_node m2
+```
+```bash
+ros2 run euroc_image_publisher euroc_image_publisher_node v1
+```
+```bash
+ros2 run euroc_image_publisher euroc_image_publisher_node v2
 ```
 
 All available parameters:
@@ -145,17 +146,3 @@ rviz2
 ros2 run euroc_image_publisher euroc_image_publisher_node m1
 ```
 
----
-
-### Step 4: Run Rerun publisher
-```bash
-ros2 run ubicoders_svo_rerun rerun_node
-```
-
-> **Note:** `sys_id` defaults to `0` if omitted. Use `sys_id:=1` (or another ID) to target a specific system.
-
-## vrobots Sim
-
-```bash
-./virtual_robots/virtual_robots.x86_64
-```

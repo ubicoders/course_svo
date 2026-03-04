@@ -1,12 +1,12 @@
 # vrobots ROS2 Workspace
 
-## Prerequisites
+<!-- ## Prerequisites
 
 If conda is active, make the system use default python.
 ```bash
 bash use_system_python.bash
 source ~/.bashrc
-```
+``` -->
 
 ## Building
 
@@ -30,30 +30,33 @@ source install/setup.bash
 
 After building and sourcing, run the following steps in order:
 
-### Step 1: Start Rerun visualization
+
+### Step 1: vrobots Sim
+
+```bash
+./virtual_robots/virtual_robots.x86_64
+```
+
+### Step 2: Start Rerun visualization
 ```bash
 rerun
 ```
 
-### Step 2: Launch the bridge
+### Step 3: Launch the bridge
 ```bash
 ros2 launch vrobots_ros2_bridge bridge.launch.py sys_id:=1
 ```
 
-### Step 3: Run SVO
+### Step 4: Run SVO
 ```bash
 ros2 run ubicoders_svo ubicoders_svo --ros-args -p sys_id:=1
 ```
 
-### Step 4: Run Rerun publisher
+### Step 5: Run Rerun publisher
 ```bash
 ros2 run ubicoders_svo_rerun rerun_node
 ```
 
 > **Note:** `sys_id` defaults to `0` if omitted. Use `sys_id:=1` (or another ID) to target a specific system.
 
-## vrobots Sim
 
-```bash
-./virtual_robots/virtual_robots.x86_64
-```

@@ -11,7 +11,7 @@ struct CameraConfig {
   double fy = 1623.86;
   double cx = 640;
   double cy = 360;
-  double baseline = 0.2;
+  double baseline = 2;
 };
 
 struct ROS2NodeConfig {
