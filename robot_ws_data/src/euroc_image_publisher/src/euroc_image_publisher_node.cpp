@@ -26,6 +26,7 @@ public:
 
     // 1. Resolve sequence name
     dataset_root_ = this->declare_parameter<std::string>("dataset_root",
+                                                          // "/mnt/f/euroc");
                                                          "/home/ubuntu/euroc");
     sequence_ = sequence_arg;
     if (sequence_.empty()) {

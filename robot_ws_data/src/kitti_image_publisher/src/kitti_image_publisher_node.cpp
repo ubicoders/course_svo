@@ -23,7 +23,9 @@ public:
   KittiImagePublisher(const std::string &sequence_arg = "")
       : rclcpp::Node("kitti_stereo_publisher") {
     dataset_root_ = this->declare_parameter<std::string>(
-        "dataset_root", "/home/ubuntu/KITTI/odom/dataset");
+        "dataset_root", 
+        // "/mnt/f/KITTI/odom/dataset");
+        "/home/ubuntu/KITTI/odom/dataset");
 
     std::string default_sequence = sequence_arg;
     if (default_sequence.empty()) {
